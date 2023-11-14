@@ -4,8 +4,13 @@ import { markdownify } from "@/lib/utils/textConverter";
 import CallToAction from "@/partials/CallToAction";
 import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
-import { Button, Feature } from "@/types";
+import { AboutUs, BetterROI, Button, Feature, Industries, Services } from "@/types";
 import { FaCheck } from "react-icons/fa/index.js";
+import { motion } from "framer-motion";
+import OurServicesSection from "@/components/ourServicesSection";
+import OurIndustriesSection from "@/components/ourIndustriesSection";
+import OurNewRoiSection from "@/components/ourNewRoi";
+
 
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
@@ -15,38 +20,54 @@ const Home = () => {
   const {
     banner,
     features,
+    aboutUs,
+    betterRoi,
+    services,
+    industries,
   }: {
-    banner: { title: string; image: string; content?: string; button?: Button };
+    banner: { title: string; image: string; content?: string; buttonOne?: Button; buttonTwo?: Button; };
     features: Feature[];
+    aboutUs: AboutUs[];
+    betterRoi: BetterROI[];
+    services: Services[];
+    industries: Industries[];
+
   } = frontmatter;
 
   return (
     <>
       <SeoMeta />
       <section className="section pt-14">
-        <div className="container">
-          <div className="row justify-center">
-            <div className="mb-16 text-center lg:col-7">
+        <div className="container"
+          // style={{ backgroundImage: `url(${data?.imageUrl})` }}
+        >
+          <div className="flex flex-col sm:flex-row justify-left">
+            <div className="mb-16 text-left lg:col-6">
               <h1
-                className="mb-4"
+                className="mb-4 text-[#97144D]"
                 dangerouslySetInnerHTML={markdownify(banner.title)}
               />
               <p
-                className="mb-8"
+                className="mb-8 text-[#454545]"
                 dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
               />
-              {banner.button!.enable && (
-                <a className="btn btn-primary" href={banner.button!.link}>
-                  {banner.button!.label}
+              {banner.buttonOne!.enable && (
+                <a className="btn bg-[#97144D] text-white" href={banner.buttonOne!.link}>
+                  {banner.buttonOne!.label}
+                </a>
+              )}
+              {banner.buttonTwo!.enable && (
+                <a className="btn border-2 border-[#454545] text-[#97144D] ml-8" href={banner.buttonTwo!.link}>
+                  {banner.buttonTwo!.label}
                 </a>
               )}
             </div>
             {banner.image && (
-              <div className="col-12">
+              <div className="flex-1">
                 <ImageFallback
                   src={banner.image}
                   className="mx-auto"
-                  width="800"
+                  width="600"
                   height="420"
                   alt="banner image"
                   priority
@@ -56,6 +77,18 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section>
+        <OurNewRoiSection betterRoi={betterRoi} />
+      </section>
+
+        <section>
+          <OurServicesSection services={services} />
+        </section>
+
+        <section>
+          <OurIndustriesSection industries={industries} />
+        </section>
 
       {features.map((feature, index: number) => (
         <section

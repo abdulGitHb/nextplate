@@ -5,43 +5,78 @@
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "About Us",
       "url": "/about"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Pages",
+      "name": "Services",
       "url": "",
       "hasChildren": true,
       "children": [
         {
-          "name": "Contact",
-          "url": "/contact"
+          "name": "Service-01",
+          "url": "/service-01"
         },
         {
-          "name": "Blog",
-          "url": "/blog"
+          "name": "Service-02",
+          "url": "/service-02"
         },
         {
-          "name": "Authors",
-          "url": "/authors"
+          "name": "Service-03",
+          "url": "/service-03"
         },
         {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Search",
-          "url": "/search"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
+          "name": "Service-04",
+          "url": "/service-04"
         }
       ]
+    },
+    {
+      "name": "Industries",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Industry-01",
+          "url": "/industry-01"
+        },
+        {
+          "name": "Industry-02",
+          "url": "/industry-02"
+        },
+        {
+          "name": "Industry-03",
+          "url": "/industry-03"
+        },
+        {
+          "name": "Industry-04",
+          "url": "/industry-04"
+        },
+        {
+          "name": "Industry-05",
+          "url": "/industry-05"
+        },
+        {
+          "name": "Industry-06",
+          "url": "/industry-06"
+        },
+        {
+          "name": "Industry-07",
+          "url": "/industry-07"
+        },
+        {
+          "name": "Industry-08",
+          "url": "/industry-08"
+        }
+      ]
+    },
+    {
+      "name": "Job Seekers",
+      "url": "/"
+    },
+    {
+      "name": "Contact Us",
+      "url": "/"
     }
   ],
   "footer": [

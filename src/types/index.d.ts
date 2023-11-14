@@ -53,6 +53,31 @@ export type Feature = {
   title: string;
 };
 
+export type BetterROI = {
+  title: string;
+  description: string;
+};
+
+export type AboutUs = {
+  title: string;
+  description: string;
+};
+
+
+export type Services = {
+  image: string;
+  icon: string;
+  title: string;
+};
+export type Industries = {
+  image: string;
+  icon: string;
+  title: string;
+  link: string;
+};
+
+
+
 export type Testimonial = {
   name: string;
   designation: string;

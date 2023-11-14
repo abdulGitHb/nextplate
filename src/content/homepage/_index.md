@@ -1,13 +1,102 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
+  title: "YOUR TRUSTED PARTNER <br> IN WAR <br> FOR TALENT"
+  content: "UNLOCK YOUR TALENT POTENTIAL WITH TALENTWORKX"
   image: "/images/banner.png"
-  button:
+  buttonOne:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/nextplate"
+    label: "Client"
+    link: "/"
+  buttonTwo:
+    enable: true
+    label: "Candidate"
+    link: "/"
+
+#AboutUs
+aboutUs:
+  - title: "Art of Search Curation"
+    description: "15 Years of our Experience in the Industry empowers us with the “Art of Search Curation” leading to near perfection in Selection."
+  
+  - title: "Deliver Not Await"
+    description: "We promise to Deliver results irrespective of challenges we come across. We don’t await answers from our client’s rather We present them with solutions and insights to achieve “Better ROI”."
+
+#BetterROI
+betterRoi:
+  - title: "New"
+    description: "Welcome to new possibilities<br> in Recruitment....."
+  
+  - title: "ROI"
+    description: "The new ROI- A Return <br> on Individual"
+  
+  - title: "It Works"
+    description: "We get Jobs working <br> with people"
+
+
+
+#Services
+services:
+  - title: "service 1"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
+
+  - title: "service 2"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
+
+  - title: "service 3"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
+
+  - title: "service 4"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
+   
+#Industries
+industries:
+  - title: "service 1"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
+
+  - title: "service 2"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
+
+  - title: "service 3"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
+
+  - title: "service 4"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
+
+  - title: "service 5"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
+
+  - title: "service 6"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
+
+  - title: "service 7"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
+    
+  - title: "service 8"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "/services/service-1.png"
 
 # Features
 features:
