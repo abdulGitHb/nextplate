@@ -15,11 +15,11 @@ banner:
 
 #AboutUs
 aboutUs:
-  - title: "Art of Search Curation"
-    description: "15 Years of our Experience in the Industry empowers us with the “Art of Search Curation” leading to near perfection in Selection."
-  
-  - title: "Deliver Not Await"
-    description: "We promise to Deliver results irrespective of challenges we come across. We don’t await answers from our client’s rather We present them with solutions and insights to achieve “Better ROI”."
+  titleOne: "Art of Search Curation"
+  descriptionOne: "15 Years of our Experience in the Industry empowers us with the “Art of Search Curation” leading to near perfection in Selection."
+  image: "/images/banner.png"
+  titleTwo: "Deliver Not Await"
+  descriptionTwo: "We promise to Deliver results irrespective of challenges we come across. We don’t await answers from our client’s rather We present them with solutions and insights to achieve “Better ROI”."
 
 #BetterROI
 betterRoi:
@@ -36,64 +36,64 @@ betterRoi:
 
 #Services
 services:
-  - title: "service 1"
+  - title: "EXECUTIVE <br> SEARCH"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
 
-  - title: "service 2"
+  - title: "CONTINGENT <br> SEARCH"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
 
-  - title: "service 3"
+  - title: "RECRUITMENT PROCESS <br> OUTSOURCING"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
 
-  - title: "service 4"
+  - title: "FLEXIBLE <br> STAFFING"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
    
 #Industries
 industries:
-  - title: "service 1"
+  - title: "Electrical Equipment & Industrial Automation"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
 
-  - title: "service 2"
+  - title: "Consumer Electronics & Appliances"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
 
-  - title: "service 3"
+  - title: "Automobile & Auto Components"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
 
-  - title: "service 4"
+  - title: "Power & Renewable Energy"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
 
-  - title: "service 5"
+  - title: "Pharmaceutical and Life Sciences"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
 
-  - title: "service 6"
+  - title: "Investment Banking/PE/VC"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
 
-  - title: "service 7"
+  - title: "Building Material"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
-    
-  - title: "service 8"
+
+  - title: "EMPI"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"

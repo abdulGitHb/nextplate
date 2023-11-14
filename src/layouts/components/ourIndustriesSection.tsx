@@ -1,8 +1,8 @@
 "use client"
 
 import { markdownify } from "@/lib/utils/textConverter";
-import { Industries } from "@/types";
 import {motion} from 'framer-motion';
+import { Industries } from "@/types";
 
 
 const OurIndustriesSection = ({industries}:{industries: Industries[]}) => {

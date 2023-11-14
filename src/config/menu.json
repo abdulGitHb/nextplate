@@ -14,20 +14,20 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Service-01",
-          "url": "/service-01"
+          "name": "EXECUTIVE SEARCH",
+          "url": "/EXECUTIVE SEARCH"
         },
         {
-          "name": "Service-02",
-          "url": "/service-02"
+          "name": "CONTINGENT SEARCH",
+          "url": "/CONTINGENT SEARCH"
         },
         {
-          "name": "Service-03",
-          "url": "/service-03"
+          "name": "RECRUITMENT PROCESS OUTSOURCING",
+          "url": "/RECRUITMENT PROCESS OUTSOURCING"
         },
         {
-          "name": "Service-04",
-          "url": "/service-04"
+          "name": "FLEXIBLE STAFFING",
+          "url": "/FLEXIBLE STAFFING"
         }
       ]
     },
@@ -37,36 +37,36 @@
       "hasChildren": true,
       "children": [
         {
-          "name": "Industry-01",
-          "url": "/industry-01"
+          "name": "Electrical Equipment & Industrial Automation",
+          "url": "/Electrical Equipment & Industrial Automation"
         },
         {
-          "name": "Industry-02",
-          "url": "/industry-02"
+          "name": "Consumer Electronics & Appliances",
+          "url": "/Consumer Electronics & Appliances"
         },
         {
-          "name": "Industry-03",
-          "url": "/industry-03"
+          "name": "Automobile & Auto Components",
+          "url": "/Automobile & Auto Components"
         },
         {
-          "name": "Industry-04",
-          "url": "/industry-04"
+          "name": "Power & Renewable Energy",
+          "url": "/Power & Renewable Energy"
         },
         {
-          "name": "Industry-05",
-          "url": "/industry-05"
+          "name": "Pharmaceutical and Life Sciences",
+          "url": "/Pharmaceutical and Life Sciences"
         },
         {
-          "name": "Industry-06",
-          "url": "/industry-06"
+          "name": "Investment Banking/PE/VC",
+          "url": "/Investment Banking/PE/VC"
         },
         {
-          "name": "Industry-07",
-          "url": "/industry-07"
+          "name": "Building Material",
+          "url": "/Building Material"
         },
         {
-          "name": "Industry-08",
-          "url": "/industry-08"
+          "name": "EMPI",
+          "url": "/EMPI"
         }
       ]
     },

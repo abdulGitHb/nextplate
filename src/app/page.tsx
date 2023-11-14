@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import OurServicesSection from "@/components/ourServicesSection";
 import OurIndustriesSection from "@/components/ourIndustriesSection";
 import OurNewRoiSection from "@/components/ourNewRoi";
+import AboutUsSection from "@/components/aboutUsSection";
 
 
 const Home = () => {
@@ -27,7 +28,7 @@ const Home = () => {
   }: {
     banner: { title: string; image: string; content?: string; buttonOne?: Button; buttonTwo?: Button; };
     features: Feature[];
-    aboutUs: AboutUs[];
+    aboutUs: { titleOne: string; descriptionOne?: string; image: string; titleTwo: string; descriptionTwo?: string;};
     betterRoi: BetterROI[];
     services: Services[];
     industries: Industries[];
@@ -37,7 +38,7 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="section pt-14">
+      <section className="section pt-14 overflow-hidden">
         <div className="container"
           // style={{ backgroundImage: `url(${data?.imageUrl})` }}
         >
@@ -78,18 +79,22 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="overflow-hidden">
+        <AboutUsSection aboutUs={aboutUs} />
+      </section>
+
       <section>
         <OurNewRoiSection betterRoi={betterRoi} />
       </section>
 
-        <section>
-          <OurServicesSection services={services} />
-        </section>
+      <section className="overflow-hidden">
+        <OurServicesSection services={services} />
+      </section>
 
-        <section>
-          <OurIndustriesSection industries={industries} />
-        </section>
-
+      <section className="overflow-hidden">
+        <OurIndustriesSection industries={industries} />
+      </section>
+{/* 
       {features.map((feature, index: number) => (
         <section
           key={index}
@@ -142,7 +147,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-      ))}
+      ))} */}
 
       <Testimonials data={testimonial} />
       <CallToAction data={callToAction} />
