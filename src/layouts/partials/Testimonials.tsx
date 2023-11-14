@@ -52,15 +52,16 @@ const Testimonials = ({ data }: { data: PageData }) => {
                       slidesPerView: 2,
                     },
                     992: {
-                      slidesPerView: 3,
+                      slidesPerView: 2,
                     },
                   }}
                 >
                   {data.frontmatter.testimonials.map(
                     (item: Testimonial, index: number) => (
                       <SwiperSlide key={index}>
-                        <div className="rounded-lg bg-theme-light px-7 py-10 dark:bg-darkmode-theme-light">
-                          <div className="text-[#97144D] dark:text-white">
+                        <div className="rounded-lg relative skew-y-3 bg-transparent px-7 py-8 dark:bg-darkmode-theme-light">
+                        <div className="w-full absolute top-16 bg-[#97144D]/10 left-0 h-[200px] md:h-[220px] skew-y-6" />
+                          <div className="text-[#97144D] mt-10 dark:text-white">
                             <svg
                               width="33"
                               height="20"
@@ -75,7 +76,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                             </svg>
                           </div>
                           <blockquote
-                            className="mt-8 text-[#454545]"
+                            className="mt-8 text-[#454545] -skew-y-3"
                             dangerouslySetInnerHTML={markdownify(item.content)}
                           />
                           <div className="mt-11 flex items-center">
@@ -88,7 +89,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                                 alt={item.name}
                               />
                             </div>
-                            <div className="ml-4">
+                            <div className="ml-4 -skew-y-3">
                               <h3
                                 dangerouslySetInnerHTML={markdownify(item.name)}
                                 className="h5 font-primary font-semibold text-[#97144D]"

@@ -38,14 +38,13 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="section pt-14 overflow-hidden">
-        <div className="container"
-          // style={{ backgroundImage: `url(${data?.imageUrl})` }}
-        >
-          <div className="flex flex-col sm:flex-row justify-left">
-            <div className="mb-16 text-left lg:col-6">
+      <section className="section pt-14 pr-2 bg-[url(../../public/images/hero-image.png)] bg-cover bg-center bg-no-repeat relative aspect-[16/9] w-full"
+        style={{backgroundImage: `url(${banner.image})`, height: "550px",}}>
+        <div className="container mt-auto">
+          <div className="flex flex-col sm:flex-row justify-left items-center z-40">
+            <div className="mb-16 text-left lg:col-6 ">
               <h1
-                className="mb-4 text-[#97144D]"
+                className="mb-4 text-[#97144D] text-7xl"
                 dangerouslySetInnerHTML={markdownify(banner.title)}
               />
               <p
@@ -63,23 +62,12 @@ const Home = () => {
                 </a>
               )}
             </div>
-            {banner.image && (
-              <div className="flex-1">
-                <ImageFallback
-                  src={banner.image}
-                  className="mx-auto"
-                  width="600"
-                  height="420"
-                  alt="banner image"
-                  priority
-                />
-              </div>
-            )}
           </div>
+            
         </div>
       </section>
 
-      <section className="overflow-hidden">
+      <section>
         <AboutUsSection aboutUs={aboutUs} />
       </section>
 

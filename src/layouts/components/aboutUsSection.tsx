@@ -7,22 +7,40 @@ import ImageFallback from "@/helpers/ImageFallback";
 
 const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?: string; image: string; titleTwo: string; descriptionTwo?: string;}}) => {
     return ( 
-        <div className="container overflow-hidden"
+        <div className="container relative"
           // style={{ backgroundImage: `url(${data?.imageUrl})` }}
-        >
+          >
+          {/* <div className="w-full absolute -top-6 bg-[#97144D]/10 left-0 h-[760px] md:h-[350px] -skew-y-6" /> */}
+            <h1 className="text-[#97144D] mx-auto p-2 mb-7 mt-4 w-fit">Search can be a Tyrant in the Journey of Selection! </h1>
             <div className="mb-16 text-left flex w-full">
-                    <div className="flex flex-col md:flex-row">
-                        <div className="flex flex-col">
-                            <h1
-                            className="mb-4 text-[#97144D]"
+                    <div className="flex flex-col md:flex-col text-center">
+                        <div className="grid grid-cols-4 place-items-center ">
+                            <motion.h1
+                            initial={{
+                                opacity:0,
+                                x:-150
+                            }}
+                            whileInView={{
+                                opacity:1,
+                                x:0
+                            }}
+                            viewport={{once:true}}
+                            transition={{
+                                duration:1
+                            }}
+                            className="mb-4 col-span-1 text-gray-100 p-4 bg-[#97144D]"
                             dangerouslySetInnerHTML={markdownify(aboutUs.titleOne)}
                             />
-                            <p
-                            className="mb-8 text-[#454545]"
+                            <motion.p
+                            initial={{opacity:0}}
+                            whileInView={{opacity:1}}
+                            viewport={{once:true}}
+                            transition={{duration:1}}
+                            className="mb-8 col-span-3 text-4xl text-[#454545]"
                             dangerouslySetInnerHTML={markdownify(aboutUs.descriptionOne ?? "")}
                             />
                         </div>
-                        {aboutUs.image && (
+                        {/* {aboutUs.image && (
                             <div className="">
                             <ImageFallback
                             src={aboutUs.image}
@@ -33,14 +51,30 @@ const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?:
                             priority
                             />
                         </div>
-                        )}
-                        <div className="flex flex-col">
-                            <h1
-                            className="mb-4 text-[#97144D]"
+                        )} */}
+                        <div className="grid grid-cols-4 mt-4 place-items-center ">
+                            <motion.h1
+                            initial={{
+                                opacity:0,
+                                x:150
+                            }}
+                            whileInView={{
+                                opacity:1,
+                                x:0
+                            }}
+                            viewport={{once:true}}
+                            transition={{
+                                duration:1
+                            }}
+                            className="mb-4 col-span-1 order-2 p-4 text-gray-100 bg-[#97144D]"
                             dangerouslySetInnerHTML={markdownify(aboutUs.titleTwo)}
                             />
-                            <p
-                            className="mb-8 text-[#454545]"
+                            <motion.p
+                            initial={{opacity:0}}
+                            whileInView={{opacity:1}}
+                            viewport={{once:true}}
+                            transition={{duration:1}}
+                            className="mb-8 col-span-3 order-1 text-4xl text-[#454545]"
                             dangerouslySetInnerHTML={markdownify(aboutUs.descriptionTwo ?? "")}
                             />
                         </div>

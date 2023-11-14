@@ -3,7 +3,7 @@
 banner:
   title: "YOUR TRUSTED PARTNER <br> IN WAR <br> FOR TALENT"
   content: "UNLOCK YOUR TALENT POTENTIAL WITH TALENTWORKX"
-  image: "/images/banner.png"
+  image: "/images/hero image.png"
   buttonOne:
     enable: true
     label: "Client"
@@ -15,10 +15,10 @@ banner:
 
 #AboutUs
 aboutUs:
-  titleOne: "Art of Search Curation"
+  titleOne: "Art of <br> Search <br> Curation"
   descriptionOne: "15 Years of our Experience in the Industry empowers us with the “Art of Search Curation” leading to near perfection in Selection."
   image: "/images/banner.png"
-  titleTwo: "Deliver Not Await"
+  titleTwo: "Deliver <br>Not <br>Await"
   descriptionTwo: "We promise to Deliver results irrespective of challenges we come across. We don’t await answers from our client’s rather We present them with solutions and insights to achieve “Better ROI”."
 
 #BetterROI
@@ -55,6 +55,11 @@ services:
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/services/service-1.png"
+  
+  - title: "STARTX"
+    image: "/images/service-1.png"
+    icon: "/images/service-1.png"
+    link: "Pushups to Scaleups"
    
 #Industries
 industries:

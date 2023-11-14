@@ -6,7 +6,7 @@ import {motion} from 'framer-motion';
 
 const OurNewRoiSection = ({betterRoi} : {betterRoi: BetterROI[]}) => {
     return ( 
-        <div className="container mb-10 -mt-16 relative">
+        <div className="container mb-10 -mt-8 relative">
           <div className="w-full absolute bg-[#97144D]/10 left-0 h-[760px] md:h-[350px] skew-y-6" />
           <motion.h1
           initial={{
