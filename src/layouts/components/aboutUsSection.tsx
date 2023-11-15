@@ -29,7 +29,7 @@ const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?:
                         }}
                         className="grid grid-cols-3 border-2 border-[#97144D] place-items-stretch ">
                             <h1
-                            className="col-span-1 text-4xl flex items-center justify-center text-gray-100 p-2 bg-[#97144D]"
+                            className="col-span-1 text-4xl flex items-center justify-center text-gray-100 p-2 bg-gradient-to-b from-[#97144D] via-[#d61c6d] to-[#97144D]"
                             dangerouslySetInnerHTML={markdownify(aboutUs.titleOne)}
                             />
                             <motion.p
@@ -68,7 +68,7 @@ const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?:
                         }}
                         className="grid grid-cols-3 border-2 border-[#97144D] place-items-stretch ">
                             <h1
-                            className="col-span-1 order-2 p-4 flex items-center justify-center text-gray-100 bg-[#97144D]"
+                            className="col-span-1 order-2 p-4 flex items-center justify-center text-gray-100 bg-gradient-to-b from-[#97144D] via-[#d61c6d] to-[#97144D]"
                             dangerouslySetInnerHTML={markdownify(aboutUs.titleTwo)}
                             />
                             <motion.p

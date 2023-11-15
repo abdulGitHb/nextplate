@@ -22,19 +22,19 @@ const Testimonials = ({ data }: { data: PageData }) => {
   return (
     <>
       {data.frontmatter.enable && (
-        <section className="section">
+        <section className="section bg-gradient-to-b from-[#97144D] via-[#d61c6d] to-[#97144D]">
           <div className="container">
             <div className="row">
-              <div className="mx-auto mb-12 text-center md:col-10 lg:col-8 xl:col-6">
+              <div className="text-center">
                 <h2
                   dangerouslySetInnerHTML={markdownify(data.frontmatter.title)}
-                  className="mb-4"
+                  className="mb-4 text-gray-300"
                 />
-                <p
+                {/* <p
                   dangerouslySetInnerHTML={markdownify(
                     data.frontmatter.description!,
                   )}
-                />
+                /> */}
               </div>
               <div className="col-12">
                 <Swiper
@@ -49,19 +49,19 @@ const Testimonials = ({ data }: { data: PageData }) => {
                   spaceBetween={24}
                   breakpoints={{
                     768: {
-                      slidesPerView: 2,
+                      slidesPerView: 1,
                     },
                     992: {
-                      slidesPerView: 2,
+                      slidesPerView: 1,
                     },
                   }}
                 >
                   {data.frontmatter.testimonials.map(
                     (item: Testimonial, index: number) => (
                       <SwiperSlide key={index}>
-                        <div className="rounded-lg relative skew-y-3 bg-transparent px-7 py-8 dark:bg-darkmode-theme-light">
-                        <div className="w-full absolute top-16 bg-[#97144D]/10 left-0 h-[200px] md:h-[220px] skew-y-6" />
-                          <div className="text-[#97144D] mt-10 dark:text-white">
+                        <div className="rounded-lg relative bg-transparent px-7 py-8">
+                        {/* <div className="w-full absolute top-16 bg-[#97144D]/10 left-0 h-[200px] md:h-[220px] skew-y-6" /> */}
+                          <div className="text-[#97144D]">
                             <svg
                               width="33"
                               height="20"
@@ -76,11 +76,11 @@ const Testimonials = ({ data }: { data: PageData }) => {
                             </svg>
                           </div>
                           <blockquote
-                            className="mt-8 text-[#454545] -skew-y-3"
+                            className="mt-8 text-[#454545] font-3xl font-extrabold"
                             dangerouslySetInnerHTML={markdownify(item.content)}
                           />
-                          <div className="mt-11 flex items-center">
-                            <div className="text-dark dark:text-white">
+                          <div className="mt-11 flex items-center justify-center">
+                            <div className="text-white">
                               <ImageFallback
                                 height={50}
                                 width={50}
@@ -89,7 +89,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                                 alt={item.name}
                               />
                             </div>
-                            <div className="ml-4 -skew-y-3">
+                            <div className="ml-4">
                               <h3
                                 dangerouslySetInnerHTML={markdownify(item.name)}
                                 className="h5 font-primary font-semibold text-[#97144D]"

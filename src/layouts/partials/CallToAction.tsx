@@ -12,7 +12,7 @@ const CallToAction = ({ data }: { data: PageData }) => {
   return (
     <>
       {data.frontmatter.enable && (
-        <section className="mb-28 bg-white">
+        <section className="mb-28 mt-12 bg-white">
           <div className="container">
             <div className="rounded-xl bg-theme-light px-4 py-4 dark:bg-darkmode-theme-light xl:px-14">
               <div className="row items-center justify-between">

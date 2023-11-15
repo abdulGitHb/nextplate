@@ -67,11 +67,11 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-gray-100 py-3">
+      <section className="bg-gradient-to-b from-gray-200 via-gray-100 to-gray-200 py-3">
         <AboutUsSection aboutUs={aboutUs} />
       </section>
 
-      <section>
+      <section className="bg-gradient-to-b from-[#97144D] via-[#d61c6d] to-[#97144D]">
         <OurNewRoiSection betterRoi={betterRoi} />
       </section>
 
