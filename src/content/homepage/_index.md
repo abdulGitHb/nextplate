@@ -24,7 +24,7 @@ aboutUs:
 #BetterROI
 betterRoi:
   - title: "New"
-    description: "Welcome to new possibilities<br> in Recruitment....."
+    description: "Welcome to new possibilities <br> in Recruitment..."
   
   - title: "ROI"
     description: "The new ROI- A Return <br> on Individual"

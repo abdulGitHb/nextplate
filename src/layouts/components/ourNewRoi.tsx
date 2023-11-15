@@ -6,8 +6,8 @@ import {motion} from 'framer-motion';
 
 const OurNewRoiSection = ({betterRoi} : {betterRoi: BetterROI[]}) => {
     return ( 
-        <div className="container mb-10 -mt-8 relative">
-          <div className="w-full absolute bg-[#97144D]/10 left-0 h-[760px] md:h-[350px] skew-y-6" />
+        <div className="container mb-10 mt-16 relative">
+          <div className="w-full absolute bg-[#97144D]/10 left-0 h-[900px] md:h-[370px]" />
           <motion.h1
           initial={{
             opacity:0,
@@ -23,8 +23,8 @@ const OurNewRoiSection = ({betterRoi} : {betterRoi: BetterROI[]}) => {
           transition={{
             duration:1.5
           }}
-          className="text-white w-fit ml-auto mr-auto bg-[#97144D] text-4xl text-center p-4">Your Recruitment Challenges + Our Insights = Better ROI</motion.h1>
-          <div className="flex flex-col md:flex-row mt-8 gap-x-8 gap-y-10 items-center justify-center">
+          className= "ml-auto mr-auto text-[#97144D] text-4xl text-center p-4">Your Recruitment Challenges + Our Insights = Better ROI</motion.h1>
+          {/* <div className="flex flex-col md:flex-row mt-8 gap-x-8 gap-y-10 items-center justify-center">
             {betterRoi.map((roi, index: number) => (
               <motion.div
               initial={{
@@ -54,6 +54,51 @@ const OurNewRoiSection = ({betterRoi} : {betterRoi: BetterROI[]}) => {
                 dangerouslySetInnerHTML={markdownify(roi.description)}/>
               </motion.div>
               ))}
+        </div> */}
+
+        <div className="w-full group relative flex flex-col md:flex-row justify-center items-center md:justify-around">
+          {betterRoi.map((roi, index: number) => (
+            <motion.div
+            initial={{
+              opacity:0,
+              scale:0.5,
+              y:50
+            }}
+            whileInView={{
+              opacity:1,
+              scale:1,
+              y:0
+            }}
+            viewport={{once:true}}
+            transition={{
+              duration:1
+            }}
+            className="" key={index}>
+              <div className="z-10">
+                <div className="relative w-[266px] object-cover">
+                  <svg className="fill-[#97144D] group-hover:fill-gray-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="hexagon">
+                  <rect width="150" height="150" fill="none"></rect>
+                  <path d="M219.87305,66.73828l-84-47.478a16.08654,16.08654,0,0,0-15.7461,0l-84,47.47852A16.0255,16.0255,0,0,0,28,80.668V175.332a16.02688,16.02688,0,0,0,8.127,13.92969l84,47.478a16.08782,16.08782,0,0,0,15.7461,0l84-47.47852A16.0255,16.0255,0,0,0,228,175.332V80.668A16.02688,16.02688,0,0,0,219.87305,66.73828Z"></path>
+                  </svg>
+                  <h1 className="opacity-100 group-hover:opacity-0 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl text-center text-white"
+                  dangerouslySetInnerHTML={markdownify(roi.title)}/>
+                  <p className="opacity-0 group-hover:opacity-100 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xl font-bold text-center text-[#97144D]"
+                  dangerouslySetInnerHTML={markdownify(roi.description)}/>
+                </div>
+              </div>
+
+              {/* <div className="absolute z-0 top-0 group-hover:opacity-100" key={index}>
+              <div className="w-[266px]  object-cover">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="hexagon">
+                <rect width="150" height="150" fill="none"></rect>
+                <path fill="#d3d3d3" d="M219.87305,66.73828l-84-47.478a16.08654,16.08654,0,0,0-15.7461,0l-84,47.47852A16.0255,16.0255,0,0,0,28,80.668V175.332a16.02688,16.02688,0,0,0,8.127,13.92969l84,47.478a16.08782,16.08782,0,0,0,15.7461,0l84-47.47852A16.0255,16.0255,0,0,0,228,175.332V80.668A16.02688,16.02688,0,0,0,219.87305,66.73828Z"></path>
+                </svg>
+                <p className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xl font-bold text-center text-[#97144D]"
+                  dangerouslySetInnerHTML={markdownify(roi.description)}/>
+                </div>
+              </div> */}
+            </motion.div>
+          ))}
         </div>
         </div>
      );

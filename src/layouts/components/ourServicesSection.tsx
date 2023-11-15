@@ -21,10 +21,10 @@ const OurServicesSection = ({services}:{services: Services[]}) => {
             duration:1
           }}
           className="container mb-4 -mt-6 md:mt-20">
-            <div className=" place-items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8 ">
-            <div className="mb-6 h-[90%] w-[90%] flex justify-center items-center rounded-md p-4 col-span-2 bg-[url(../../public/images/solutions-image.png)]  bg-cover bg-center bg-no-repeat relative">
-              <h1 className='text-[#97144D] text-6xl'>Our Solutions</h1>
-            </div>
+            <div className=" place-items-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-8 ">
+            <h1 className="mb-6 text-[#97144D] text-6xl h-[90%] w-[90%] flex justify-center items-center rounded-md p-4 col-span-1 sm:col-span-2 bg-[url(../../public/images/solutions-image.png)]  bg-cover bg-center bg-no-repeat relative">
+            Our Solutions
+            </h1>
             {services.map((service, index: number) => (
               <div key={service.title} className="relative col-span-1 group flex flex-col text-gray-700 bg-gray-100 shadow-md w-72 rounded-xl bg-clip-border">
                 <div className="relative object-fill h-40 mx-4 -mt-6 sm:mt-1 group-hover:-mt-6 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40">

@@ -67,7 +67,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section className="bg-gray-100 py-3">
         <AboutUsSection aboutUs={aboutUs} />
       </section>
 
