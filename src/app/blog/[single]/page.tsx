@@ -33,9 +33,12 @@ export const generateStaticParams: () => { single: string }[] = () => {
   return paths;
 };
 
+
 const PostSingle = ({ params }: { params: { single: string } }) => {
   const posts: Post[] = getSinglePage(blog_folder);
   const post = posts.filter((page) => page.slug === params.single)[0];
+
+  console.log(params.single, "params.single here", post);
 
   const { frontmatter, content } = post;
   const {

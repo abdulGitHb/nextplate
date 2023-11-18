@@ -92,7 +92,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                             <div className="ml-4">
                               <h3
                                 dangerouslySetInnerHTML={markdownify(item.name)}
-                                className="h5 font-primary font-semibold text-[#97144D]"
+                                className="h5 font-primary font-semibold text-white"
                               />
                               <p
                                 dangerouslySetInnerHTML={markdownify(

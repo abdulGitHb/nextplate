@@ -2,8 +2,7 @@
 
 import { markdownify } from "@/lib/utils/textConverter";
 import {motion} from 'framer-motion';
-import { AboutUs } from "@/types";
-import ImageFallback from "@/helpers/ImageFallback";
+import styles from "@/components/styles.module.css";
 
 const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?: string; image: string; titleTwo: string; descriptionTwo?: string;}}) => {
     return ( 
@@ -81,6 +80,11 @@ const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?:
                             />
                         </motion.div>
                     </div>      
+            </div>
+            <div className={styles.animatedTxt}>
+                <span className="text-[150px]">
+                    15
+                </span>years
             </div>
         </div>
      );

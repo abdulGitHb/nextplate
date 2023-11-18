@@ -17,7 +17,7 @@ export type Post = {
     meta_title?: string;
     description?: string;
     image?: string;
-    categories: string[];
+    categories: string[]; 
     author: string;
     tags: string[];
     date?: string;
@@ -71,6 +71,7 @@ export type Services = {
   image: string;
   icon: string;
   title: string;
+  link: string;
 };
 export type Industries = {
   image: string;

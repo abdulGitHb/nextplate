@@ -39,69 +39,69 @@ services:
   - title: "EXECUTIVE <br> SEARCH"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/solutions/tw-solutions-001"
 
   - title: "CONTINGENT <br> SEARCH"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/solutions/tw-solutions-002"
 
   - title: "RECRUITMENT PROCESS <br> OUTSOURCING"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/solutions/tw-solutions-003"
 
   - title: "FLEXIBLE <br> STAFFING"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/solutions/tw-solutions-004"
   
   - title: "STARTX"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "Pushups to Scaleups"
+    link: "/solutions/tw-solutions-005"
    
 #Industries
 industries:
   - title: "Electrical Equipment & Industrial Automation"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/industries/tw-industry-001"
 
   - title: "Consumer Electronics & Appliances"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/industries/tw-industry-002"
 
   - title: "Automobile & Auto Components"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/industries/tw-industry-003"
 
   - title: "Power & Renewable Energy"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/industries/tw-industry-004"
 
   - title: "Pharmaceutical and Life Sciences"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/industries/tw-industry-005"
 
   - title: "Investment Banking/PE/VC"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/industries/tw-industry-006"
 
   - title: "Building Material"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/industries/tw-industry-007"
 
   - title: "EMPI"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
-    link: "/services/service-1.png"
+    link: "/industries/tw-industry-008"
 
 # Features
 features:

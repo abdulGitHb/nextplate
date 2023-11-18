@@ -2,8 +2,10 @@
 import {motion} from 'framer-motion';
 import { Services } from '@/types';
 import { markdownify } from '@/lib/utils/textConverter';
+import Link from 'next/link';
 
 const OurServicesSection = ({services}:{services: Services[]}) => {
+  console.log(services, "services here")
     return ( 
         <motion.div
           initial={{
@@ -39,13 +41,15 @@ const OurServicesSection = ({services}:{services: Services[]}) => {
                   dangerouslySetInnerHTML={markdownify(service.title)}/>
                 </div>
                 <div className="p-6 pt-0">
-                  <button
-                    className="rounded-lg bg-[#97144D] py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-[#97144D]/20 transition-all hover:shadow-lg hover:shadow-[#97144D]/40"
-                    type="button"
-                    data-ripple-light="true"
-                  >
-                    Read More
-                  </button>
+                  <Link href={service.link}>
+                    <button
+                      className="rounded-lg bg-[#97144D] py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-[#97144D]/20 transition-all hover:shadow-lg hover:shadow-[#97144D]/40"
+                      type="button"
+                      data-ripple-light="true"
+                    >
+                      Read More
+                    </button>
+                  </Link>
                 </div>
               </div>
               ))}

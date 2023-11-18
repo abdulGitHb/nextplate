@@ -1,0 +1,12 @@
+.animatedTxt{
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: url(../../../public/images/hero-image.png);
+    background-size: 300px 500px;
+    font-size: 150px;
+    font-weight: 600;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

@@ -15,19 +15,23 @@
       "children": [
         {
           "name": "EXECUTIVE SEARCH",
-          "url": "/EXECUTIVE SEARCH"
+          "url": "/solutions/tw-solutions-001"
         },
         {
           "name": "CONTINGENT SEARCH",
-          "url": "/CONTINGENT SEARCH"
+          "url": "/solutions/tw-solutions-002"
         },
         {
           "name": "RECRUITMENT PROCESS OUTSOURCING",
-          "url": "/RECRUITMENT PROCESS OUTSOURCING"
+          "url": "/solutions/tw-solutions-003"
         },
         {
           "name": "FLEXIBLE STAFFING",
-          "url": "/FLEXIBLE STAFFING"
+          "url": "/solutions/tw-solutions-004"
+        },
+        {
+          "name": "STARTX",
+          "url": "/solutions/tw-solutions-005"
         }
       ]
     },
@@ -38,35 +42,35 @@
       "children": [
         {
           "name": "Electrical Equipment & Industrial Automation",
-          "url": "/Electrical Equipment & Industrial Automation"
+          "url": "/industries/tw-industry-001"
         },
         {
           "name": "Consumer Electronics & Appliances",
-          "url": "/Consumer Electronics & Appliances"
+          "url": "/industries/tw-industry-002"
         },
         {
           "name": "Automobile & Auto Components",
-          "url": "/Automobile & Auto Components"
+          "url": "/industries/tw-industry-003"
         },
         {
           "name": "Power & Renewable Energy",
-          "url": "/Power & Renewable Energy"
+          "url": "/industries/tw-industry-004"
         },
         {
           "name": "Pharmaceutical and Life Sciences",
-          "url": "/Pharmaceutical and Life Sciences"
+          "url": "/industries/tw-industry-005"
         },
         {
           "name": "Investment Banking/PE/VC",
-          "url": "/Investment Banking/PE/VC"
+          "url": "/industries/tw-industry-006"
         },
         {
           "name": "Building Material",
-          "url": "/Building Material"
+          "url": "/industries/tw-industry-007"
         },
         {
           "name": "EMPI",
-          "url": "/EMPI"
+          "url": "/industries/tw-industry-008"
         }
       ]
     },
