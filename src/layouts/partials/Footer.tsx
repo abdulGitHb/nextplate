@@ -214,7 +214,7 @@ const Footer = () => {
             className="grid grid-cols-2 col-span-2"
           >
             {menu.main.map((menu, i)=>(
-              <div>
+              <div key={i}>
                 {menu.hasChildren && <h1 className="text-lg">{menu.name}</h1> }
                 <ul className=" grid grid-cols-2 gap-x-1 gap-y-2">
                 {menu.children?.map((child, i) => (
