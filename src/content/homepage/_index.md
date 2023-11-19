@@ -18,7 +18,7 @@ aboutUs:
   titleOne: "Art of <br> Search <br> Curation"
   descriptionOne: "15 Years of our Experience in the Industry empowers us with the “Art of Search Curation” leading to near perfection in Selection."
   image: "/images/banner.png"
-  titleTwo: "Deliver <br>Not <br>Await"
+  titleTwo: "Deliver <br> Not <br> Await"
   descriptionTwo: "We promise to Deliver results irrespective of challenges we come across. We don’t await answers from our client’s rather We present them with solutions and insights to achieve “Better ROI”."
 
 #BetterROI

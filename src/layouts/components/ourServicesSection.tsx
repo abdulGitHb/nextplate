@@ -22,7 +22,7 @@ const OurServicesSection = ({services}:{services: Services[]}) => {
           transition={{
             duration:1
           }}
-          className="container mb-4 -mt-6 md:mt-20">
+          className="container mb-4 mt-6 md:mt-20">
             <div className=" place-items-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-8 ">
             <h1 className="mb-6 text-[#97144D] text-6xl h-[90%] w-[90%] flex justify-center items-center rounded-md p-4 col-span-1 sm:col-span-2 bg-[url(../../public/images/solutions-image.png)]  bg-cover bg-center bg-no-repeat relative">
             Our Solutions

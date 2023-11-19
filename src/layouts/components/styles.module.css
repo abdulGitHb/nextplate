@@ -1,12 +1,43 @@
 .animatedTxt{
-    height: 500px;
-    width: 300px;
+    height: 280px;
+    width: 350px;
     display: flex;
     flex-direction: column;
-    background: url(../../../public/images/hero-image.png);
-    background-size: 300px 500px;
-    font-size: 150px;
-    font-weight: 600;
+    background: url(https://img.freepik.com/free-vector/red-silk-curtain-background_1048-11014.jpg);
+    background-size: 350px 280px;
+    font-size: 80px;
+    font-weight:800;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+}
+
+
+.animatedTxtLong{
+    height: 280px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    background: url(https://img.freepik.com/free-vector/red-silk-curtain-background_1048-11014.jpg);
+    background-size: 750px 280px;
+    font-size: 80px;
+    font-weight:800;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+@media screen and (max-width: 768px) {
+    .animatedTxt{
+        height: 120px;
+        width: 150px;
+        background-size: 150px 120px;
+        font-size: 30px;
+        font-weight: 600;
+    }  
+    .animatedTxtLong{
+        height: 220px;
+        width:250px;
+        background-size: 150px 120px;
+        font-size: 30px;
+        font-weight: 600;
+    }  
 }

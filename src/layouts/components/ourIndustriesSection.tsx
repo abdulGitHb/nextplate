@@ -3,19 +3,20 @@
 import { markdownify } from "@/lib/utils/textConverter";
 import {motion} from 'framer-motion';
 import { Industries } from "@/types";
+import Link from "next/link";
 
 
 const OurIndustriesSection = ({industries}:{industries: Industries[]}) => {
     return ( 
         <div className="container mb-4 mt-6 md:mt-20">
-            <h1 className="text-left mb-6 text-[#97144D]" >Industry We Serve</h1>
+            <h1 className="mb-6 text-[#97144D] font-serif text-center" >Industries We Serve</h1>
             <div className=" place-items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-8">
             {industries.map((industry, index: number) => (
               <motion.div
               initial={{
                 opacity:0,
                 scale:0.5,
-                x:index==0 || index==1 || index==4 || index==5?-300:200
+                x:-100
               }}
               whileInView={{
                 opacity:1,
@@ -54,28 +55,31 @@ const OurIndustriesSection = ({industries}:{industries: Industries[]}) => {
                   className="!font-medium !text-blue-gray-900 !transition-colors hover:!text-pink-500"
                   href="#"
                 >
+                  <Link href={industry.link}>
                   <button
                     className="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-pink-500 uppercase align-middle transition-all rounded-lg select-none hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                     type="button"
                     data-ripple-dark="true"
                   >
-                    Learn More
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="2"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                      className="w-4 h-4"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-                      ></path>
-                    </svg>
+                      Learn More
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="2"
+                        stroke="currentColor"
+                        aria-hidden="true"
+                        className="w-4 h-4"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                        ></path>
+                      </svg>
+                    
                   </button>
+                    </Link>
                 </a>
               </div>
             </motion.div>

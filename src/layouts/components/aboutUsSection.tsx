@@ -12,34 +12,31 @@ const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?:
           {/* <div className="w-full absolute -top-6 bg-[#97144D]/10 left-0 h-[760px] md:h-[350px] -skew-y-6" /> */}
             <div className="mb-16 mt-4 text-left flex  flex-col w-full">
                         <h1 className="text-[#97144D] mx-auto mt-4 w-fit">Search can be a Tyrant in the Journey of Selection! </h1>
-                    <div className="mt-6 flex flex-col md:flex-row gap-x-3 gap-y-3 text-center">
-                        <motion.div
-                        initial={{
-                            opacity:0,
-                            x:-150
-                        }}
-                        whileInView={{
-                            opacity:1,
-                            x:0
-                        }}
-                        viewport={{once:true}}
-                        transition={{
-                            duration:1
-                        }}
-                        className="grid grid-cols-3 border-2 border-[#97144D] place-items-stretch ">
-                            <h1
-                            className="col-span-1 text-4xl flex items-center justify-center text-gray-100 p-2 bg-gradient-to-b from-[#97144D] via-[#d61c6d] to-[#97144D]"
+                    <div className="mt-6 flex flex-col gap-x-3 text-center px-6 md:px-16">
+                        <div className="flex flex-col md:grid md:grid-cols-2 mr-2 md:place-items-stretch ">
+                            <motion.h1
+                            initial={{
+                                x:150
+                            }}
+                            whileInView={{
+                                x:0
+                            }}
+                            viewport={{once:true}}
+                            transition={{
+                                duration:1.5
+                            }}
+                            className={`${styles.animatedTxt} w-full md:col-span-1 mx-auto text-gray-200`}
                             dangerouslySetInnerHTML={markdownify(aboutUs.titleOne)}
                             />
                             <motion.p
-                            initial={{opacity:0}}
-                            whileInView={{opacity:1}}
+                            initial={{y:200, opacity:0}}
+                            whileInView={{y:0, opacity:1}}
                             viewport={{once:true}}
-                            transition={{duration:1}}
-                            className="col-span-2 p-4 text-2xl flex items-center justify-center text-[#454545]"
+                            transition={{duration:1.5, delay:0.5}}
+                            className="col-span-1 md:p-4 text-lg md:text-2xl border-l-8 border-gray-600 flex items-center justify-center text-[#454545]"
                             dangerouslySetInnerHTML={markdownify(aboutUs.descriptionOne ?? "")}
                             />
-                        </motion.div>
+                        </div>
                         {/* {aboutUs.image && (
                             <div className="">
                             <ImageFallback
@@ -52,40 +49,38 @@ const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?:
                             />
                         </div>
                         )} */}
-                        <motion.div
-                        initial={{
-                            opacity:0,
-                            x:150
-                        }}
-                        whileInView={{
-                            opacity:1,
-                            x:0
-                        }}
-                        viewport={{once:true}}
-                        transition={{
-                            duration:1
-                        }}
-                        className="grid grid-cols-3 border-2 border-[#97144D] place-items-stretch ">
-                            <h1
-                            className="col-span-1 order-2 p-4 flex items-center justify-center text-gray-100 bg-gradient-to-b from-[#97144D] via-[#d61c6d] to-[#97144D]"
+                        <div
+                        className="flex flex-col md:grid md:grid-cols-2 ml-2 md:place-items-stretch ">
+                            <motion.h1
+                            initial={{
+                                x:-150
+                            }}
+                            whileInView={{
+                                x:0
+                            }}
+                            viewport={{once:true}}
+                            transition={{
+                                duration:1.5
+                            }}
+                            className={`${styles.animatedTxt} col-span-1 order-2 mx-auto py-4 flex items-center justify-center text-gray-100`}
                             dangerouslySetInnerHTML={markdownify(aboutUs.titleTwo)}
                             />
                             <motion.p
-                            initial={{opacity:0}}
-                            whileInView={{opacity:1}}
+                            initial={{y:-200, opacity:0}}
+                            whileInView={{y:0, opacity:1}}
                             viewport={{once:true}}
-                            transition={{duration:1}}
-                            className="col-span-2 p-4 order-1 flex items-center justify-center text-2xl text-[#454545]"
+                            transition={{duration:1.5, delay:0.5}}
+                            className="col-span-1 md:p-4 order-1 border-r-8 border-gray-600 flex items-center justify-center text-lg md:text-2xl text-[#454545]"
                             dangerouslySetInnerHTML={markdownify(aboutUs.descriptionTwo ?? "")}
                             />
-                        </motion.div>
+                        </div>
                     </div>      
             </div>
-            <div className={styles.animatedTxt}>
+            {/* <div className={styles.animatedTxt}>
                 <span className="text-[150px]">
                     15
                 </span>years
-            </div>
+            </div> */}
         </div>
      );
 }

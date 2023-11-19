@@ -36,40 +36,43 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="section pt-14 pr-2 bg-[url(../../public/images/hero-image.png)] bg-cover bg-center bg-no-repeat relative aspect-[16/9] w-full"
-        style={{backgroundImage: `url(${banner.image})`, height: "550px",}}>
-        <div className="container mt-auto">
-          <div className="flex flex-col sm:flex-row justify-left items-center z-40">
-            <div className="mb-16 text-left lg:col-6 ">
+      <section className="section overflow-hidden pt-14 pr-2 bg-[url(../../public/images/hero-image.png)] bg-cover bg-center bg-no-repeat relative aspect-[16/9] w-full"
+        style={{backgroundImage: `url(${banner.image})`, height: "650px",}}>
+        <div className="container mt-auto grid grid-cols-3">
+          <div className="flex flex-col col-span-2 justify-left items-center">
+            <div className="mb-16 text-left gap-y-4 flex flex-col">
               <h1
-                className="mb-4 text-[#97144D] text-7xl"
+                className="mb-4 text-[#97144D] text-4xl md:text-7xl font-serif"
                 dangerouslySetInnerHTML={markdownify(banner.title)}
               />
               <p
                 className="mb-8 text-[#454545]"
                 dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
               />
-              {banner.buttonOne!.enable && (
-                <a className="btn bg-[#97144D] text-white" href={banner.buttonOne!.link}>
-                  {banner.buttonOne!.label}
-                </a>
-              )}
-              {banner.buttonTwo!.enable && (
-                <a className="btn border-2 border-[#454545] text-[#97144D] ml-8" href={banner.buttonTwo!.link}>
-                  {banner.buttonTwo!.label}
-                </a>
-              )}
+              <div className="flex">
+                {banner.buttonOne!.enable && (
+                  <a className="btn bg-[#97144D] text-white" href={banner.buttonOne!.link}>
+                    {banner.buttonOne!.label}
+                  </a>
+                )}
+                {banner.buttonTwo!.enable && (
+                  <a className="btn border-2 border-[#454545] text-[#97144D] ml-8" href={banner.buttonTwo!.link}>
+                    {banner.buttonTwo!.label}
+                  </a>
+                )}
+
+              </div>
             </div>
           </div>
             
         </div>
       </section>
 
-      <section className="bg-gradient-to-b from-gray-200 via-gray-100 to-gray-200 py-3">
+      <section className="bg-gradient-to-b overflow-hidden from-gray-200 via-gray-100 to-gray-200 py-3">
         <AboutUsSection aboutUs={aboutUs} />
       </section>
 
-      <section className="bg-gradient-to-b from-[#97144D] via-[#d61c6d] to-[#97144D]">
+      <section className="bg-gradient-to-b overflow-hidden from-[#97144D] via-[#d61c6d] to-[#97144D]">
         <OurNewRoiSection betterRoi={betterRoi} />
       </section>
 
@@ -135,8 +138,8 @@ const Home = () => {
         </section>
       ))} */}
 
-      <Testimonials data={testimonial} />
       <CallToAction data={callToAction} />
+      <Testimonials data={testimonial} />
     </>
   );
 };
