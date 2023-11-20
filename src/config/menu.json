@@ -18,11 +18,11 @@
           "url": "/solutions/tw-solutions-001"
         },
         {
-          "name": "CONTINGENT SEARCH",
+          "name": "RECRUITMENT PROCESS OUTSOURCING",
           "url": "/solutions/tw-solutions-002"
         },
         {
-          "name": "RECRUITMENT PROCESS OUTSOURCING",
+          "name": "CONTINGENT SEARCH",
           "url": "/solutions/tw-solutions-003"
         },
         {
@@ -87,6 +87,24 @@
     {
       "name": "Elements",
       "url": "/elements"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+    }
+  ],
+  "importantLinks": [
+    {
+      "name": "About Us",
+      "url": "/about"
+    },
+    {
+      "name": "Contact Us",
+      "url": "/contact"
+    },
+    {
+      "name": "Terms & Conditions",
+      "url": "/tnc"
     },
     {
       "name": "Privacy Policy",

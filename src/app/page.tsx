@@ -76,7 +76,7 @@ const Home = () => {
         <OurNewRoiSection betterRoi={betterRoi} />
       </section>
 
-      <section className="overflow-hidden">
+      <section className="">
         <OurServicesSection services={services} />
       </section>
 
@@ -138,8 +138,8 @@ const Home = () => {
         </section>
       ))} */}
 
-      <CallToAction data={callToAction} />
       <Testimonials data={testimonial} />
+      <CallToAction data={callToAction} />
     </>
   );
 };

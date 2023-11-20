@@ -40,26 +40,31 @@ services:
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-001"
+    color: "#97144D"
 
   - title: "CONTINGENT <br> SEARCH"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-002"
+    color: "#97155D"
 
   - title: "RECRUITMENT PROCESS <br> OUTSOURCING"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-003"
+    color: "#97144D"
 
   - title: "FLEXIBLE <br> STAFFING"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-004"
+    color: "#97155D"
   
   - title: "STARTX"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-005"
+    color: "#97144D"
    
 #Industries
 industries:

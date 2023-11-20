@@ -27,6 +27,24 @@ export type Post = {
   content?: string;
 };
 
+export type Industry = {
+  frontmatter: {
+    title: string;
+    meta_title?: string;
+    description?: string;
+    image?: string;
+    categories: string[]; 
+    author: string;
+    tags: string[];
+    date?: string;
+    draft?: boolean;
+    heading: string;
+    content: string;
+  };
+  slug?: string;
+  content?: string;
+};
+
 export type Author = {
   frontmatter: {
     title: string;
@@ -72,6 +90,7 @@ export type Services = {
   icon: string;
   title: string;
   link: string;
+  color: string;
 };
 export type Industries = {
   image: string;

@@ -27,7 +27,7 @@ const OurIndustriesSection = ({industries}:{industries: Industries[]}) => {
               transition={{
                 duration:1
               }}
-              key={index} className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md w-72 rounded-xl bg-clip-border">
+              key={index} className="relative flex flex-col mt-6 text-gray-700 bg-white  hover:border-2 hover border-[#97144D] shadow-md w-72 rounded-xl bg-clip-border">
               <div className="p-6">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -51,10 +51,6 @@ const OurIndustriesSection = ({industries}:{industries: Industries[]}) => {
                 />
               </div>
               <div className="p-6 pt-0">
-                <a
-                  className="!font-medium !text-blue-gray-900 !transition-colors hover:!text-pink-500"
-                  href="#"
-                >
                   <Link href={industry.link}>
                   <button
                     className="flex items-center gap-2 px-4 py-2 font-sans text-xs font-bold text-center text-pink-500 uppercase align-middle transition-all rounded-lg select-none hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
@@ -80,7 +76,6 @@ const OurIndustriesSection = ({industries}:{industries: Industries[]}) => {
                     
                   </button>
                     </Link>
-                </a>
               </div>
             </motion.div>
               ))}

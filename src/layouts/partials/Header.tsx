@@ -6,7 +6,7 @@ import config from "@/config/config.json";
 import menu from "@/config/menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { IoSearch } from "react-icons/io5/index.js";
 
 //  child navigation link interface
@@ -27,6 +27,7 @@ const Header = () => {
   // distructuring the main menu from menu object
   const { main }: { main: INavigationLink[] } = menu;
   const { navigation_button, settings } = config;
+  const [isNavOpen, setIsNavOpen] = useState(false);
   // get current path
   const pathname = usePathname();
 
@@ -45,14 +46,16 @@ const Header = () => {
           <Logo />
         </div>
         {/* navbar toggler */}
-        <input id="nav-toggle" type="checkbox" className="hidden" />
+        <input id="nav-toggle" type="checkbox" className="hidden" checked={isNavOpen} 
+          onChange={() => setIsNavOpen(!isNavOpen)}
+        />
         <label
           htmlFor="nav-toggle"
           className="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1"
         >
           <svg
             id="show-button"
-            className="h-6 fill-current block"
+            className={`h-6 fill-current ${isNavOpen ? 'hidden' : 'block'}`}
             viewBox="0 0 20 20"
           >
             <title>Menu Open</title>
@@ -60,7 +63,7 @@ const Header = () => {
           </svg>
           <svg
             id="hide-button"
-            className="h-6 fill-current hidden"
+            className={`h-6 fill-current ${isNavOpen ? 'block' : 'hidden'}`}
             viewBox="0 0 20 20"
           >
             <title>Menu Close</title>
@@ -74,7 +77,7 @@ const Header = () => {
 
         <ul
           id="nav-menu"
-          className="navbar-nav order-3 hidden w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8"
+          className={`navbar-nav order-3 ${isNavOpen ? 'block' : 'hidden'} w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8`}
         >
           {main.map((menu, i) => (
             <React.Fragment key={`menu-${i}`}>
@@ -100,6 +103,7 @@ const Header = () => {
                       <li className="nav-dropdown-item" key={`children-${i}`}>
                         <Link
                           href={child.url}
+                          onClick={() => setIsNavOpen(false)}
                           className={`nav-dropdown-link block ${
                             (pathname === `${child.url}/` ||
                               pathname === child.url) &&
@@ -116,6 +120,7 @@ const Header = () => {
                 <li className="nav-item">
                   <Link
                     href={menu.url}
+                    onClick={() => setIsNavOpen(false)}
                     className={`nav-link block ${
                       (pathname === `${menu.url}/` || pathname === menu.url) &&
                       "active"
@@ -130,6 +135,7 @@ const Header = () => {
           {navigation_button.enable && (
             <li className="mt-4 inline-block lg:hidden">
               <Link
+                onClick={() => setIsNavOpen(false)}
                 className="btn btn-outline-primary btn-sm"
                 href={navigation_button.link}
               >

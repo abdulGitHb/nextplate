@@ -128,7 +128,7 @@ const OurNewRoiSection = ({betterRoi} : {betterRoi: BetterROI[]}) => {
           className= "ml-auto mr-auto col-span-2 grid grid-cols-4 items-center text-white text-4xl text-center p-4">
             <h1 className="text-gray-200 col-span-2">Your Recruitment Challenges <br></br> + <br></br>Our Insights</h1>
             <h1 className="text-gray-200 col-span-1">=</h1>
-            <h1 className="text-gray-200 col-span-1">Better ROI</h1>
+            <h1 className="text-gray-200 col-span-1 text-left">Better ROI</h1>
           </motion.div>
           <div className="flex flex-col col-span-1">
             {betterRoi.map((roi, index: number) => (

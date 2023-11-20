@@ -1,4 +1,3 @@
-
 import config from "@/config/config.json";
 import ImageFallback from "@/helpers/ImageFallback";
 import MDXContent from "@/helpers/MDXContent";
@@ -6,7 +5,9 @@ import { getSinglePage } from "@/lib/contentParser";
 import similerItems from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
-import { Post } from "@/types";
+import { Industry, Post } from "@/types";
+import TextEffectPage from "./components/testEffect";
+
 
 const { industries_folder } = config.settings;
 
@@ -15,29 +16,31 @@ export const dynamicParams = false;
 
 // generate static params
 export const generateStaticParams: () => { single: string }[] = () => {
-  const posts: Post[] = getSinglePage(industries_folder);
+  const industries: Industry[] = getSinglePage(industries_folder);
 
-  const paths = posts.map((post) => ({
-    single: post.slug!,
+  const paths = industries.map((industry) => ({
+    single: industry.slug!,
   }));
 
   return paths;
 };
 
 const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
-  const posts: Post[] = getSinglePage(industries_folder);
-  const post = posts.filter((page) => page.slug === params.single)[0];
+  const industries: Industry[] = getSinglePage(industries_folder);
+  const industry = industries.filter((page) => page.slug === params.single)[0];
 
-  console.log(post, "post here", params.single, "params.single here");
-
-  const { frontmatter, content } = post;
+  
+  const { frontmatter } = industry;
   const {
     title,
     meta_title,
     description,
     image,
+    heading,
+    content,
   } = frontmatter;
-  const similarPosts = similerItems(post, posts, post.slug!);
+  const similarPosts = similerItems(industry, industries, industry.slug!);
+  console.log(content, "industry here", params.single, "params.single here");
 
   return (
     <>
@@ -47,7 +50,10 @@ const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
         description={description}
         image={image}
       />
-      <section className="section pt-7">
+      <header className="bg-red-400 h-48">
+        header image
+      </header>
+      {/* <section className="section pt-7">
         <div className="container">
           <div className="row justify-center">
             <article className="lg:col-10">
@@ -69,13 +75,26 @@ const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
               <div className="content mb-10">
                 <MDXContent content={content} />
               </div>
-              {/* <Disqus className="mt-20" /> */}
             </article>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <div className="">
+        <div className="">
+          <h1 className="text-center font-serif text-[#97144D]">{heading}</h1>
+        </div>
+        <div className="">
+          image here
+        </div>
+        <div className="">
+          <TextEffectPage content={content}/>
+        </div>
+      </div>
     </>
   );
 };
 
 export default SingleIndustryPage;
+
+

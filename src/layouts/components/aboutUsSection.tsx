@@ -23,7 +23,7 @@ const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?:
                             }}
                             viewport={{once:true}}
                             transition={{
-                                duration:1.5
+                                duration:1
                             }}
                             className={`${styles.animatedTxt} w-full md:col-span-1 mx-auto text-gray-200`}
                             dangerouslySetInnerHTML={markdownify(aboutUs.titleOne)}
@@ -32,7 +32,7 @@ const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?:
                             initial={{y:200, opacity:0}}
                             whileInView={{y:0, opacity:1}}
                             viewport={{once:true}}
-                            transition={{duration:1.5, delay:0.5}}
+                            transition={{duration:1, delay:0.5}}
                             className="col-span-1 md:p-4 text-lg md:text-2xl border-l-8 border-gray-600 flex items-center justify-center text-[#454545]"
                             dangerouslySetInnerHTML={markdownify(aboutUs.descriptionOne ?? "")}
                             />
