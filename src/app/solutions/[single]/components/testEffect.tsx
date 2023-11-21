@@ -4,9 +4,8 @@ import { useRef, useEffect, FC, ReactElement } from 'react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import gsap from 'gsap';
 
-const phrase = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.";
 
-const TextEffectPage: FC = () => {
+const TextEffectPage = ({content}:{content:string}) => {
 
   let refs = useRef<HTMLElement[]>([]);
   const body = useRef<HTMLDivElement>(null);
@@ -20,10 +19,10 @@ const TextEffectPage: FC = () => {
   const createAnimation = (): void => {
       gsap.to(refs.current, {
         scrollTrigger: {
-            trigger: container.current,
+            trigger: ".headerImg",
             scrub: true,
             start: `top`,
-            end: `+=${window.innerHeight / 1.5}`,
+            end: () => `+=${document.querySelector(".headerImg")?.clientHeight}`
         },
         opacity: 1,
         ease: "none",
@@ -31,9 +30,9 @@ const TextEffectPage: FC = () => {
     })
   }
 
-  const splitWords = (phrase: string): ReactElement[] => {
+  const splitWords = (content: string): ReactElement[] => {
     let body: ReactElement[] = [];
-    phrase.split(" ").forEach( (word, i) => {
+    content.split(" ").forEach( (word, i) => {
       const letters = splitLetters(word);
       body.push(<p key={word + "_" + i}>{letters}</p>)
     })
@@ -52,7 +51,7 @@ const TextEffectPage: FC = () => {
     <main ref={container} className={styles.main}>
       <div ref={body} className={styles.body}>
         {
-          splitWords(phrase)
+          splitWords(content)
         }
       </div>
     </main>

@@ -3,13 +3,13 @@ title: "FLEXIBLE STAFFING-004"
 meta_title: ""
 description: "this is solutions-004's meta description"
 date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700542548/talentWorkx/dadxjacb0k7tlat59f1r.png"
 bannerImage: "/images/image-placeholder.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]
 draft: false
-heading: "FlexAbility is the key to Success"
+heading: "Flex Ability is the key to Success"
 
 content: "In today's dynamic markets, flexible staffing solutions can offer agility and cost savings to businesses
 We are sensitive to the fact that in addition to Flex Staffing, organizations also need value added services not just limited to employee engagement, performance management, talent pipeline management etc.. Our technology enabled transparent work process brings in proven efficiency in deputee engagement and reduces employee Query Resolution Time massively , this bring in higher efficiency in staffing and a significant increase in productivity."

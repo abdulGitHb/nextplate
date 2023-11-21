@@ -19,10 +19,10 @@ const TextEffectPage = ({content}:{content:string}) => {
   const createAnimation = (): void => {
       gsap.to(refs.current, {
         scrollTrigger: {
-            trigger: container.current,
+            trigger: ".headerImg",
             scrub: true,
             start: `top`,
-            end: `+=${window.innerHeight / 1.5}`,
+            end: () => `+=${document.querySelector(".headerImg")?.clientHeight}`
         },
         opacity: 1,
         ease: "none",

@@ -1,10 +1,10 @@
 ---
-title: "EXECUTIVE SEARCH-001"
+title: "EXECUTIVE SEARCH"
 meta_title: ""
 description: "this is solutions-001's meta description"
 date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
-bannerImage: "/images/image-placeholder.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700542548/talentWorkx/dadxjacb0k7tlat59f1r.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544988/talentWorkx/uaiczqd5psjhmoej8vzl.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

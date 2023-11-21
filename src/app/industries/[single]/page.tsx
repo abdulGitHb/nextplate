@@ -1,11 +1,8 @@
 import config from "@/config/config.json";
-import ImageFallback from "@/helpers/ImageFallback";
-import MDXContent from "@/helpers/MDXContent";
 import { getSinglePage } from "@/lib/contentParser";
 import similerItems from "@/lib/utils/similarItems";
-import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
-import { Industry, Post } from "@/types";
+import { Industry } from "@/types";
 import TextEffectPage from "./components/testEffect";
 
 
@@ -38,8 +35,8 @@ const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
     image,
     heading,
     content,
+    bannerImage,
   } = frontmatter;
-  const similarPosts = similerItems(industry, industries, industry.slug!);
   console.log(content, "industry here", params.single, "params.single here");
 
   return (
@@ -50,45 +47,22 @@ const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
         description={description}
         image={image}
       />
-      <header className="bg-red-400 h-48">
-        header image
+      <header className="flex justify-center items-center font-serif bg-gray-200/80 bg-blend-lighten text-[4vw] font-bold text-[#97144D] headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
+      style={{backgroundImage:`url(${bannerImage})`}}>
+        {title}
       </header>
-      {/* <section className="section pt-7">
-        <div className="container">
-          <div className="row justify-center">
-            <article className="lg:col-10">
-              {image && (
-                <div className="mb-10">
-                  <ImageFallback
-                    src={image}
-                    height={500}
-                    width={1200}
-                    alt={title}
-                    className="w-full rounded"
-                  />
-                </div>
-              )}
-              <h1
-                dangerouslySetInnerHTML={markdownify(title)}
-                className="h2 mb-4"
-              />
-              <div className="content mb-10">
-                <MDXContent content={content} />
-              </div>
-            </article>
-          </div>
-        </div>
-      </section> */}
-
       <div className="">
-        <div className="">
-          <h1 className="text-center font-serif text-[#97144D]">{heading}</h1>
+        <div className="flex">
+          <h1 className="text-center mt-4 w-full font-serif text-gray-500">{heading}</h1>
+          
         </div>
-        <div className="">
-          image here
-        </div>
-        <div className="">
-          <TextEffectPage content={content}/>
+        <div className="grid grid-cols-1 sm:grid-cols-3">
+          <div className="innerImg col-span-1 bg-red-300 h-[50vh] mt-8 rounded-md bg-no-repeat bg-center bg-cover md:ml-8 w-full mx-auto"
+          style={{backgroundImage:`url(${image})`}}>
+          </div>
+          <div className="col-span-1 sm:col-span-2">
+            <TextEffectPage content={content}/>
+          </div>
         </div>
       </div>
     </>

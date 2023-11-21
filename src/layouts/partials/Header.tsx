@@ -1,13 +1,11 @@
 "use client";
 
 import Logo from "@/components/Logo";
-import ThemeSwitcher from "@/components/ThemeSwitcher";
 import config from "@/config/config.json";
 import menu from "@/config/menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
-import { IoSearch } from "react-icons/io5/index.js";
 
 //  child navigation link interface
 export interface IChildNavigationLink {
@@ -31,10 +29,20 @@ const Header = () => {
   // get current path
   const pathname = usePathname();
 
+
   // scroll to top on route change
   useEffect(() => {
     window.scroll(0, 0);
   }, [pathname]);
+
+  function toTitleCase(str:string) {
+    return str.replace(
+      /\w\S*/g,
+      function(txt) {
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+      }
+    );
+  }
 
   return (
     <header
@@ -84,7 +92,7 @@ const Header = () => {
               {menu.hasChildren ? (
                 <li className="nav-item nav-dropdown group relative">
                   <span
-                    className={`nav-link inline-flex items-center ${
+                    className={`nav-link inline-flex text-[#97144D] items-center ${
                       menu.children?.map(({ url }) => url).includes(pathname) ||
                       menu.children
                         ?.map(({ url }) => `${url}/`)
@@ -104,13 +112,13 @@ const Header = () => {
                         <Link
                           href={child.url}
                           onClick={() => setIsNavOpen(false)}
-                          className={`nav-dropdown-link block ${
+                          className={`nav-dropdown-link text-[#97144D] hover:text-black block ${
                             (pathname === `${child.url}/` ||
                               pathname === child.url) &&
                             "active"
                           }`}
                         >
-                          {child.name}
+                          {toTitleCase(child.name.toString())}
                         </Link>
                       </li>
                     ))}
@@ -121,7 +129,7 @@ const Header = () => {
                   <Link
                     href={menu.url}
                     onClick={() => setIsNavOpen(false)}
-                    className={`nav-link block ${
+                    className={`nav-link block text-[#97144D] hover:text-black ${
                       (pathname === `${menu.url}/` || pathname === menu.url) &&
                       "active"
                     }`}

@@ -33,7 +33,24 @@ export type Industry = {
     meta_title?: string;
     description?: string;
     image?: string;
-    categories: string[]; 
+    bannerImage: string; 
+    author: string;
+    tags: string[];
+    date?: string;
+    draft?: boolean;
+    heading: string;
+    content: string;
+  };
+  slug?: string;
+  content?: string;
+};
+export type Solution = {
+  frontmatter: {
+    title: string;
+    meta_title?: string;
+    description?: string;
+    image?: string;
+    bannerImage: string;
     author: string;
     tags: string[];
     date?: string;
@@ -91,6 +108,7 @@ export type Services = {
   title: string;
   link: string;
   color: string;
+  description: string;
 };
 export type Industries = {
   image: string;

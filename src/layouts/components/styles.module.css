@@ -13,13 +13,13 @@
 
 
 .animatedTxtLong{
-    height: 280px;
+    height: 350px;
     width: 750px;
     display: flex;
     flex-direction: column;
     background: url(https://img.freepik.com/free-vector/red-silk-curtain-background_1048-11014.jpg);
     background-size: 750px 280px;
-    font-size: 80px;
+    font-size: 65px;
     font-weight:800;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -83,9 +83,10 @@
         .description{
           width: 40%;
           position: relative;
+          color: whitesmoke;
           top: 10%;
           .desc{
-            font-size: 16px;
+            font-size: 18px;
             
           }
           .spsp{
