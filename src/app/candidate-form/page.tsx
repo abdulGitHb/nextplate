@@ -65,7 +65,17 @@ const Contact = async () => {
 
 
                     <h1 className="md:col-span-2 text-[#97144D]">Our offices</h1>
-
+                    <div>
+                        <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                        </span>
+                        
+                        <h2 className="mt-4 text-base font-medium text-gray-500 dark:text-white"> Lucknow Office</h2>
+                        <p className="mt-2 text-sm text-[#97144D]">Floor 11, Summit Building, TCG 3, 3, Padera - Raebareli Rd, Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh - 226010</p>
+                    </div>
                     <div>
                         <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
@@ -88,7 +98,7 @@ const Contact = async () => {
                         </span>
                         
                         <h2 className="mt-4 text-base font-medium text-gray-500 dark:text-white">Bangalore Office</h2>
-                        <p className="mt-2 text-sm text-[#97144D]">Prestige Atlanta, 80 Feet Rd, Koramangala 1A Block, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034</p>
+                        <p className="mt-2 text-sm text-[#97144D]">Prestige Atlanta, 80 Feet Rd, Koramangala 1A Block, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka - 560034</p>
                     </div>
 
                     
@@ -123,7 +133,7 @@ const Contact = async () => {
                             <textarea className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
                         </div>
 
-                        <button type="submit" className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#97144D] rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                        <button type="submit" className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#97144D] rounded-lg hover:bg-gray-300 hover:text-[#97144D] focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                             Send message
                         </button>
                     </form>

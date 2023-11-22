@@ -9,7 +9,7 @@ categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]
 draft: false
-heading: "“OWNERSHIP TO OUTCOME” Based on Onsite Offsite combination of recruitment solution"
+heading: "Ownership To Outcome"
 content: "Today, the recruiting environment is rather complex. In order to effectively recruit top talent, you need to navigate a tight labor market; become proficient in a set of relevant technologies; and manage and nurture candidates and hiring managers. 
 An RPO solution can bring an array of many benefits including managing hiring fluctuations throughout the year; reducing total recruiting cost and dependency on staffing agencies; improving hiring manager satisfaction; reducing time-to-fill; elevating employment brand; improving candidate experience; simplifying or streamlining the hiring process; and saving time for other duties among other benefits."
 ---

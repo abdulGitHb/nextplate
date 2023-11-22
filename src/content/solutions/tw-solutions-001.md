@@ -9,8 +9,8 @@ categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]
 draft: false
-heading: "LEADERS AT THE HELM- “The way to find a needle in the Haystack is to sit down.”"
-content: "If you agree to this……then you may be wrong!
+heading: "Leaders At The HELM"
+content: "“The way to find a needle in the Haystack is to sit down.” If you agree to this... then you may be wrong!
 We do not sit in the haystack of data when it comes to your executive seat. We work like expert divers who are backed with research driven accurate and precise knowledge coupled with sector and functional expertise to deliver on the mission critical to your Organization’s driving seat.
 Our investments in Candidates are equally distributed throughout the process of search to on-boarding and beyond that. We do not hesitate in crossing the line to gain access to information critical to a candidates behaviour, competencies, people skills and the most elusive factor- Human Factor while looking for the best to fit your Executive Seat."
 ---

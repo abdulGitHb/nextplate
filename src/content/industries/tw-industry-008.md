@@ -9,7 +9,7 @@ categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]
 draft: false
-heading: "Neededdd"
+heading: "Fourth Industrial Revolution"
 content: "Manufacturing remains a critical force in both advanced and developing economies. But the sector has changed, bringing new opportunities and challenges to business leaders and policy makers.
 Industry 4.0, also known as the Fourth Industrial Revolution, is enabling businesses to utilise advanced technological capabilities throughout the entire product lifecycle, resulting in increased visibility into operations, substantial cost savings and faster production times.
 With this shift comes a new wave of engineering and manufacturing jobs and in-demand skills. We have a deep understanding of the industry and its functionality and can help you meet your local as well as global Talent Demand.
