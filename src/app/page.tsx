@@ -9,6 +9,9 @@ import OurServicesSection from "@/components/ourServicesSection";
 import OurIndustriesSection from "@/components/ourIndustriesSection";
 import OurNewRoiSection from "@/components/ourNewRoi";
 import AboutUsSection from "@/components/aboutUsSection";
+import Link from "next/link"
+    
+require('dotenv').config();
 
 
 const Home = () => {
@@ -42,23 +45,23 @@ const Home = () => {
           <div className="flex flex-col col-span-2 justify-left items-center">
             <div className="mb-16 text-left gap-y-4 flex flex-col">
               <h1
-                className="mb-4 text-[#97144D] text-4xl md:text-7xl font-serif"
+                className="mb-4 text-[#97144D] text-4xl pl-6 md:text-7xl font-serif"
                 dangerouslySetInnerHTML={markdownify(banner.title)}
               />
               <p
-                className="mb-8 text-[#454545]"
+                className="mb-8 text-[#454545] text-lg font-bold pl-6"
                 dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
               />
-              <div className="flex">
+              <div className="flex text-center pl-6 gap-x-6 sm:gap-x-14">
                 {banner.buttonOne!.enable && (
-                  <a className="btn bg-[#97144D] text-white" href={banner.buttonOne!.link}>
+                  <Link className="btn border-2 border-gray-300 bg-[#97144D] hover:bg-gray-300 hover:text-[#97144D] w-28 text-white" href={banner.buttonOne!.link}>
                     {banner.buttonOne!.label}
-                  </a>
+                  </Link>
                 )}
                 {banner.buttonTwo!.enable && (
-                  <a className="btn border-2 border-[#454545] text-[#97144D] ml-8" href={banner.buttonTwo!.link}>
+                  <Link className="btn w-28 border-2 border-[#97144D] text-[#97144D] hover:text-gray-300 hover:bg-[#97144D] ml-8" href={banner.buttonTwo!.link}>
                     {banner.buttonTwo!.label}
-                  </a>
+                  </Link>
                 )}
 
               </div>

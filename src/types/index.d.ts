@@ -117,7 +117,12 @@ export type Industries = {
   link: string;
 };
 
-
+export interface EmailParams {
+  to: string;
+  from: string;
+  subject: string;
+  message: any;
+}
 
 export type Testimonial = {
   name: string;

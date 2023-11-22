@@ -9,9 +9,11 @@ categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]
 draft: false
-heading: "A famous business adage “What the Lion cannot manage to do the Fox can”, clearly explains the importance of mid-senior level roles in any Organization."
-content: "In today's dynamic markets, flexible staffing solutions can offer agility and cost savings to businesses.
-We are sensitive to the fact that in addition to Flex Staffing, organizations also need value added services not just limited to employee engagement, performance management, talent pipeline management etc.. Our technology enabled transparent work process brings in proven efficiency in deputee engagement and reduces employee Query Resolution Time massively , this bring in higher efficiency in staffing and a significant increase in productivity."
+heading: "Sandwich layer to SwitchGear"
+content: "A famous business adage “What the Lion cannot manage to do the Fox can”, clearly explains the importance of mid-senior level roles in any Organization.
+Mid-senior level “Personnel” decisions are getting more personal than ever for the C-suite people as they realize that the erstwhile “Sandwich Layer” is now the new Switchgear on which organizations can tread to success.
+The Euphoria of Top-Bottom line success stems out from the core of middle line and organizations have started to realize the importance of middle-line SwitchGear for a consistent growth in Top-Bottom lines.
+We are uniquely positioned to address the challenge, find solution and mitigate the failure in your SwitchGear. Our Search is carefully curated keeping in mind your future needs and aspirations. Our experience and time-tested “Search 2 Selection” solution enables us to create a talent pool which serves your current need and is capable of addressing the future requirements of your Organization."
 ---
 
 Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.

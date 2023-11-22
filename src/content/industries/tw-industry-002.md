@@ -3,7 +3,8 @@ title: "Consumer Electronics & Appliances"
 meta_title: ""
 description: "this is industry-002's meta description"
 date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700543632/talentWorkx/wtzsykztwi34ni0gxv6f.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700543632/talentWorkx/wtzsykztwi34ni0gxv6f.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

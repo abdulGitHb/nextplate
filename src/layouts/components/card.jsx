@@ -23,11 +23,11 @@ const Card = ({i, title, image, color, link, description, progress, range, targe
         style={{backgroundColor: color, scale, top:`calc(-5vh + ${i * 25}px)`}} 
         className={styles.card}
       >
-        <h2 className='title'
+        <h2 className={`title ${color=="#97144D"? "text-gray-200":"text-[#97144D]"}`}
          dangerouslySetInnerHTML={markdownify(title)}/>
         <div className={styles.body}>
           <div className={styles.description}>
-            <p className='desc' dangerouslySetInnerHTML={markdownify(description)}/>
+            <p className={`desc ${color=="#97144D"? "text-gray-200":"text-[#97144D]"}`} dangerouslySetInnerHTML={markdownify(description)}/>
             <span className='spsp flex items-center gap-x-3 mt-12'>
               <Link className='linkk text-black' href={link} target="_blank">Read more</Link>
               <svg width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg">

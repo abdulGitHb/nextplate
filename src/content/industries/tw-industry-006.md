@@ -3,7 +3,8 @@ title: "Investment Banking/PE/VC"
 meta_title: ""
 description: "this is industry-006's meta description"
 date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700549063/talentWorkx/eu1ixdhujn75qj2uzuyu.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700549063/talentWorkx/eu1ixdhujn75qj2uzuyu.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

@@ -6,6 +6,8 @@ import menu from "@/config/menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import logo from "/images/logo.svg"
 
 //  child navigation link interface
 export interface IChildNavigationLink {
@@ -52,6 +54,11 @@ const Header = () => {
         {/* logo */}
         <div className="order-0">
           <Logo />
+          {/* <Image
+            priority
+            src={logo}
+            alt="tw Logo here"
+          /> */}
         </div>
         {/* navbar toggler */}
         <input id="nav-toggle" type="checkbox" className="hidden" checked={isNavOpen} 

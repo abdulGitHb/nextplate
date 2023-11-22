@@ -29,6 +29,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/layouts/components/card.jsx", "src/layouts/components/ourServicesSection.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/layouts/components/card.jsx", "src/layouts/components/ourServicesSection.jsx", "src/lib/utils/contact-email.js"],
   "exclude": ["node_modules"]
 }

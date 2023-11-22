@@ -1,5 +1,5 @@
 ---
-title: "FLEXIBLE STAFFING-004"
+title: "FLEXIBLE STAFFING"
 meta_title: ""
 description: "this is solutions-004's meta description"
 date: 2022-04-04T05:00:00Z

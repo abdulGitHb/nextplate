@@ -10,8 +10,8 @@ author: "John Doe"
 tags: ["nextjs", "tailwind"]
 draft: false
 heading: "“OWNERSHIP TO OUTCOME” Based on Onsite Offsite combination of recruitment solution"
-content: "In today's dynamic markets, flexible staffing solutions can offer agility and cost savings to businesses.
-We are sensitive to the fact that in addition to Flex Staffing, organizations also need value added services not just limited to employee engagement, performance management, talent pipeline management etc.. Our technology enabled transparent work process brings in proven efficiency in deputee engagement and reduces employee Query Resolution Time massively , this bring in higher efficiency in staffing and a significant increase in productivity."
+content: "Today, the recruiting environment is rather complex. In order to effectively recruit top talent, you need to navigate a tight labor market; become proficient in a set of relevant technologies; and manage and nurture candidates and hiring managers. 
+An RPO solution can bring an array of many benefits including managing hiring fluctuations throughout the year; reducing total recruiting cost and dependency on staffing agencies; improving hiring manager satisfaction; reducing time-to-fill; elevating employment brand; improving candidate experience; simplifying or streamlining the hiring process; and saving time for other duties among other benefits."
 ---
 
 Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.

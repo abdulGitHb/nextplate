@@ -18,23 +18,23 @@ const CallToAction = ({ data }: { data: PageData }) => {
           <div className="container">
             <div className="rounded-xl px-4 py-4 xl:px-14">
               <div className="row items-center justify-between">
-                <div className="grid grid-cols-3">
+                <div className="grid grid-cols-1 lg:grid-cols-3">
                   <h2
                     dangerouslySetInnerHTML={markdownify(
                       data.frontmatter.title,
                     )}
-                    className={`${styles.animatedTxtLong} col-span-2`}
+                    className={`${styles.animatedTxtLong} col-span-1 lg:col-span-2`}
                   />
-                  <div className="md:w-[350px] col-span-1 flex flex-col justify-center items-center">
+                  <div className="w-full lg:w-[350px] col-span-1 flex flex-col justify-center items-center">
                     <p
                       dangerouslySetInnerHTML={markdownify(
                         data.frontmatter.description,
                       )}
-                      className="mb-6 text-[#454545]"
+                      className="mb-6 w-full text-[#454545]"
                     />
                     {data.frontmatter.button.enable && (
                       <Link
-                        className="btn btn-primary"
+                        className="btn bg-[#97144D] text-gray-200 hover:bg-gray-300 hover:text-[#97144D]"
                         href={data.frontmatter.button.link}
                       >
                         {data.frontmatter.button.label}

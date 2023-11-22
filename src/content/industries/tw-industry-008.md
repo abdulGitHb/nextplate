@@ -3,7 +3,8 @@ title: "EMPI"
 meta_title: ""
 description: "this is industry-008's meta description"
 date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700545596/talentWorkx/lterysn8qsjb5e4cvf1k.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700545596/talentWorkx/lterysn8qsjb5e4cvf1k.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

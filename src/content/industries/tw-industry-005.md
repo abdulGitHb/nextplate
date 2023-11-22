@@ -3,7 +3,8 @@ title: "Pharmaceutical and Life Sciences"
 meta_title: ""
 description: "this is industry-005's meta description"
 date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544630/talentWorkx/m0qmetevaklob2odxhsq.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544630/talentWorkx/m0qmetevaklob2odxhsq.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

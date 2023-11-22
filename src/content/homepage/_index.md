@@ -7,18 +7,18 @@ banner:
   buttonOne:
     enable: true
     label: "Client"
-    link: "/"
+    link: "/client-form"
   buttonTwo:
     enable: true
     label: "Candidate"
-    link: "/"
+    link: "/candidate-form"
 
 #AboutUs
 aboutUs:
   titleOne: "Art of <br> Search <br> Curation"
   descriptionOne: "15 Years of our Experience in the Industry empowers us with the “Art of Search Curation” leading to near perfection in Selection."
   image: "/images/banner.png"
-  titleTwo: "Deliver <br> Not <br> Await"
+  titleTwo: "Our DNA, <br> Deliver Not Await"
   descriptionTwo: "We promise to Deliver results irrespective of challenges we come across. We don’t await answers from our client’s rather We present them with solutions and insights to achieve “Better ROI”."
 
 #BetterROI
@@ -37,25 +37,25 @@ betterRoi:
 #Services
 services:
   - title: "EXECUTIVE SEARCH"
-    image: "/images/service-1.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700542548/talentWorkx/dadxjacb0k7tlat59f1r.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-001"
     color: "#d3d3d3"
     description: "We work like expert divers who are backed with research driven accurate and precise knowledge coupled with sector and functional expertise to deliver on the mission critical to your Organization’s driving seat."
 
   - title: "CONTINGENT SEARCH"
-    image: "/images/service-1.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544988/talentWorkx/uaiczqd5psjhmoej8vzl.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-002"
     color: "#97144D"
-    description: ""
+    description: "The Euphoria of Top-Bottom line success stems out from the core of middle line and organizations have started to realize the importance of middle-line SwitchGear for a consistent growth in Top-Bottom lines."
 
   - title: "RECRUITMENT PROCESS OUTSOURCING"
     image: "/images/service-1.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-003"
     color: "#d3d3d3"
-    description: ""
+    description: "RPO providers are subject-matter-experts; talent acquisition is their core competency. We know how to navigate the recruiting environment and stay current with the latest recruiting technology. RPOs bring people, technology, process, and metrics into a talent acquisition function."
 
   - title: "FLEXIBLE STAFFING"
     image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700542548/talentWorkx/dadxjacb0k7tlat59f1r.png"
