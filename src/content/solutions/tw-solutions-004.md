@@ -4,7 +4,7 @@ meta_title: ""
 description: "this is solutions-004's meta description"
 date: 2022-04-04T05:00:00Z
 image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700542548/talentWorkx/dadxjacb0k7tlat59f1r.png"
-bannerImage: "/images/image-placeholder.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700542548/talentWorkx/dadxjacb0k7tlat59f1r.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

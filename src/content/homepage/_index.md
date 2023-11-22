@@ -37,21 +37,21 @@ betterRoi:
 #Services
 services:
   - title: "EXECUTIVE SEARCH"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700542548/talentWorkx/dadxjacb0k7tlat59f1r.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544988/talentWorkx/uaiczqd5psjhmoej8vzl.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-001"
     color: "#d3d3d3"
     description: "We work like expert divers who are backed with research driven accurate and precise knowledge coupled with sector and functional expertise to deliver on the mission critical to your Organization’s driving seat."
 
   - title: "CONTINGENT SEARCH"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544988/talentWorkx/uaiczqd5psjhmoej8vzl.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643724/talentWorkx/ln5gxum9mtrgeznscpah.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-002"
     color: "#97144D"
     description: "The Euphoria of Top-Bottom line success stems out from the core of middle line and organizations have started to realize the importance of middle-line SwitchGear for a consistent growth in Top-Bottom lines."
 
-  - title: "RECRUITMENT PROCESS OUTSOURCING"
-    image: "/images/service-1.png"
+  - title: "RPO"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643475/talentWorkx/qyl5nbi1b7bfnuajne3w.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-003"
     color: "#d3d3d3"

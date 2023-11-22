@@ -3,8 +3,8 @@ title: "RECRUITMENT PROCESS OUTSOURCING"
 meta_title: ""
 description: "this is solutions-004's meta description"
 date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
-bannerImage: "/images/image-placeholder.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643475/talentWorkx/qyl5nbi1b7bfnuajne3w.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643475/talentWorkx/qyl5nbi1b7bfnuajne3w.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

@@ -4,7 +4,7 @@ meta_title: ""
 description: "this is industry-001's meta description"
 date: 2022-04-04T05:00:00Z
 image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700547578/talentWorkx/hmuei62d9ugq4zdpfccn.png"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544988/talentWorkx/uaiczqd5psjhmoej8vzl.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700547578/talentWorkx/hmuei62d9ugq4zdpfccn.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

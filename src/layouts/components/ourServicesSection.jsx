@@ -34,12 +34,12 @@ const OurServicesSection = ({services}) => {
           initial={{
             opacity:1,
             scale:1,
-            x:250
+            y:-250
           }}
           whileInView={{
             opacity:1,
             scale:1,
-            x:0
+            y:0
           }}
           viewport={{once:true}}
           transition={{
@@ -51,8 +51,8 @@ const OurServicesSection = ({services}) => {
             Our Solutions
             </h1>
             {services.map((service, index) => (
-              <div key={service.title} className="relative col-span-1 group flex flex-col text-gray-700 bg-gray-100 shadow-md w-72 rounded-xl bg-clip-border">
-                <div className="relative bg-cover bg-center h-40 mx-4 -mt-6 sm:mt-1 group-hover:-mt-6 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
+              <div key={service.title} className="relative col-span-1 group flex flex-col text-gray-700 bg-gray-100 shadow-md w-72 aspect-square rounded-xl bg-clip-border">
+                <div className="relative bg-cover bg-center h-40 mx-4 -mt-6 sm:mt-1 group-hover:-mt-8 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
                 style={{backgroundImage: `url(${service.image})`}}
                 >
                 </div>
