@@ -7,6 +7,7 @@ import { INavigationLink } from "./Header";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import React from "react";
+import { FaChevronRight } from "react-icons/fa";
 
 const Footer = () => {
   const { copyright } = config.params;
@@ -43,7 +44,7 @@ const Footer = () => {
             </div>
 
             <p className="mt-4 max-w-xs text-gray-500">
-            Helped more than 1000 candidates build their career across various industries and geographies.
+            Helped more than 10k candidates build their career across various industries and geographies.
             </p>
 
             <ul className="mt-8 flex gap-6">
@@ -168,23 +169,26 @@ const Footer = () => {
           </div>
 
           <div
-            className="grid grid-cols-1 sm:grid-cols-2 col-span-2"
+            className="grid grid-cols-1 sm:grid-cols-2 col-span-2 gap-x-8"
           >
             {main.map((menu, i)=>(
-              <div key={i}>
-                {menu.hasChildren && <h1 className="text-lg">{menu.name}</h1> }
-                <ul className=" grid grid-cols-2 gap-x-1 gap-y-2">
+              <div key={i} className="ml-4">
+                {menu.hasChildren && <h1 className="text-xl mb-3">{menu.name}</h1> }
+                <ul className=" grid grid-cols-2 gap-y-2">
                 {menu.children?.map((child, i) => (
-                  <li className="col-span-1" key={`children-${i}`}>
+                  <li className="col-span-2" key={`children-${i}`}>
                     <Link
                       href={child.url}
-                      className={`block text-xs hover:text-[#97144D]  ${
+                      className={`block text-sm font-semibold text-gray-600 hover:text-[#97144D]  ${
                         (pathname === `${child.url}/` ||
                           pathname === child.url) &&
                         "active"
                       }`}
                     >
+                      <p className="flex items-center gap-x-2">
+                      <FaChevronRight/>
                       {toTitleCase(child.name.toString())}
+                      </p>
                     </Link>
                   </li>
                 ))}
@@ -193,19 +197,22 @@ const Footer = () => {
             ))}
           </div>
           <div>
-          <h1 className="text-lg">Important Links</h1>
-          <ul className=" grid grid-cols-2 gap-x-1 gap-y-2">
+          <h1 className="text-xl mb-2 ml-4">Important Links</h1>
+          <ul className=" grid grid-cols-2 gap-x-1 gap-y-2 ml-4">
                 {importantLinks.map((impLink, i) => (
-                  <li className="col-span-1" key={`implink-${i}`}>
+                  <li className="col-span-2" key={`implink-${i}`}>
                     <Link
                       href={impLink.url}
-                      className={`block text-xs hover:text-[#97144D] ${
+                      className={`block text-sm font-semibold text-gray-600 hover:text-[#97144D] ${
                         (pathname === `${impLink.url}/` ||
                           pathname === impLink.url) &&
                         "active"
                       }`}
                     >
+                      <p className="flex items-center gap-x-2">
+                      <FaChevronRight/>
                       {toTitleCase(impLink.name.toString())}
+                      </p>
                     </Link>
                   </li>
                 ))}
