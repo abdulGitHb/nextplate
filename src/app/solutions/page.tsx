@@ -22,8 +22,8 @@ const Solutions = () => {
   const totalPages = Math.ceil(solutions.length / pagination);
   const currentPosts = sortedPosts.slice(0, pagination);
 
-  console.log("--------------------");
-  console.log(postIndex, "postIndex here)", solutions, "solutions here");
+  // console.log("--------------------");
+  // console.log(postIndex, "postIndex here)", solutions, "solutions here");
 
   return (
     <>

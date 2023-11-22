@@ -20,8 +20,8 @@ const IndustriesPage = () => {
   const totalPages = Math.ceil(industries.length / pagination);
   const currentPosts = sortedPosts.slice(0, pagination);
 
-  console.log("--------------------");
-  console.log(postIndex, "postIndex here)", industries, "industries here");
+  // console.log("--------------------");
+  // console.log(postIndex, "postIndex here)", industries, "industries here");
 
   return (
     <>

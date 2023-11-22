@@ -27,7 +27,7 @@ const SingleSolutionPage = ({ params }: { params: { single: string } }) => {
   const solutions: Solution[] = getSinglePage(solutions_folder);
   const post = solutions.filter((page) => page.slug === params.single)[0];
 
-  console.log(post, "post here", params.single, "params.single here");
+  // console.log(post, "post here", params.single, "params.single here");
 
   const { frontmatter } = post;
   const {

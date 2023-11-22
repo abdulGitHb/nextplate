@@ -37,7 +37,7 @@ const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
     content,
     bannerImage,
   } = frontmatter;
-  console.log(content, "industry here", params.single, "params.single here");
+  // console.log(content, "industry here", params.single, "params.single here");
 
   return (
     <>
