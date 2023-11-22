@@ -37,7 +37,7 @@ betterRoi:
 #Services
 services:
   - title: "EXECUTIVE SEARCH"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544988/talentWorkx/uaiczqd5psjhmoej8vzl.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652912/talentWorkx/q32ec4dsj8bm10s1tuhc.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-001"
     color: "#d3d3d3"
@@ -58,14 +58,14 @@ services:
     description: "RPO providers are subject-matter-experts; talent acquisition is their core competency. We know how to navigate the recruiting environment and stay current with the latest recruiting technology. RPOs bring people, technology, process, and metrics into a talent acquisition function."
 
   - title: "FLEXIBLE STAFFING"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700542548/talentWorkx/dadxjacb0k7tlat59f1r.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700650372/talentWorkx/ofdmvzffpugoqsqzokav.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-004"
     color: "#97144D"
     description: "Our technology enabled transparent work process brings in proven efficiency in deputee engagement and reduces employee Query Resolution Time massively , this bring in higher efficiency in staffing and a significant increase in productivity."
   
   - title: "STARTX"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700543238/talentWorkx/bknodcgaileaiotip72q.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652684/talentWorkx/h3ayis3bcwcme9kticih.png"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-005"
     color: "#d3d3d3"
@@ -79,32 +79,32 @@ industries:
     link: "/industries/tw-industry-001"
 
   - title: "Consumer Electronics & Appliances"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700543632/talentWorkx/wtzsykztwi34ni0gxv6f.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700653239/talentWorkx/edcnlvn0ezzhzhgsncbz.jpg"
     icon: "/images/service-1.png"
     link: "/industries/tw-industry-002"
 
   - title: "Automobile & Auto Components"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544402/talentWorkx/lcpj1n51sdjvec44vywj.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700653698/talentWorkx/qid9f08v31xgvtcw9ldj.png"
     icon: "/images/service-1.png"
     link: "/industries/tw-industry-003"
 
   - title: "Power & Renewable Energy"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544477/talentWorkx/if1lumoff54lasttbyys.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654605/talentWorkx/jz3cmeyofobzaahisv5h.png"
     icon: "/images/service-1.png"
     link: "/industries/tw-industry-004"
 
   - title: "Pharmaceutical and Life Sciences"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544630/talentWorkx/m0qmetevaklob2odxhsq.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654957/talentWorkx/ih3aca1sr4uxqkd7yf00.png"
     icon: "/images/service-1.png"
     link: "/industries/tw-industry-005"
 
   - title: "Investment Banking/PE/VC"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700549063/talentWorkx/eu1ixdhujn75qj2uzuyu.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652460/talentWorkx/kuevo6x0yihuvq7ztpvm.png"
     icon: "/images/service-1.png"
     link: "/industries/tw-industry-006"
 
   - title: "Building Material"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700548069/talentWorkx/efwju4u51dmzkpshnsop.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654785/talentWorkx/pwnlq4qoetomdiqyidip.png"
     icon: "/images/service-1.png"
     link: "/industries/tw-industry-007"
 

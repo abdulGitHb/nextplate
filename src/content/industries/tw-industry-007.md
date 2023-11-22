@@ -3,8 +3,8 @@ title: "Building Material"
 meta_title: ""
 description: "this is industry-007's meta description"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700548069/talentWorkx/efwju4u51dmzkpshnsop.png"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700548069/talentWorkx/efwju4u51dmzkpshnsop.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654785/talentWorkx/pwnlq4qoetomdiqyidip.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654785/talentWorkx/pwnlq4qoetomdiqyidip.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

@@ -3,8 +3,8 @@ title: "Automobile & Auto Components"
 meta_title: ""
 description: "this is industry-003's meta description"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544402/talentWorkx/lcpj1n51sdjvec44vywj.png"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544402/talentWorkx/lcpj1n51sdjvec44vywj.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700653698/talentWorkx/qid9f08v31xgvtcw9ldj.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700653698/talentWorkx/qid9f08v31xgvtcw9ldj.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

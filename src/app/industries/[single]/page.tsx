@@ -47,7 +47,7 @@ const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
         description={description}
         image={image}
       />
-      <header className="flex justify-center items-center font-serif bg-gray-200/80 bg-blend-lighten text-[4vw] font-bold text-[#97144D] headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
+      <header className="flex justify-center items-center font-serif bg-gray-200/80 bg-blend-lighten text-[4vw] font-bold text-[#97144D] headerImg h-[40vh] bg-cover bg-no-repeat"
       style={{backgroundImage:`url(${bannerImage})`}}>
         {title}
       </header>

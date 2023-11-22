@@ -3,8 +3,8 @@ title: "Power & Renewable Energy"
 meta_title: ""
 description: "this is industry-004's meta description"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544477/talentWorkx/if1lumoff54lasttbyys.png"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544477/talentWorkx/if1lumoff54lasttbyys.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654605/talentWorkx/jz3cmeyofobzaahisv5h.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654605/talentWorkx/jz3cmeyofobzaahisv5h.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

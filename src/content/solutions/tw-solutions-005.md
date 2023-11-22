@@ -3,7 +3,7 @@ title: "STARTX"
 meta_title: ""
 description: "this is solutions-004's meta description"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700543238/talentWorkx/bknodcgaileaiotip72q.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652684/talentWorkx/h3ayis3bcwcme9kticih.png"
 bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700547497/talentWorkx/nry82vt5pvdjlg2ry3jm.png"
 categories: ["Application", "Data"]
 author: "John Doe"
