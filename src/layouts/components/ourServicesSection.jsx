@@ -28,7 +28,7 @@ const OurServicesSection = ({services}) => {
   })
 
 
-  console.log(services, "services here")
+  // console.log(services, "services here")
     return ( 
         <motion.div
           initial={{
@@ -52,6 +52,7 @@ const OurServicesSection = ({services}) => {
             </h1>
             {services.map((service, index) => (
               <div key={service.title} className="relative col-span-1 group flex flex-col text-gray-700 bg-gray-100 shadow-md w-72 aspect-square rounded-xl bg-clip-border">
+                <Link href={service.link}>
                 <div className="relative bg-cover bg-center h-40 mx-4 -mt-6 sm:mt-1 group-hover:-mt-8 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
                 style={{backgroundImage: `url(${service.image})`}}
                 >
@@ -61,7 +62,6 @@ const OurServicesSection = ({services}) => {
                   dangerouslySetInnerHTML={markdownify(service.title)}/>
                 </div>
                 <div className="p-6 pt-0">
-                  <Link href={service.link}>
                     <button
                       className="rounded-lg bg-[#97144D] py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-[#97144D]/20 transition-all hover:shadow-lg hover:shadow-[#97144D]/40"
                       type="button"
@@ -69,8 +69,8 @@ const OurServicesSection = ({services}) => {
                     >
                       Read More
                     </button>
-                  </Link>
                 </div>
+                </Link>
               </div>
               ))}
             </div>

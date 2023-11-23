@@ -39,8 +39,8 @@ const Home = () => {
   return (
     <>
       <SeoMeta />
-      <section className="section overflow-hidden pt-14 pr-2 bg-[url(../../public/images/hero-image.png)] bg-cover bg-center bg-no-repeat relative aspect-[16/9] w-full"
-        style={{backgroundImage: `url(${banner.image})`, height: "650px",}}>
+      <section className="section overflow-hidden pt-14 pr-2 h-[650px] bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1700729703/talentWorkx/crdpc86e3winzyilqyss.png)] md:bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1700729886/talentWorkx/tte8xnmf5eazzqry8juw.png)] bg-cover bg-center bg-no-repeat relative aspect-[16/9] w-full"
+        >
         <div className="container mt-auto grid grid-cols-3">
           <div className="flex flex-col col-span-2 justify-left items-center">
             <div className="mb-16 text-left gap-y-4 flex flex-col">
@@ -52,14 +52,14 @@ const Home = () => {
                 className="mb-8 text-[#454545] text-lg font-bold pl-6"
                 dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
               />
-              <div className="flex text-center pl-6 gap-x-6 sm:gap-x-14">
+              <div className="flex flex-col md:flex-row text-center pl-6 gap-y-6 gap-x-6 md:gap-x-14">
                 {banner.buttonOne!.enable && (
                   <Link className="btn border-2 border-gray-300 bg-[#97144D] hover:bg-gray-300 hover:text-[#97144D] w-28 text-white" href={banner.buttonOne!.link}>
                     {banner.buttonOne!.label}
                   </Link>
                 )}
                 {banner.buttonTwo!.enable && (
-                  <Link className="btn w-28 border-2 border-[#97144D] text-[#97144D] hover:text-gray-300 hover:bg-[#97144D] ml-8" href={banner.buttonTwo!.link}>
+                  <Link className="btn w-28 border-2 border-[#97144D] text-[#97144D] hover:text-gray-300 hover:bg-[#97144D] md:ml-8" href={banner.buttonTwo!.link}>
                     {banner.buttonTwo!.label}
                   </Link>
                 )}
