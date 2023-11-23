@@ -11,6 +11,7 @@
     "preview": "next start",
     "postbuild": "next-sitemap",
     "lint": "next lint",
+    "postinstall": "prisma generate",
     "format": "prettier -w ./src",
     "generate-json": "node scripts/jsonGenerator.js",
     "remove-darkmode": "node scripts/removeDarkmode.js && yarn format"
