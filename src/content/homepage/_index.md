@@ -27,7 +27,7 @@ ourClients:
     bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701063007/talentWorkx/hsabvaul8ja78ofpkdob.png"
 
   - categoryName: "Category <br/> B"
-    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701063024/talentWorkx/zmafbur2h83tf8kmdvfw.png"
+    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701104322/talentWorkx/zcsumq5vbxlhcjhgs4yz.png"
 
   - categoryName: "Category <br/> C"
     bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701063022/talentWorkx/x7fd5ffyc8jdfnihicro.png"
