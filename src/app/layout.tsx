@@ -1,6 +1,7 @@
 import config from "@/config/config.json";
 import theme from "@/config/theme.json";
 import TwSizeIndicator from "@/helpers/TwSizeIndicator";
+import ToastProvider from "@/lib/providers/toastProvider";
 import Footer from "@/partials/Footer";
 import Header from "@/partials/Header";
 import Providers from "@/partials/Providers";
@@ -56,6 +57,7 @@ export default function RootLayout({
 
       <body suppressHydrationWarning={true}>
         <TwSizeIndicator />
+        <ToastProvider/>
         <Providers>
           <Header />
           <main>{children}</main>

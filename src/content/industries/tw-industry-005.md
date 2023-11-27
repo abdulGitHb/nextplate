@@ -1,7 +1,7 @@
 ---
 title: "Pharmaceutical and Life Sciences"
-meta_title: ""
-description: "this is industry-005's meta description"
+meta_title: "TalentWorkx | Pharmaceutical and Life Sciences"
+description: "We have a deep understanding about the regulatory framework within which the industry operates and understand the criticality of each role the industry demands."
 date: 2022-04-04T05:00:00Z
 image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700544630/talentWorkx/m0qmetevaklob2odxhsq.png"
 bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654957/talentWorkx/ih3aca1sr4uxqkd7yf00.png"

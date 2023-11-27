@@ -1,7 +1,7 @@
 ---
 title: "Investment Banking/PE/VC"
-meta_title: ""
-description: "this is industry-006's meta description"
+meta_title: "TalentWorkx | Investment Banking/PE/VC"
+description: "We understand the criticality of such roles and deep dive into the market to assess the potential of a candidate who would be taking million dollar decisions on"
 date: 2022-04-04T05:00:00Z
 image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652460/talentWorkx/kuevo6x0yihuvq7ztpvm.png"
 bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652460/talentWorkx/kuevo6x0yihuvq7ztpvm.png"

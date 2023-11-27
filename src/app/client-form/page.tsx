@@ -53,9 +53,9 @@ const Contact = () => {
   return (
     <>
       <SeoMeta
-        title={"title"}
-        meta_title={"meta_title"}
-        description={"description"}
+        title={"Client Form"}
+        meta_title={"TalentWorkx | Client Contact Form"}
+        description={"Client Contact Form, contact us for any query"}
         image={"image"}
       />
       {/* <PageHeader title="Client Form" /> */}

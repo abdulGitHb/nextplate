@@ -92,6 +92,10 @@ export type BetterROI = {
   title: string;
   description: string;
 };
+export type OurClients = {
+  categoryName: string;
+  bgImage: string;
+};
 
 export type AboutUs = {
   titleOne: string;

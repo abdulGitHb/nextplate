@@ -4,12 +4,13 @@ import { markdownify } from "@/lib/utils/textConverter";
 import CallToAction from "@/partials/CallToAction";
 import SeoMeta from "@/partials/SeoMeta";
 import Testimonials from "@/partials/Testimonials";
-import { BetterROI, Button, Feature, Industries, Services } from "@/types";
+import { BetterROI, Button, Feature, Industries, OurClients, Services } from "@/types";
 import OurServicesSection from "@/components/ourServicesSection";
 import OurIndustriesSection from "@/components/ourIndustriesSection";
 import OurNewRoiSection from "@/components/ourNewRoi";
 import AboutUsSection from "@/components/aboutUsSection";
 import Link from "next/link"
+import OurClientSection from "@/components/ourClients";
     
 require('dotenv').config();
 
@@ -23,6 +24,7 @@ const Home = () => {
     banner,
     features,
     aboutUs,
+    ourClients,
     betterRoi,
     services,
     industries,
@@ -30,6 +32,7 @@ const Home = () => {
     banner: { title: string; image: string; content?: string; buttonOne?: Button; buttonTwo?: Button; };
     features: Feature[];
     aboutUs: { titleOne: string; descriptionOne?: string; image: string; titleTwo: string; descriptionTwo?: string;};
+    ourClients: OurClients[];
     betterRoi: BetterROI[];
     services: Services[];
     industries: Industries[];
@@ -73,6 +76,10 @@ const Home = () => {
 
       <section className="bg-gradient-to-b overflow-hidden from-gray-200 via-gray-100 to-gray-200 py-3">
         <AboutUsSection aboutUs={aboutUs} />
+      </section>
+
+      <section>
+        <OurClientSection ourClients={ourClients}/>
       </section>
 
       <section className="bg-gradient-to-b overflow-hidden from-[#97144D] via-[#d61c6d] to-[#97144D]">

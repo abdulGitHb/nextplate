@@ -1,7 +1,7 @@
 ---
 title: "Power & Renewable Energy"
-meta_title: ""
-description: "this is industry-004's meta description"
+meta_title: "TalentWorkx | Power & Renewable Energy"
+description: "We understand the shift of “replaceable to renewable”, be it the processes or people we do it for you! In last few decades, while"
 date: 2022-04-04T05:00:00Z
 image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654605/talentWorkx/jz3cmeyofobzaahisv5h.png"
 bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654605/talentWorkx/jz3cmeyofobzaahisv5h.png"

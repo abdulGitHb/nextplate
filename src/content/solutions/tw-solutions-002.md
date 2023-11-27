@@ -1,7 +1,7 @@
 ---
 title: "RECRUITMENT PROCESS OUTSOURCING"
-meta_title: ""
-description: "this is solutions-004's meta description"
+meta_title: "TalentWorkx | RECRUITMENT PROCESS OUTSOURCING"
+description: "An RPO solution can bring an array of many benefits including managing hiring fluctuations throughout the year; reducing total recruiting cost"
 date: 2022-04-04T05:00:00Z
 image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643475/talentWorkx/qyl5nbi1b7bfnuajne3w.png"
 bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643475/talentWorkx/qyl5nbi1b7bfnuajne3w.png"

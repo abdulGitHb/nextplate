@@ -1,7 +1,7 @@
 ---
 title: "CONTINGENT SEARCH"
-meta_title: ""
-description: "this is solutions-004's meta description"
+meta_title: "TalentWorkx | CONTINGENT SEARCH"
+description: "e are uniquely positioned to address the challenge, find solution and mitigate the failure in your SwitchGear. Our Search is carefully curated"
 date: 2022-04-04T05:00:00Z
 image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643724/talentWorkx/ln5gxum9mtrgeznscpah.png"
 bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643724/talentWorkx/ln5gxum9mtrgeznscpah.png"

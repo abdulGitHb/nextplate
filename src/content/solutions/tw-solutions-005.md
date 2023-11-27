@@ -1,7 +1,7 @@
 ---
 title: "STARTX"
-meta_title: ""
-description: "this is solutions-004's meta description"
+meta_title: "TalentWorkx | STARTX"
+description: "Personal Choices transform into ‘Personnel’ Choices and with advancement in each stage your ‘Personnel decisions’ would hold the ticket for entry"
 date: 2022-04-04T05:00:00Z
 image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652684/talentWorkx/h3ayis3bcwcme9kticih.png"
 bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700547497/talentWorkx/nry82vt5pvdjlg2ry3jm.png"
@@ -11,8 +11,9 @@ tags: ["nextjs", "tailwind"]
 draft: false
 heading: "Pushups to Scaleups"
 
-content: "In today's dynamic markets, flexible staffing solutions can offer agility and cost savings to businesses.
-We are sensitive to the fact that in addition to Flex Staffing, organizations also need value added services not just limited to employee engagement, performance management, talent pipeline management etc.. Our technology enabled transparent work process brings in proven efficiency in deputee engagement and reduces employee Query Resolution Time massively , this bring in higher efficiency in staffing and a significant increase in productivity."
+content: "Betting on Strong ideas to building Scalable Unicorns- Sounds Great! A Start-up is like a rocket on space-mission which if misses the trajectory gets lost in the universe of business. Startups as a rocket, goes through lots of stages from Launch to attaining a stable orbit and beyond that.
+Personal Choices transform into ‘Personnel’ Choices and with advancement in each stage your ‘Personnel decisions’ would hold the ticket for entry to the next stage. We know what you need at each stage gate of your Rocket.
+Our talent solution is designed as per your stage gates and helps you build a talent pool of people who can be, sprinters to marathon runners, engineers to great operators, isolators to motivators and above all astronauts who can persevere and find solutions to calamitous problems at each stage gates."
 ---
 
 Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.

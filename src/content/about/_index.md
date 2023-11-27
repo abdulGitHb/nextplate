@@ -1,7 +1,7 @@
 ---
-title: "Hey, I am John Doe!"
-meta_title: "About"
-description: "this is meta description"
+title: "About Us"
+meta_title: "TalentWorkx | about us"
+description: "about us page for TalentWorkx"
 image: "/images/avatar.png"
 draft: false
 ---

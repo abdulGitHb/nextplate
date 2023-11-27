@@ -1,7 +1,7 @@
 ---
 title: "EXECUTIVE SEARCH"
-meta_title: ""
-description: "this is solutions-001's meta description"
+meta_title: "TaletWorkx | EXECUTIVE SEARCH"
+description: "We do not hesitate in crossing the line to gain access to information critical to a candidates behaviour, competencies, people skills"
 date: 2022-04-04T05:00:00Z
 image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652912/talentWorkx/q32ec4dsj8bm10s1tuhc.png"
 bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652912/talentWorkx/q32ec4dsj8bm10s1tuhc.png"

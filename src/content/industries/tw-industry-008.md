@@ -1,7 +1,7 @@
 ---
 title: "EMPI"
-meta_title: ""
-description: "this is industry-008's meta description"
+meta_title: "TalentWorkx | Engineering Manufacturing & Process Industries"
+description: "With this shift comes a new wave of engineering and manufacturing jobs and in-demand skills. We have a deep understanding of the industry and its functionality..."
 date: 2022-04-04T05:00:00Z
 image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700545596/talentWorkx/lterysn8qsjb5e4cvf1k.png"
 bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700545596/talentWorkx/lterysn8qsjb5e4cvf1k.png"

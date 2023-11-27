@@ -21,6 +21,18 @@ aboutUs:
   titleTwo: "Our DNA, <br> Deliver Not Await"
   descriptionTwo: "We promise to Deliver results irrespective of challenges we come across. We don’t await answers from our client’s rather We present them with solutions and insights to achieve “Better ROI”."
 
+#OurClients
+ourClients:
+  - categoryName: "Category <br/> A"
+    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701063007/talentWorkx/hsabvaul8ja78ofpkdob.png"
+
+  - categoryName: "Category <br/> B"
+    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701063024/talentWorkx/zmafbur2h83tf8kmdvfw.png"
+
+  - categoryName: "Category <br/> C"
+    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701063022/talentWorkx/x7fd5ffyc8jdfnihicro.png"
+
+
 #BetterROI
 betterRoi:
   - title: "New"
