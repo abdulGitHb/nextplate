@@ -37,14 +37,6 @@ const Header = () => {
     window.scroll(0, 0);
   }, [pathname]);
 
-  function toTitleCase(str:string) {
-    return str.replace(
-      /\w\S*/g,
-      function(txt) {
-        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-      }
-    );
-  }
 
   return (
     <header
@@ -125,7 +117,7 @@ const Header = () => {
                             "active"
                           }`}
                         >
-                          {toTitleCase(child.name.toString())}
+                          {child.name}
                         </Link>
                       </li>
                     ))}

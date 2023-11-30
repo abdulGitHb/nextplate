@@ -48,7 +48,7 @@ const OurClientSection = ({ourClients}:{ourClients:OurClients[]}) => {
             key={index}
             className="relative group mt-6 text-gray-700 hover:text-pink-500 bg-cover bg-center bg-no-repeat  hover:border-2 hover border-[#97144D] shadow-md w-72 aspect-square rounded-xl bg-clip-border mx-auto"
         >
-                <div className="bg-cover bg-gray-100/90 group hover:bg-[#97144D] bg-center bg-no-repeat rounded-xl bg-clip-border h-full w-full bg-blend-lighten hover:bg-blend-normal"
+                <div className="bg-cover bg-gray-100/90 group hover:bg-gray-300 bg-center bg-no-repeat rounded-xl bg-clip-border h-full w-full bg-blend-lighten hover:bg-blend-normal"
                 style={{backgroundImage: `url(${ourClient.bgImage})`,}}>
                   <div className="h-full flex flex-col justify-center items-center overflow-hidden">
                     <h5 className="block mb-2 w-full font-sans text-6xl font-bold antialiased leading-snug tracking-normal text-[#97144D] bg-gray-300 group-hover:w-0 group-hover:text-transparent text-center transition-all ease-in-out duration-500"

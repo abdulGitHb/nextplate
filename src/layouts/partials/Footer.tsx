@@ -16,15 +16,6 @@ const Footer = () => {
   const { main, importantLinks }: { main: INavigationLink[], importantLinks:INavigationLink[] } = menu;
   const pathname = usePathname();
 
-  function toTitleCase(str:string) {
-    return str.replace(
-      /\w\S*/g,
-      function(txt) {
-        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-      }
-    );
-  }
-
 
   return (
     <footer className="bg-white border-t-2 border-[#97144D]">
@@ -144,7 +135,7 @@ const Footer = () => {
                     >
                       <p className="flex items-center gap-x-2">
                       <FaChevronRight/>
-                      {toTitleCase(child.name.toString())}
+                      {child.name}
                       </p>
                     </Link>
                   </li>
@@ -168,7 +159,7 @@ const Footer = () => {
                     >
                       <p className="flex items-center gap-x-2">
                       <FaChevronRight/>
-                      {toTitleCase(impLink.name.toString())}
+                      {impLink.name}
                       </p>
                     </Link>
                   </li>
