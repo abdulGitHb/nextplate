@@ -91,8 +91,7 @@ const Contact = () => {
                         </span>
                         
                         <h2 className="mt-4 text-base font-medium text-gray-500 dark:text-white"> Gurgaon Office (Corporate Office)</h2>
-                        <p className="mt-2 text-sm text-[#97144D]">00, Tower A, Paras Twin Towers, Sector 54, Gurugram,
-                            Gurugram, Haryana - 122011</p>
+                        <p className="mt-2 text-sm text-[#97144D]">Paras Twin Towers, Tower A, Golf Course Road, Sector 54, Gurugram, Haryana - 122011</p>
                     </div>
                     <div>
                         <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
@@ -103,7 +102,7 @@ const Contact = () => {
                         </span>
                         
                         <h2 className="mt-4 text-base font-medium text-gray-500 dark:text-white">Bangalore Office</h2>
-                        <p className="mt-2 text-sm text-[#97144D]">Prestige Atlanta, 80 Feet Rd, Koramangala 1A Block, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka - 560034</p>
+                        <p className="mt-2 text-sm text-[#97144D]">Prestige Atlanta, 80 Feet Rd, Koramangala 1A Block, Bengaluru, Karnataka - 560034</p>
                     </div>
                     <div>
                         <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
@@ -114,7 +113,7 @@ const Contact = () => {
                         </span>
                         
                         <h2 className="mt-4 text-base font-medium text-gray-500 dark:text-white"> Lucknow Office</h2>
-                        <p className="mt-2 text-sm text-[#97144D]">Floor 11, Summit Building, TCG 3, 3, Padera - Raebareli Rd, Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh - 226010</p>
+                        <p className="mt-2 text-sm text-[#97144D]">Summit Building, TCG 3, Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh - 226010</p>
                     </div>
 
                     

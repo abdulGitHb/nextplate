@@ -40,11 +40,11 @@ const Header = () => {
 
   return (
     <header
-      className={`header z-30 ${settings.sticky_header && "sticky top-0"}`}
+      className={`header p-2 z-30 ${settings.sticky_header && "sticky top-0"}`}
     >
       <nav className="navbar container">
         {/* logo */}
-        <div className="order-0">
+        <div className="order-0 h-[55px] w-auto flex items-center">
           <Logo />
           {/* <Image
             priority

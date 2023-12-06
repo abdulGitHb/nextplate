@@ -26,7 +26,7 @@ const Footer = () => {
           <div className="col-span-1">
             <div className="text-teal-600">
             <Image
-              width={160}
+              width={240}
               height={30}
               src={logo}
               alt="footer logo here"

@@ -87,7 +87,7 @@ const Contact =  () => {
                         </span>
                         
                         <h2 className="mt-4 text-base font-medium text-gray-500 dark:text-white"> Gurgaon Office (Corporate Office)</h2>
-                        <p className="mt-2 text-sm text-[#97144D]">Paras Twin Towers, Tower A, Sector 54, Gurugram, Haryana - 122011</p>
+                        <p className="mt-2 text-sm text-[#97144D]">Paras Twin Towers, Tower A, Golf Course Road, Sector 54, Gurugram, Haryana - 122011</p>
                     </div>
                     <div>
                         <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">

@@ -26,11 +26,11 @@ const Logo = ({ src }: { src?: string }) => {
   const logoPath = src ? src : resolvedLogo;
 
   return (
-    <Link href="/" className="navbar-brand inline-block">
+    <Link href="/" className="navbar-brand inline-block ">
       {logoPath ? (
         <Image
-          width={160}
-          height={30}
+          width={220}
+          height={70}
           src={logo}
           alt={title}
           priority
