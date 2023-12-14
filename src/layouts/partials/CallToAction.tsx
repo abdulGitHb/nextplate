@@ -25,16 +25,16 @@ const CallToAction = ({ data }: { data: PageData }) => {
                     )}
                     className={`${styles.animatedTxtLong} col-span-1 lg:col-span-2`}
                   />
-                  <div className="w-full lg:w-[350px] col-span-1 flex flex-col justify-center items-center">
+                  <div className="w-full lg:w-[350px] text-2xl col-span-1 flex flex-col justify-center items-center">
                     <p
                       dangerouslySetInnerHTML={markdownify(
                         data.frontmatter.description,
                       )}
-                      className="mb-6 w-full text-[#454545]"
+                      className="mb-6 w-full font-bold text-[#454545]"
                     />
                     {data.frontmatter.button.enable && (
                       <Link
-                        className="btn bg-[#97144D] text-gray-200 hover:bg-gray-300 hover:text-[#97144D]"
+                        className="btn bg-[#97144D] text-lg text-gray-200 hover:bg-gray-300 hover:text-[#97144D]"
                         href={data.frontmatter.button.link}
                       >
                         {data.frontmatter.button.label}

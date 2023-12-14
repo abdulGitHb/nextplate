@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "YOUR TRUSTED PARTNER <br> IN WAR <br> FOR TALENT"
-  content: "UNLOCK YOUR TALENT POTENTIAL WITH TALENTWORKX"
+  content: "UNLOCK YOUR TALENT POTENTIAL <br> WITH TALENTWORKX"
   image: "/images/hero image.png"
   buttonOne:
     enable: true
@@ -16,21 +16,21 @@ banner:
 #AboutUs
 aboutUs:
   titleOne: "Art of <br> Search <br> Curation"
-  descriptionOne: "15 Years of our Experience in the Industry empowers us with the “Art of Search Curation” leading to near perfection in Selection."
+  descriptionOne: "150 Years of Combined Experience in the Industry empowers us with the “Art of Search Curation” leading to near perfection in Selection."
   image: "/images/banner.png"
   titleTwo: "Our DNA, <br> Deliver Not Await"
-  descriptionTwo: "We promise to Deliver results irrespective of challenges we come across. We don’t await answers from our client’s rather We present them with solutions and insights to achieve “Better ROI”."
+  descriptionTwo: "We promise to Deliver results irrespective of challenges we come across. We don’t await answers from our client’s rather We present them with solutions and insights to achieve <br> “Better ROI”."
 
 #OurClients
 ourClients:
   - categoryName: "Category <br/> A"
-    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701345595/talentWorkx/lyrjn8kgbwznml22vqhl.png"
+    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702521591/talentWorkx/yvgjojsptk2mop4bbglb.png"
 
   - categoryName: "Category <br/> B"
-    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701104322/talentWorkx/zcsumq5vbxlhcjhgs4yz.png"
+    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702521591/talentWorkx/iibsmrjqymt3kjpebybq.png"
 
   - categoryName: "Category <br/> C"
-    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1701345595/talentWorkx/zmiqxytyjzv43rmr7tfq.png"
+    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702521591/talentWorkx/hkss7m5iiwheqwjgvwon.png"
 
 
 #BetterROI
@@ -49,35 +49,42 @@ betterRoi:
 #Services
 services:
   - title: "EXECUTIVE SEARCH"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652912/talentWorkx/q32ec4dsj8bm10s1tuhc.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702526897/talentWorkx/licrrbkcr3c032das5hs.jpg"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-001"
     color: "#d3d3d3"
     description: "We work like expert divers who are backed with research driven accurate and precise knowledge coupled with sector and functional expertise to deliver on the mission critical to your Organization’s driving seat."
 
   - title: "CONTINGENT SEARCH"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643724/talentWorkx/ln5gxum9mtrgeznscpah.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702526896/talentWorkx/tykfnavklmzdkksj3evj.jpg"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-002"
     color: "#97144D"
     description: "The Euphoria of Top-Bottom line success stems out from the core of middle line and organizations have started to realize the importance of middle-line SwitchGear for a consistent growth in Top-Bottom lines."
 
   - title: "RPO"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643475/talentWorkx/qyl5nbi1b7bfnuajne3w.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702526898/talentWorkx/lh96w5eva2nzzhepqxj0.jpg"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-003"
     color: "#d3d3d3"
     description: "RPO providers are subject-matter-experts; talent acquisition is their core competency. We know how to navigate the recruiting environment and stay current with the latest recruiting technology. RPOs bring people, technology, process, and metrics into a talent acquisition function."
 
   - title: "FLEXIBLE STAFFING"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700650372/talentWorkx/ofdmvzffpugoqsqzokav.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702526898/talentWorkx/fnqhhcvsxjbq2ivqdaub.jpg"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-004"
     color: "#97144D"
     description: "Our technology enabled transparent work process brings in proven efficiency in deputee engagement and reduces employee Query Resolution Time massively , this bring in higher efficiency in staffing and a significant increase in productivity."
   
   - title: "STARTX"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652684/talentWorkx/h3ayis3bcwcme9kticih.png"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702526898/talentWorkx/rhioscx11xun4fwbwsxs.jpg"
+    icon: "/images/service-1.png"
+    link: "/solutions/tw-solutions-005"
+    color: "#d3d3d3"
+    description: "Our talent solution is designed as per your stage gates and helps you build a talent pool of people who can be, sprinters to marathon runners, engineers to great operators, isolators to motivators and above all astronauts who can persevere and find solutions to calamitous problems at each stage gates."
+
+  - title: "EOR POE"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702526896/talentWorkx/oyg0kz781o2ti00wx0oq.jpg"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-005"
     color: "#d3d3d3"

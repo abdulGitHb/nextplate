@@ -1,17 +1,19 @@
 ---
-title: "RECRUITMENT PROCESS OUTSOURCING"
-meta_title: "TalentWorkx | RECRUITMENT PROCESS OUTSOURCING"
-description: "An RPO solution can bring an array of many benefits including managing hiring fluctuations throughout the year; reducing total recruiting cost"
+title: "CONTINGENT SEARCH"
+meta_title: "TalentWorkx | CONTINGENT SEARCH"
+description: "e are uniquely positioned to address the challenge, find solution and mitigate the failure in your SwitchGear. Our Search is carefully curated"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643475/talentWorkx/qyl5nbi1b7bfnuajne3w.png"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643475/talentWorkx/qyl5nbi1b7bfnuajne3w.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643724/talentWorkx/ln5gxum9mtrgeznscpah.png"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643724/talentWorkx/ln5gxum9mtrgeznscpah.png"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]
 draft: false
-heading: "Ownership To Outcome"
-content: "Today, the recruiting environment is rather complex. In order to effectively recruit top talent, you need to navigate a tight labor market; become proficient in a set of relevant technologies; and manage and nurture candidates and hiring managers. 
-An RPO solution can bring an array of many benefits including managing hiring fluctuations throughout the year; reducing total recruiting cost and dependency on staffing agencies; improving hiring manager satisfaction; reducing time-to-fill; elevating employment brand; improving candidate experience; simplifying or streamlining the hiring process; and saving time for other duties among other benefits."
+heading: "Sandwich layer to SwitchGear"
+content: "A famous business adage “What the Lion cannot manage to do the Fox can”, clearly explains the importance of mid-senior level roles in any Organization.
+Mid-senior level “Personnel” decisions are getting more personal than ever for the C-suite people as they realize that the erstwhile “Sandwich Layer” is now the new Switchgear on which organizations can tread to success.
+The Euphoria of Top-Bottom line success stems out from the core of middle line and organizations have started to realize the importance of middle-line SwitchGear for a consistent growth in Top-Bottom lines.
+We are uniquely positioned to address the challenge, find solution and mitigate the failure in your SwitchGear. Our Search is carefully curated keeping in mind your future needs and aspirations. Our experience and time-tested “Search 2 Selection” solution enables us to create a talent pool which serves your current need and is capable of addressing the future requirements of your Organization."
 ---
 
 Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.

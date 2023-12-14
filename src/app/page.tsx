@@ -52,7 +52,7 @@ const Home = () => {
                 dangerouslySetInnerHTML={markdownify(banner.title)}
               />
               <p
-                className="mb-8 text-[#454545] text-lg font-bold pl-6"
+                className="mb-8 text-[#454545] text-3xl font-bold pl-6"
                 dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
               />
               <div className="flex flex-col md:flex-row text-center pl-6 gap-y-6 gap-x-6 md:gap-x-14">

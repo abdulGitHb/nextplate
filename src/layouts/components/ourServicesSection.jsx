@@ -47,11 +47,12 @@ const OurServicesSection = ({services}) => {
           }}
           className="container mb-4 mt-6 md:mt-20">
             <div className=" place-items-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-8 ">
-            <h1 className="mb-6 text-[#97144D] text-6xl h-[90%] w-[100%] flex justify-center items-center rounded-md p-4 col-span-1 sm:col-span-2 bg-[url(../../public/images/solutions-image.png)]  bg-cover bg-center bg-no-repeat bg-gray-200/80 bg-blend-lighten relative">
-            Our Solutions
+            <h1 className="mb-6 text-[#97144D] text-6xl h-[90%] w-[100%] flex justify-center items-center rounded-md p-4 col-span-1 sm:col-span-2 bg-gray-200 relative">
+              {/* bg-[url(../../public/images/solutions-image.png)] bg-cover bg-center bg-no-repeat bg-gray-200/80 bg-blend-lighten */}
+            What We Offer
             </h1>
             {services.map((service, index) => (
-              <div key={service.title} className="relative col-span-1 group flex flex-col text-gray-700 bg-gray-100 shadow-md w-72 aspect-square rounded-xl bg-clip-border">
+              <div key={service.title} className="relative col-span-1 group flex flex-col text-gray-700 bg-gray-200 shadow-md w-72 aspect-square rounded-xl bg-clip-border">
                 <Link href={service.link}>
                 <div className="relative bg-cover bg-center h-40 mx-4 -mt-6 sm:mt-1 group-hover:-mt-8 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
                 style={{backgroundImage: `url(${service.image})`}}

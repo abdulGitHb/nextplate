@@ -54,11 +54,11 @@ const Contact =  () => {
         image={"/hello"}
       />
       {/* <PageHeader title={title} /> */}
-      <header className="flex justify-center items-center font-serif bg-gray-200/80 bg-blend-lighten text-[4vw] font-bold text-[#97144D] headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
-      style={{backgroundImage:`url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1700637043/talentWorkx/lcdyd4ctr7ontqrflek7.png)`}}>
+      <header className="flex justify-center items-end font-serif bg-gray-200/40 bg-blend-lighten text-[4vw] font-bold text-[#97144d] headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
+      style={{backgroundImage:`url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1702530052/talentWorkx/aa8v6dvdcsqfdfslherz.jpg)`}}>
         {"Contact"}
       </header>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white ">
         <div className="container px-6 py-12 mx-auto">
 
             <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
@@ -70,9 +70,9 @@ const Contact =  () => {
                             </svg>
                         </span>
 
-                        <h2 className="mt-4 text-base font-medium text-[#97144D] dark:text-white">Email</h2>
-                        <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Our team is here to help.</p>
-                        <p className="mt-2 text-sm text-[#97144D]">connect@talentworkx.in</p>
+                        <h2 className="mt-4 text-lg font-bold text-[#97144D] dark:text-white">Email</h2>
+                        <p className="mt-2 text-lg text-gray-500 dark:text-gray-400">Our team is here to help.</p>
+                        <p className="mt-2 text-xl font-bold text-[#97144D]">connect@talentworkx.in</p>
                     </div>
 
 

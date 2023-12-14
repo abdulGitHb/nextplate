@@ -37,14 +37,14 @@ const OurIndustriesSection = ({industries}:{industries: Industries[]}) => {
                       viewBox="0 0 24 24" 
                       xmlns="http://www.w3.org/2000/svg"
                       aria-hidden="true"
-                      className="w-16 h-12 mb-4 text-pink-500"
+                      className="w-16 h-12 mb-4 text-[#97144d] group-hover:text-gray-300"
                     >
                       <path
                         fillRule="evenodd"
                         d="M 20 5 L 20 10.46875 L 17 12.25 L 17 9.21875 L 15.5 10.15625 L 12 12.25 L 12 9.21875 L 10.5 10.15625 L 5.5 13.15625 L 5 13.4375 L 5 27 L 27 27 L 27 5 Z M 22 7 L 25 7 L 25 25 L 7 25 L 7 14.53125 L 10 12.75 L 10 15.78125 L 11.5 14.84375 L 15 12.75 L 15 15.78125 L 16.5 14.84375 L 21.5 11.84375 L 22 11.5625 Z M 9 17 L 9 19 L 11 19 L 11 17 Z M 13 17 L 13 19 L 15 19 L 15 17 Z M 17 17 L 17 19 L 19 19 L 19 17 Z M 21 17 L 21 19 L 23 19 L 23 17 Z M 9 21 L 9 23 L 11 23 L 11 21 Z M 13 21 L 13 23 L 15 23 L 15 21 Z M 17 21 L 17 23 L 19 23 L 19 21 Z M 21 21 L 21 23 L 23 23 L 23 21 Z"
                         clipRule="evenodd"></path>
                     </svg>
-                    <h5 className="block mb-2 font-sans text-3xl font-bold antialiased leading-snug tracking-normal text-blue-gray-900 group-hover:text-white"
+                    <h5 className="block mb-2 font-sans text-3xl font-bold antialiased leading-snug tracking-normal text-[#97144d] group-hover:text-gray-300"
                     dangerouslySetInnerHTML={markdownify(industry.title)}
                     />
                     {/* <p className="block font-sans text-base antialiased font-light leading-relaxed text-inherit"
@@ -52,7 +52,7 @@ const OurIndustriesSection = ({industries}:{industries: Industries[]}) => {
                     /> */}
                       <div className="">
                           <button
-                            className="flex items-center gap-2 font-sans text-xs font-bold text-center text-pink-500 uppercase align-middle transition-all rounded-lg select-none hover:bg-pink-500/10 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                            className="flex items-center gap-2 font-sans text-xs font-bold text-center text-[#97144d] uppercase align-middle transition-all rounded-lg select-none hover:bg-pink-500/10 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                             type="button"
                             data-ripple-dark="true"
                           >

@@ -25,13 +25,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
           <div className="col-span-1">
             <div className="text-teal-600">
-            <Image
-              width={240}
-              height={30}
-              src={logo}
-              alt="footer logo here"
-              priority
-            />
+              <Link href="/">
+                <Image
+                  width={280}
+                  height={30}
+                  src={logo}
+                  alt="footer logo here"
+                  priority
+                />
+              </Link>
             </div>
 
             <p className="mt-4 max-w-xs text-gray-500">
@@ -121,7 +123,7 @@ const Footer = () => {
           >
             {main.map((menu, i)=>(
               <div key={i} className="ml-4">
-                {menu.hasChildren && <h1 className="text-xl mb-3">{menu.name}</h1> }
+                {menu.hasChildren && <h1 className="text-2xl text-[#97144D] mb-3">{menu.name}</h1> }
                 <ul className=" grid grid-cols-2 gap-y-2">
                 {menu.children?.map((child, i) => (
                   <li className="col-span-2" key={`children-${i}`}>
@@ -133,7 +135,7 @@ const Footer = () => {
                         "active"
                       }`}
                     >
-                      <p className="flex items-center gap-x-2">
+                      <p className="flex text-lg items-center gap-x-2">
                       <FaChevronRight/>
                       {child.name}
                       </p>
@@ -145,7 +147,7 @@ const Footer = () => {
             ))}
           </div>
           <div>
-          <h1 className="text-xl mb-2 ml-4">Important Links</h1>
+          <h1 className="text-2xl text-[#97144D] mb-2 ml-4">Important Links</h1>
           <ul className=" grid grid-cols-2 gap-x-1 gap-y-2 ml-4">
                 {importantLinks.map((impLink, i) => (
                   <li className="col-span-2" key={`implink-${i}`}>
@@ -157,7 +159,7 @@ const Footer = () => {
                         "active"
                       }`}
                     >
-                      <p className="flex items-center gap-x-2">
+                      <p className="flex text-lg items-center gap-x-2">
                       <FaChevronRight/>
                       {impLink.name}
                       </p>

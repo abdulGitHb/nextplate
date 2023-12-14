@@ -126,9 +126,9 @@ const OurNewRoiSection = ({betterRoi} : {betterRoi: BetterROI[]}) => {
                   duration:1
             }}
           className= "ml-auto mr-auto col-span-2 grid grid-cols-4 items-center text-white text-4xl text-center p-4">
-            <h1 className="text-gray-200 col-span-2">Your Recruitment Challenges <br></br> + <br></br>Our Insights</h1>
-            <h1 className="text-gray-200 col-span-1">=</h1>
-            <h1 className="text-gray-200 col-span-1 text-left">Better ROI</h1>
+            <h1 className="text-gray-300 col-span-2">Your Recruitment Challenges <br></br> + <br></br>Our Insights</h1>
+            <h1 className="text-gray-300 col-span-1">=</h1>
+            <h1 className="text-gray-300 col-span-1 text-left">Better ROI</h1>
           </motion.div>
           <div className="flex flex-col col-span-1">
             {betterRoi.map((roi, index: number) => (
@@ -149,14 +149,14 @@ const OurNewRoiSection = ({betterRoi} : {betterRoi: BetterROI[]}) => {
               className="" key={index}>
                 <div className="flex">
                   <div className="relative w-[140px] object-cover">
-                    <svg className="fill-gray-300 group-hover:fill-gray-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="hexagon">
+                    <svg className="fill-gray-300 group-hover:fill-gray-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" id="hexagon">
                     <rect width="150" height="150" fill="none"></rect>
                     <path d="M219.87305,66.73828l-84-47.478a16.08654,16.08654,0,0,0-15.7461,0l-84,47.47852A16.0255,16.0255,0,0,0,28,80.668V175.332a16.02688,16.02688,0,0,0,8.127,13.92969l84,47.478a16.08782,16.08782,0,0,0,15.7461,0l84-47.47852A16.0255,16.0255,0,0,0,228,175.332V80.668A16.02688,16.02688,0,0,0,219.87305,66.73828Z"></path>
                     </svg>
-                    <h1 className="opacity-100 group-hover:text-[#97144D] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xl text-center text-white"
+                    <h1 className="opacity-100 group-hover:text-gray-500 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xl text-center text-white"
                     dangerouslySetInnerHTML={markdownify(roi.title)}/>
                   </div>
-                    <p className="text-xl font-bold text-center flex items-center justify-center text-gray-200"
+                    <p className="text-xl font-bold text-center flex items-center justify-center text-gray-300"
                     dangerouslySetInnerHTML={markdownify(roi.description)}/>
                 </div>
               </motion.div>

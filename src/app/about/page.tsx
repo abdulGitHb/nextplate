@@ -34,19 +34,19 @@ const About = () => {
                                       <path
                                           d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z">
                                       </path>
-                                  </svg> <span className="text-5xl text-[#97144D]">15+</span><br /> Years Of Experience
+                                  </svg> <span className="text-5xl text-[#97144D]">150</span><br /> Years Of Experience
                               </p>
                           </div>
                       </div>
                   </div>
                   <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
-                      <div className="pl-4 mb-6 border-l-4 border-[#97144D] ">
-                          <h1 className="mt-2 text-3xl font-black text-gray-700 md:text-5xl dark:text-gray-300">
+                      <div className="pl-4 mb-6 border-l-4 border-gray-400 ">
+                          <h1 className="mt-2 text-3xl font-black text-[#97144D] md:text-5xl dark:text-gray-300">
                               About Us
                           </h1>
                       </div>
-                      <p className="mb-6 text-base leading-7 text-xl text-gray-500 dark:text-gray-400">
-                        15 Years of our Experience in the Industry empowers us with the <b>“Art of Search Curation”</b> leading to near perfection in Selection. Our DNA- Deliver Not Await! We promise to Deliver results irrespective of challenges we come across. We don’t await answers from our Client’s rather WE present them with solutions and insights to achieve <b>“Better ROI”</b>.
+                      <p className="mb-6 text-xl text-gray-500 dark:text-gray-400">
+                        150 Years of Combined Experience in the Industry empowers us with the <span className="text-3xl font-bold text-[#97144D]">“Art of Search Curation”</span> leading to near perfection in Selection. Our DNA- Deliver Not Await! We promise to Deliver results irrespective of challenges we come across. We don&apos;t await answers from our Client&apos;s rather WE present them with solutions and insights to achieve <br /> <span className="text-4xl font-bold text-[#97144D]">“Better ROI”</span>.
                       </p>
                   </div>
               </div>
