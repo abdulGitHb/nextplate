@@ -143,7 +143,7 @@ const UpcomingOfficeComponent = () => {
                     {activeIndex === index && (
                         <div className="grid gap-12 grid-cols-3 mt-8 transition-all ease-in-out">
                             {item.answer.map((ans, index) => (
-                                <div>
+                                <div key={index}>
                                     <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
