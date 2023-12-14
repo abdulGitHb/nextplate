@@ -15,19 +15,19 @@ const UpcomingOfficeComponent = () => {
       question: 'Upcoming Offices',
       answer: [{
         name: 'Noida',
-        date: 'Coming Soon(In the next 3 months)'
+        date: 'Coming in the next 3 months'
       },
       {
         name: 'Chandigarh',
-        date: 'Coming Soon(In the next 3 months)'
+        date: 'Coming in the next 3 months'
       },
       {
         name: 'Indore',
-        date: 'Coming Soon(In the next 3 months)'
+        date: 'Coming in the next 3 months'
       },
       {
         name: 'Jaipur',
-        date: 'Coming Soon(In the next 3 months)'
+        date: 'Coming in the next 3 months'
       }
     ],
     },
@@ -141,17 +141,19 @@ const UpcomingOfficeComponent = () => {
                         <div>{activeIndex === index ? <FaChevronUp color="#97144d"/> :<FaChevronDown color="#97144d"/> }</div>
                     </div>
                     {activeIndex === index && (
-                        <div className="grid gap-12 grid-cols-3 mt-8 transition-all ease-in-out">
+                        <div className="grid gap-12 grid-cols-4 mt-8 transition-all ease-in-out">
                             {item.answer.map((ans, index) => (
                                 <div key={index}>
-                                    <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                                        </svg>
-                                    </span>
-                                    
-                                    <h2 className="mt-4 text-base text-2xl font-semibold text-[#97144D] ">{ans.name}</h2>
+                                    <div className="flex items-center gap-x-2">
+                                        <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                                            </svg>
+                                        </span>
+                                        
+                                        <h2 className="text-3xl font-semibold text-[#97144D] ">{ans.name}</h2>
+                                    </div>
                                     <p className="mt-2 text-sm text-[#97144D]">{ans.date}</p>
                                 </div>
                             ))}

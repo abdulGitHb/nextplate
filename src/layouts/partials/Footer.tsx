@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
 
             <div className="mt-4 flex text-gray-500">
-            <div className="w-28 h-10 bg-red-300 bg-cover"
+            <div className="w-16 h-10 bg-red-300 bg-cover"
               style={{backgroundImage: `url('/images/hfc-logo.jpg')`}}
             ></div> 
               <p className="text-md ">

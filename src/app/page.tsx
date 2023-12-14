@@ -11,6 +11,10 @@ import OurNewRoiSection from "@/components/ourNewRoi";
 import AboutUsSection from "@/components/aboutUsSection";
 import Link from "next/link"
 import OurClientSection from "@/components/ourClients";
+import OurIndustriesSectionTwo from "@/components/ourIndustriesSectionTwo";
+import styles from "@/components/styles.module.css";
+import About from "./about/page";
+import ScrollExample from "@/components/Share";
     
 require('dotenv').config();
 
@@ -86,6 +90,7 @@ const Home = () => {
         <OurNewRoiSection betterRoi={betterRoi} />
       </section>
 
+
       <section className="">
         <OurServicesSection services={services} />
       </section>
@@ -93,6 +98,9 @@ const Home = () => {
       <section className="overflow-hidden">
         <OurIndustriesSection industries={industries} />
       </section>
+      
+
+
 {/* 
       {features.map((feature, index: number) => (
         <section

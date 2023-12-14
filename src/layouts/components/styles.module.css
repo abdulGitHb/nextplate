@@ -129,3 +129,42 @@
         height: 300px;
     }
   } */
+
+
+  /* our-industries-two section */
+/* Three column layout */
+/* .columns {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.columns {
+  overflow-y: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.columnreverse {
+	transform: top(calc(-210% + 90vh));
+}
+
+.columnreverse {
+	flex-direction: column-reverse;
+}
+
+@keyframes adjust-position {
+	from {
+		transform: translateY(calc(-210% + 90vh));
+	}
+
+	to {
+		transform: translateY(calc(220% - 90vh));
+	}
+}
+.columnreverse {
+	animation: adjust-position linear forwards;
+	animation-timeline: scroll(root block);
+} */

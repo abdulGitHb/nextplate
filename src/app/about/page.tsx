@@ -1,14 +1,15 @@
-import ImageFallback from "@/helpers/ImageFallback";
-import MDXContent from "@/helpers/MDXContent";
+
 import { getListPage } from "@/lib/contentParser";
-import { markdownify } from "@/lib/utils/textConverter";
 import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
+import TabsComponent from "./accordian-comp";
+
 
 const About = () => {
   const data: RegularPage = getListPage("about/_index.md");
-  const { frontmatter, content } = data;
+  const { frontmatter } = data;
   const { title, meta_title, description, image } = frontmatter;
+
 
   return (
     <>
@@ -26,7 +27,7 @@ const About = () => {
                           <img src="https://res.cloudinary.com/dmquwnaeb/image/upload/v1700672718/talentWorkx/t80ecqmorlgqrfjx2yaw.jpg" alt="aboutimage"
                               className="relative z-10 object-cover w-full rounded h-auto h object-center"/>
                           <div
-                              className="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-[#97144D] rounded shadow dark:border-blue-400 lg:-mb-8 lg:-mr-11 sm:p-8 dark:text-gray-300 dark:bg-gray-800 ">
+                              className="absolute bottom-0 right-0 z-10 p-8 bg-white border-4 border-[#97144D] rounded shadow lg:-mb-8 lg:-mr-11 sm:p-8 dark:text-gray-300  ">
                               <p className="text-lg font-semibold md:w-60">
                                   <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                                       className="absolute top-0 left-0 w-16 h-16 text-blue-700 dark:text-gray-300 opacity-10"
@@ -40,18 +41,20 @@ const About = () => {
                       </div>
                   </div>
                   <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
-                      <div className="pl-4 mb-6 border-l-4 border-gray-400 ">
+                        <TabsComponent/>
+                      {/* <div className="pl-4 mb-6 border-l-4 border-gray-400 ">
                           <h1 className="mt-2 text-3xl font-black text-[#97144D] md:text-5xl dark:text-gray-300">
                               About Us
                           </h1>
                       </div>
                       <p className="mb-6 text-xl text-gray-500 dark:text-gray-400">
                         150 Years of Combined Experience in the Industry empowers us with the <span className="text-3xl font-bold text-[#97144D]">“Art of Search Curation”</span> leading to near perfection in Selection. Our DNA- Deliver Not Await! We promise to Deliver results irrespective of challenges we come across. We don&apos;t await answers from our Client&apos;s rather WE present them with solutions and insights to achieve <br /> <span className="text-4xl font-bold text-[#97144D]">“Better ROI”</span>.
-                      </p>
+                      </p> */}
                   </div>
               </div>
           </div>
       </section>
+      
     </>
   );
 };
