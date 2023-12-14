@@ -6,6 +6,7 @@ import { FormEvent, useState, ChangeEvent } from "react";
 import UpcomingOfficeComponent from "@/components/upcomingOffices";
 import axios from "axios";
 import toast from "react-hot-toast";
+import OurOffices from "@/partials/our-offices";
 
 
 const Contact = () => {
@@ -58,66 +59,16 @@ const Contact = () => {
         image={"image"}
       />
       {/* <PageHeader title="Candidate Form" /> */}
-      <header className="flex justify-center items-center font-serif bg-gray-200/80 bg-blend-lighten text-[4vw] font-bold text-[#97144D] headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
-      style={{backgroundImage:`url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1700637043/talentWorkx/lcdyd4ctr7ontqrflek7.png)`}}>
-        Candidate Form
+      <header className="flex justify-center items-center font-serif  headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
+      style={{backgroundImage:`url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1702544060/talentWorkx/sbhjkoimbcbgzvipjmnt.jpg)`}}>
       </header>
       <section className="bg-white dark:bg-gray-900">
+      <h1 className="text-[4vw] font-bold text-[#97144d] mt-6 text-center">Candidate Contact</h1>
+
         <div className="container px-6 py-12 mx-auto">
 
             <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
-                <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
-                    <div>
-                        <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                            </svg>
-                        </span>
-
-                        <h2 className="mt-4 text-base font-medium text-[#97144D] dark:text-white">Email</h2>
-                        <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Our team is here to help.</p>
-                        <p className="mt-2 text-sm text-[#97144D]">connect@talentworkx.in</p>
-                    </div>
-
-
-                    <h1 className="md:col-span-2 text-[#97144D]">Our offices</h1>
-                    <div>
-                        <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                            </svg>
-                        </span>
-                        
-                        <h2 className="mt-4 text-base font-medium text-gray-500 dark:text-white"> Gurgaon Office (Corporate Office)</h2>
-                        <p className="mt-2 text-sm text-[#97144D]">Paras Twin Towers, Tower A, Golf Course Road, Sector 54, Gurugram, Haryana - 122011</p>
-                    </div>
-                    <div>
-                        <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                            </svg>
-                        </span>
-                        
-                        <h2 className="mt-4 text-base font-medium text-gray-500 dark:text-white">Bangalore Office</h2>
-                        <p className="mt-2 text-sm text-[#97144D]">Prestige Atlanta, 80 Feet Rd, Koramangala 1A Block, Bengaluru, Karnataka - 560034</p>
-                    </div>
-                    <div>
-                        <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                            </svg>
-                        </span>
-                        
-                        <h2 className="mt-4 text-base font-medium text-gray-500 dark:text-white"> Lucknow Office</h2>
-                        <p className="mt-2 text-sm text-[#97144D]">Summit Building, TCG 3, Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh - 226010</p>
-                    </div>
-
-                    
-
-                </div>
+                <OurOffices/>
 
                 <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8 flex flex-col justify-around">
                     <form onSubmit={handleSubmit}>

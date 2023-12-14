@@ -27,8 +27,8 @@ const Footer = () => {
             <div className="text-teal-600">
               <Link href="/">
                 <Image
-                  width={280}
-                  height={30}
+                  width={320}
+                  height={40}
                   src={logo}
                   alt="footer logo here"
                   priority
@@ -36,9 +36,14 @@ const Footer = () => {
               </Link>
             </div>
 
-            <p className="mt-4 max-w-xs text-gray-500">
-            Helped more than 10k candidates build their career across various industries and geographies.
-            </p>
+            <div className="mt-4 flex text-gray-500">
+            <div className="w-28 h-10 bg-red-300 bg-cover"
+              style={{backgroundImage: `url('/images/hfc-logo.jpg')`}}
+            ></div> 
+              <p className="text-md ">
+                Helped more than 10k candidates build their career across various industries and geographies.
+              </p> 
+            </div>
 
             <ul className="mt-8 flex gap-6">
             <li>

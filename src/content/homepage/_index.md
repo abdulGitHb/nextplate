@@ -39,7 +39,7 @@ betterRoi:
     description: "Welcome to new possibilities <br> in Recruitment..."
   
   - title: "ROI"
-    description: "The new ROI- A Return <br> on Individual"
+    description: "The new ROI- Return <br> on Individual"
   
   - title: "It Works"
     description: "We get Jobs working <br> with people"
@@ -62,7 +62,7 @@ services:
     color: "#97144D"
     description: "The Euphoria of Top-Bottom line success stems out from the core of middle line and organizations have started to realize the importance of middle-line SwitchGear for a consistent growth in Top-Bottom lines."
 
-  - title: "RPO"
+  - title: "RECRUITMENT PROCESS OUTSOURCING"
     image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702526898/talentWorkx/lh96w5eva2nzzhepqxj0.jpg"
     icon: "/images/service-1.png"
     link: "/solutions/tw-solutions-003"

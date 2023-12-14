@@ -52,17 +52,17 @@ const OurServicesSection = ({services}) => {
             What We Offer
             </h1>
             {services.map((service, index) => (
-              <div key={service.title} className="relative col-span-1 group flex flex-col text-gray-700 bg-gray-200 shadow-md w-72 aspect-square rounded-xl bg-clip-border">
+              <div key={service.title} className="relative col-span-1 group flex flex-col text-gray-700 bg-gray-200 shadow-md w-72 aspect-[1/1.2] rounded-xl bg-clip-border">
                 <Link href={service.link}>
-                <div className="relative bg-cover bg-center h-40 mx-4 -mt-6 sm:mt-1 group-hover:-mt-8 overflow-hidden text-white shadow-lg rounded-xl bg-blue-gray-500 bg-clip-border shadow-blue-gray-500/40"
+                <div className="relative bg-cover bg-center h-40 mx-4 -mt-6 sm:mt-1 group-hover:scale-110 overflow-hidden text-white shadow-lg rounded-xl bg-gray-500 shadow-gray-500/80 transition-all ease-in-out"
                 style={{backgroundImage: `url(${service.image})`}}
                 >
                 </div>
-                <div className="p-6">
+                <div className="absolute top-1/2 p-6">
                   <h5 className="block mb-2 font-sans  text-xl antialiased font-bold leading-snug tracking-normal text-[#97144D]"
                   dangerouslySetInnerHTML={markdownify(service.title)}/>
                 </div>
-                <div className="p-6 pt-0">
+                <div className=" absolute bottom-0 p-6 pt-0">
                     <button
                       className="rounded-lg bg-[#97144D] py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-[#97144D]/20 transition-all hover:shadow-lg hover:shadow-[#97144D]/40"
                       type="button"

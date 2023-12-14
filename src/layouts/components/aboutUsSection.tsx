@@ -33,7 +33,7 @@ const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?:
                             whileInView={{y:0, opacity:1}}
                             viewport={{once:true}}
                             transition={{duration:1, delay:0.5}}
-                            className="col-span-1 md:p-4 text-lg md:text-2xl border-l-8 border-gray-600 flex items-center justify-center text-[#454545]"
+                            className="col-span-1 md:p-4 text-xl font-bold md:text-3xl border-l-8 border-gray-600 flex items-center justify-center text-gray-500"
                             dangerouslySetInnerHTML={markdownify(aboutUs.descriptionOne ?? "")}
                             />
                         </div>
@@ -70,7 +70,7 @@ const AboutUsSection = ({aboutUs}:{aboutUs: { titleOne: string; descriptionOne?:
                             whileInView={{y:0, opacity:1}}
                             viewport={{once:true}}
                             transition={{duration:1.5, delay:0.5}}
-                            className="col-span-1 md:p-4 order-1 border-r-8 border-gray-600 flex items-center justify-center text-lg md:text-2xl text-[#454545]"
+                            className="col-span-1 md:p-4 order-1 border-r-8 border-gray-600 flex items-center justify-center text-xl font-bold md:text-3xl text-gray-500"
                             dangerouslySetInnerHTML={markdownify(aboutUs.descriptionTwo ?? "")}
                             />
                         </div>

@@ -29,8 +29,8 @@ const Logo = ({ src }: { src?: string }) => {
     <Link href="/" className="navbar-brand inline-block ">
       {logoPath ? (
         <Image
-          width={220}
-          height={70}
+          width={280}
+          height={80}
           src={logo}
           alt={title}
           priority

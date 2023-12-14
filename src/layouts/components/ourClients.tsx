@@ -46,7 +46,7 @@ const OurClientSection = ({ourClients}:{ourClients:OurClients[]}) => {
             viewport={{once:true}}
             transition={{ duration:1.5 }}
             key={index}
-            className="relative group mt-6 text-gray-700 hover:text-pink-500 bg-cover bg-center bg-no-repeat  hover:border-2 hover border-[#97144D] shadow-md w-72 aspect-square rounded-xl bg-clip-border mx-auto"
+            className="relative group mt-6 text-gray-500 hover:text-pink-500 bg-cover bg-center bg-no-repeat  hover:border-2 hover border-[#97144D] shadow-md w-72 aspect-square rounded-xl bg-clip-border mx-auto"
         >
                 <div className="bg-cover bg-gray-100/90 group hover:bg-gray-300 bg-center bg-no-repeat rounded-xl bg-clip-border h-full w-full bg-blend-lighten hover:bg-blend-normal"
                 style={{backgroundImage: `url(${ourClient.bgImage})`,}}>

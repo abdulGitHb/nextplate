@@ -25,12 +25,12 @@ const CallToAction = ({ data }: { data: PageData }) => {
                     )}
                     className={`${styles.animatedTxtLong} col-span-1 lg:col-span-2`}
                   />
-                  <div className="w-full lg:w-[350px] text-2xl col-span-1 flex flex-col justify-center items-center">
+                  <div className="w-full  text-4xl col-span-1 flex flex-col justify-between items-center">
                     <p
                       dangerouslySetInnerHTML={markdownify(
                         data.frontmatter.description,
                       )}
-                      className="mb-6 w-full font-bold text-[#454545]"
+                      className="mb-6 w-full font-bold text-gray-500"
                     />
                     {data.frontmatter.button.enable && (
                       <Link

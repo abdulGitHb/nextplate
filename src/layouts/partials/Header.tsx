@@ -84,14 +84,14 @@ const Header = () => {
 
         <ul
           id="nav-menu"
-          className={`navbar-nav order-3 ${isNavOpen ? 'block' : 'hidden'} w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8`}
+          className={`navbar-nav order-3 ${isNavOpen ? 'block' : 'hidden'} w-full pb-6 lg:order-1 lg:flex lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-6`}
         >
           {main.map((menu, i) => (
             <React.Fragment key={`menu-${i}`}>
               {menu.hasChildren ? (
                 <li className="nav-item nav-dropdown group relative">
                   <span
-                    className={`nav-link inline-flex text-[#97144D] items-center ${
+                    className={`nav-link inline-flex text-[#97144D] hover:text-[#97144d] bg-gray-200 rounded-md items-center ${
                       menu.children?.map(({ url }) => url).includes(pathname) ||
                       menu.children
                         ?.map(({ url }) => `${url}/`)
@@ -111,7 +111,7 @@ const Header = () => {
                         <Link
                           href={child.url}
                           onClick={() => setIsNavOpen(false)}
-                          className={`nav-dropdown-link text-[#97144D] hover:text-black block ${
+                          className={`nav-dropdown-link text-[#97144D] hover:text-gray-400 block ${
                             (pathname === `${child.url}/` ||
                               pathname === child.url) &&
                             "active"
@@ -128,7 +128,7 @@ const Header = () => {
                   <Link
                     href={menu.url}
                     onClick={() => setIsNavOpen(false)}
-                    className={`nav-link block text-[#97144D] hover:text-black ${
+                    className={`nav-link block text-[#97144D] hover:text-[#97144d] hover:scale-105 bg-gray-200 px-4 rounded-md ${
                       (pathname === `${menu.url}/` || pathname === menu.url) &&
                       "active"
                     }`}
