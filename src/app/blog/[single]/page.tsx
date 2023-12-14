@@ -127,12 +127,12 @@ const PostSingle = ({ params }: { params: { single: string } }) => {
                 </div>
                 <div className="flex items-center lg:col-4">
                   <h5 className="mr-3">Share :</h5>
-                  <Share
+                  {/* <Share
                     className="social-icons"
                     title={title}
                     description={description}
                     slug={post.slug!}
-                  />
+                  /> */}
                 </div>
               </div>
               <Disqus className="mt-20" />
