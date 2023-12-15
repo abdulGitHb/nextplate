@@ -64,7 +64,7 @@ export default function TabsComponent() {
       <CustomTabPanel value={value} index={1}>
             <p className="mb-6 text-xl text-gray-500 dark:text-gray-400">
             Our mission 2030: <br /> <span className="text-3xl font-bold text-[#97144D]">$100 billion company by 2030.</span> <br />
-            Fueled by innovation and a commitment to excellence, we&apos;re on a transformative journey to make a change in the industry. Our dynamic team, cutting-edge tech, and strategic foresight propel us towards this ambitious milestone. Beyond financial success, it's about cultivating trust, partnerships, and a culture of growth and innovation.
+            Fueled by innovation and a commitment to excellence, we&apos;re on a transformative journey to make a change in the industry. Our dynamic team, cutting-edge tech, and strategic foresight propel us towards this ambitious milestone. Beyond financial success, it&apos;s about cultivating trust, partnerships, and a culture of growth and innovation.
             </p>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
