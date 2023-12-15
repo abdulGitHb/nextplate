@@ -11,10 +11,7 @@ import OurNewRoiSection from "@/components/ourNewRoi";
 import AboutUsSection from "@/components/aboutUsSection";
 import Link from "next/link"
 import OurClientSection from "@/components/ourClients";
-import OurIndustriesSectionTwo from "@/components/ourIndustriesSectionTwo";
-import styles from "@/components/styles.module.css";
-import About from "./about/page";
-import ScrollExample from "@/components/Share";
+import OurIndustriesSectionScroll from "@/components/our-industries-scroll";
     
 require('dotenv').config();
 
@@ -49,14 +46,14 @@ const Home = () => {
       <section className="section overflow-hidden pt-14 pr-2 h-[650px] bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1700729703/talentWorkx/crdpc86e3winzyilqyss.png)] md:bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1700729886/talentWorkx/tte8xnmf5eazzqry8juw.png)] bg-cover bg-center bg-no-repeat relative aspect-[16/9] w-full"
         >
         <div className="container mt-auto grid grid-cols-3">
-          <div className="flex flex-col col-span-2 justify-left items-center">
-            <div className="mb-16 text-left gap-y-4 flex flex-col">
+          <div className="flex flex-col col-span-3 md:col-span-2 justify-left items-center">
+            <div className="mb-16 text-left gap-y-4 flex flex-col w-full">
               <h1
-                className="mb-4 text-[#97144D] text-4xl pl-6 md:text-7xl font-serif"
+                className="md:mb-4 mb-1 text-[#97144D] text-3xl w-full pl-6 md:text-7xl font-serif"
                 dangerouslySetInnerHTML={markdownify(banner.title)}
               />
               <p
-                className="mb-8 text-gray-400 text-3xl font-bold pl-6"
+                className="mb-8 text-gray-400 text-2xl md:text-3xl font-bold pl-6"
                 dangerouslySetInnerHTML={markdownify(banner.content ?? "")}
               />
               <div className="flex flex-col md:flex-row text-center pl-6 gap-y-6 gap-x-6 md:gap-x-14">
@@ -95,10 +92,13 @@ const Home = () => {
         <OurServicesSection services={services} />
       </section>
 
-      <section className="overflow-hidden">
+      {/* <section className="overflow-hidden">
         <OurIndustriesSection industries={industries} />
-      </section>
+      </section> */}
       
+      <section className="">
+        <OurIndustriesSectionScroll industries={industries}/>
+      </section>
 
 
 {/* 

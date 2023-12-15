@@ -25,7 +25,7 @@ const CallToAction = ({ data }: { data: PageData }) => {
                     )}
                     className={`${styles.animatedTxtLong} col-span-1 lg:col-span-2`}
                   />
-                  <div className="w-full  text-4xl col-span-1 flex flex-col justify-between items-center">
+                  <div className="w-full text-2xl sm:text-4xl col-span-1 flex flex-col justify-between items-center">
                     <p
                       dangerouslySetInnerHTML={markdownify(
                         data.frontmatter.description,

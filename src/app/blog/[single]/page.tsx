@@ -1,6 +1,6 @@
 import BlogCard from "@/components/BlogCard";
 import Disqus from "@/components/Disqus";
-import Share from "@/components/Share";
+import Share from "@/components/our-industries-scroll";
 import config from "@/config/config.json";
 import ImageFallback from "@/helpers/ImageFallback";
 import MDXContent from "@/helpers/MDXContent";

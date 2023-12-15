@@ -6,7 +6,7 @@ const OurOffices = () => {
     },
     {
         office: "Bangalore Office",
-        address: "Prestige Atlanta, 80 Feet Rd, Koramangala 1A Block, Bengaluru, Karnataka - 560034"
+        address: "No. 192, Service Road, West of Chord Road, 2nd Stage, Mahalaxmipuram, Bangalore - 560086"
     },
     {
         office: "Lucknow Office",
@@ -14,15 +14,15 @@ const OurOffices = () => {
     },
     {
         office: "Mumbai Office",
-        address: "address"
+        address: "address soon"
     },
     {
         office: "Delhi Office",
-        address: "address"
+        address: "address soon"
     },
     {
         office: "Pune Office",
-        address: "address"
+        address: "address soon"
     
     }]
     return ( 

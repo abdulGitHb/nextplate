@@ -36,6 +36,7 @@ function a11yProps(index: number) {
   return {
     id: `simple-tab-${index}`,
     'aria-controls': `simple-tabpanel-${index}`,
+    className:'text-xl font-bold'
   };
 }
 
@@ -50,9 +51,9 @@ export default function TabsComponent() {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider', color:'#97144d', }}>
         <Tabs value={value} textColor="inherit" indicatorColor="secondary" onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="About Us"  {...a11yProps(0)} />
-          <Tab label="Mission 2030" {...a11yProps(1)} />
-          <Tab label="Vision" {...a11yProps(2)} />
+          <Tab label="About Us"   {...a11yProps(0)} />
+          <Tab label="Our Mission" {...a11yProps(1)} />
+          <Tab label="Our Vision" {...a11yProps(2)} />
         </Tabs>
       </Box>
       <CustomTabPanel value={value} index={0}>
@@ -61,10 +62,15 @@ export default function TabsComponent() {
             </p>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        $100 Bn Company
+            <p className="mb-6 text-xl text-gray-500 dark:text-gray-400">
+            Our mission 2030: <br /> <span className="text-3xl font-bold text-[#97144D]">$100 billion company by 2030.</span> <br />
+            Fueled by innovation and a commitment to excellence, we&apos;re on a transformative journey to make a change in the industry. Our dynamic team, cutting-edge tech, and strategic foresight propel us towards this ambitious milestone. Beyond financial success, it's about cultivating trust, partnerships, and a culture of growth and innovation.
+            </p>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        World&apos;s most admired Human Capital Management Company.
+            <p className="mb-6 text-xl text-gray-500 dark:text-gray-400">
+            TalentWorkx aspires to be the<br /> <span className="text-3xl font-bold text-[#97144D]">World&apos;s most admired Human Capital Management Company.</span> <br /> We&apos;re not just about business; we&apos;re about shaping global workplaces. With a commitment to diversity, inclusivity, and continuous learning, we champion human potential. Join us in creating an environment where organizations thrive, and individuals flourish—shaping a future where the human spirit knows no bounds.
+            </p>
       </CustomTabPanel>
     </Box>
   );
