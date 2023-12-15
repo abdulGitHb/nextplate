@@ -18,13 +18,13 @@ const Footer = () => {
 
 
   return (
-    <footer className="bg-white border-t-2 border-[#97144D]">
+    <footer className="bg-gradient-to-b from-gray-100 via-[#97144d]/30 to-gray-100 border-t-2 border-[#97144D]">
       <div
-        className="mx-auto max-w-screen-xl  space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8"
+        className="mx-auto space-y-8 px-4 py-10 sm:px-6 lg:space-y-16 lg:px-4"
       >
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
-          <div className="col-span-1">
-            <div className="text-teal-600">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-7">
+          <div className="col-span-2 ">
+            <div className="">
               <Link href="/">
                 <Image
                   width={320}
@@ -36,8 +36,8 @@ const Footer = () => {
               </Link>
             </div>
 
-            <div className="mt-4 flex text-gray-500">
-            <div className="w-16 h-10 bg-red-300 bg-cover"
+            <div className="mt-4 flex items-center text-gray-500">
+            <div className="w-16 h-10 bg-cover"
               style={{backgroundImage: `url('/images/hfc-logo.jpg')`}}
             ></div> 
               <p className="text-md ">
@@ -124,14 +124,14 @@ const Footer = () => {
           </div>
 
           <div
-            className="grid grid-cols-1 sm:grid-cols-2 col-span-2 gap-x-8"
+            className="grid grid-cols-1 sm:grid-cols-4 col-span-4 gap-x-2"
           >
             {main.map((menu, i)=>(
-              <div key={i} className="ml-4">
+              <div key={i} className="ml-4 col-span-2">
                 {menu.hasChildren && <h1 className="text-2xl text-[#97144D] mb-3">{menu.name}</h1> }
                 <ul className=" grid grid-cols-2 gap-y-2">
                 {menu.children?.map((child, i) => (
-                  <li className="col-span-2" key={`children-${i}`}>
+                  <li className="col-span-1 flex items-center" key={`children-${i}`}>
                     <Link
                       href={child.url}
                       className={`block text-sm font-semibold text-gray-600 hover:text-[#97144D]  ${
@@ -140,7 +140,7 @@ const Footer = () => {
                         "active"
                       }`}
                     >
-                      <p className="flex text-lg items-center gap-x-2">
+                      <p className="flex text-md items-center gap-x-2">
                       <FaChevronRight/>
                       {child.name}
                       </p>
@@ -152,7 +152,7 @@ const Footer = () => {
             ))}
           </div>
           <div>
-          <h1 className="text-2xl text-[#97144D] mb-2 ml-4">Important Links</h1>
+          <h1 className="text-xl text-[#97144D] mb-2 ml-4">Important Links</h1>
           <ul className=" grid grid-cols-2 gap-x-1 gap-y-2 ml-4">
                 {importantLinks.map((impLink, i) => (
                   <li className="col-span-2" key={`implink-${i}`}>
@@ -164,7 +164,7 @@ const Footer = () => {
                         "active"
                       }`}
                     >
-                      <p className="flex text-lg items-center gap-x-2">
+                      <p className="flex text-md items-center gap-x-2">
                       <FaChevronRight/>
                       {impLink.name}
                       </p>
@@ -175,7 +175,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-center border-t-2 border-gray-400 pt-3 text-gray-500">
           &copy; 2023. TalentWorkx. All rights reserved.
         </p>
       </div>
