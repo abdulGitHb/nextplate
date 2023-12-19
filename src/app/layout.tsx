@@ -55,7 +55,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body suppressHydrationWarning={true}>
+      <body className="scrollbar scrollbar-rounded-md scrollbar-thumb-[#97144d] scrollbar-track-gray-300" suppressHydrationWarning={true}>
         <TwSizeIndicator />
         <ToastProvider/>
         <Providers>

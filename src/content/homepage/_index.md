@@ -86,7 +86,7 @@ services:
   - title: "EOR POE"
     image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702526896/talentWorkx/oyg0kz781o2ti00wx0oq.jpg"
     icon: "/images/service-1.png"
-    link: "/solutions/tw-solutions-005"
+    link: "/solutions/tw-solutions-006"
     color: "#d3d3d3"
     description: "Our talent solution is designed as per your stage gates and helps you build a talent pool of people who can be, sprinters to marathon runners, engineers to great operators, isolators to motivators and above all astronauts who can persevere and find solutions to calamitous problems at each stage gates."
    

@@ -73,6 +73,9 @@ function ParallaxText({ children, baseVelocity = 100, industries }: ParallaxProp
               <div
               key={index} className="relative group mt-6 bg-cover bg-center bg-no-repeat  hover:border-2 hover border-[#97144D] shadow-md w-[60vw] sm:w-[60vh] aspect-square rounded-xl bg-clip-border bg-gray-300"
               >
+                <Link href={industry.link} legacyBehavior>
+                  <a>
+                
                 <div className="industry-name w-full h-1/2 px-4 font-serif text-4xl rounded-t-xl font-bold bg-[#97144d] text-gray-300">
                     <svg fill="currentColor" 
                       viewBox="0 0 24 24" 
@@ -108,6 +111,8 @@ function ParallaxText({ children, baseVelocity = 100, industries }: ParallaxProp
                             
                   </button>
                 </div>
+                </a>
+                </Link>
                </div>
               ))}
       </motion.div>
@@ -119,8 +124,8 @@ export default function OurIndustriesSectionScroll({industries}:{industries: Ind
   return (
     <section className="">
       <h1 className="mb-6 mt-20 text-[#97144D] font-serif text-center" >Industries We Serve</h1>
-      <ParallaxText baseVelocity={-5} industries={industries}>Framer Motion</ParallaxText>
-      <ParallaxText baseVelocity={5} industries={industries}>Scroll velocity</ParallaxText>
+      <ParallaxText baseVelocity={-3} industries={industries}>Framer Motion</ParallaxText>
+      <ParallaxText baseVelocity={3} industries={industries}>Scroll velocity</ParallaxText>
     </section>
   );
 }

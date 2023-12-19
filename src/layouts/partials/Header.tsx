@@ -37,6 +37,8 @@ const Header = () => {
     window.scroll(0, 0);
   }, [pathname]);
 
+  // console.log(pathname, "pathname here")
+
 
   return (
     <header
@@ -114,8 +116,9 @@ const Header = () => {
                           className={`nav-dropdown-link text-[#97144D] hover:text-gray-400 block ${
                             (pathname === `${child.url}/` ||
                               pathname === child.url) &&
-                            "active"
-                          }`}
+                            "active"}`
+                          }
+                          replace={pathname!=='/'?true:false}
                         >
                           {child.name}
                         </Link>

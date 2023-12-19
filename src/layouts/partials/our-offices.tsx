@@ -1,3 +1,5 @@
+import AddressTabComp from "./address-tabs";
+
 const OurOffices = () => {
 
     const ourOffices= [{
@@ -6,7 +8,7 @@ const OurOffices = () => {
     },
     {
         office: "Bangalore Office",
-        address: "No. 192, Service Road, West of Chord Road, 2nd Stage, Mahalaxmipuram, Bangalore - 560086"
+        address: "Sri Satya Arcade, No. 192, Service Road, West of Chord Road, 2nd Stage, Mahalaxmipuram, Bangalore - 560086"
     },
     {
         office: "Lucknow Office",
@@ -26,21 +28,24 @@ const OurOffices = () => {
     
     }]
     return ( 
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 h-[85vh] overflow-y-scroll">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 h-[85vh] overflow-y-scroll scrollbar-thin scrollbar-rounded-md scrollbar-thumb-[#97144d] scrollbar-track-gray-300">
                     <div>
-                        <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                            </svg>
-                        </span>
+                        <div className="flex items-center gap-x-2">
+                            <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                                </svg>
+                            </span>
+                            <h2 className="text-xl font-bold text-[#97144D] dark:text-white">Email</h2>
+                        </div>
 
-                        <h2 className="mt-4 text-lg font-bold text-[#97144D] dark:text-white">Email</h2>
                         <p className="mt-2 text-lg text-gray-500 dark:text-gray-400">You can reach us at</p>
                         <p className="mt-2 text-xl font-bold text-[#97144D]">connect@talentworkx.in</p>
                     </div>
 
 
                     <h1 className="md:col-span-2 text-[#97144D]">Find Us</h1>
+                    {/* <AddressTabComp/> */}
 
                     {ourOffices.map((office, index) => (
                         <div key={index}>

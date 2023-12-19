@@ -2,10 +2,11 @@
 
 import SeoMeta from "@/partials/SeoMeta";
 import { ChangeEvent, FormEvent, useState } from "react";
-import UpcomingOfficeComponent from "@/components/upcomingOffices";
+import UpcomingOfficeComponent from "@/partials/upcomingOffices";
 import axios from "axios";
 import toast from "react-hot-toast";
 import OurOffices from "@/partials/our-offices";
+import AddressTabComp from "@/partials/address-tabs";
 
 const Contact =  () => {
 //   const data: RegularPage = getListPage("contact/_index.md");
