@@ -28,26 +28,25 @@ const OurOffices = () => {
     
     }]
     return ( 
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 h-[85vh] overflow-y-scroll scrollbar-thin scrollbar-rounded-md scrollbar-thumb-[#97144d] scrollbar-track-gray-300">
+        <div className="grid grid-cols-1 p-4 rounded-lg gap-y-2 bg-[#97144d] md:grid-cols-2 h-[85vh]">
                     <div>
                         <div className="flex items-center gap-x-2">
-                            <span className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
+                            <span className="inline-block p-3 text-white rounded-full bg-gray-300/40">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                                 </svg>
                             </span>
-                            <h2 className="text-xl font-bold text-[#97144D] dark:text-white">Email</h2>
+                            <h2 className="text-3xl font-bold text-white">Email</h2>
                         </div>
 
-                        <p className="mt-2 text-lg text-gray-500 dark:text-gray-400">You can reach us at</p>
-                        <p className="mt-2 text-xl font-bold text-[#97144D]">connect@talentworkx.in</p>
+                        <p className="mt-2 text-lg text-gray-300">You can reach us at</p>
+                        <p className="mt-2 text-xl font-bold text-gray-200">connect@talentworkx.in</p>
                     </div>
 
 
-                    <h1 className="md:col-span-2 text-[#97144D]">Find Us</h1>
-                    {/* <AddressTabComp/> */}
+                    <AddressTabComp/>
 
-                    {ourOffices.map((office, index) => (
+                    {/* {ourOffices.map((office, index) => (
                         <div key={index}>
                             <div className="flex items-center gap-x-2">
                                 <div className="inline-block p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
@@ -61,7 +60,7 @@ const OurOffices = () => {
                             </div>
                             <p className="mt-2 text-sm text-[#97144D]">{office.address}</p>
                         </div>
-                    ))}
+                    ))} */}
                 </div>
      );
 }

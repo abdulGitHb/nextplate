@@ -20,13 +20,14 @@ const AddressTabComp = () => {
   ];
     return ( 
         <div className="flex flex-col col-span-2 gap-y-3">
-            <div className="flex overflow-x-auto space-x-4 py-4 scrollbar-thin scrollbar-rounded-md scrollbar-thumb-[#97144d] scrollbar-track-gray-300">
+            <h3 className="-mb-4 text-white -mt-4">Find Us</h3>
+            <div className="flex overflow-x-auto space-x-4 py-4 scrollbar-thin scrollbar-rounded-md scrollbar-thumb-gray-500 scrollbar-track-gray-300">
                 {tabs.map((tab, index) => (
                     <div
                     key={index}
                     onClick={() => handleTabClick(index)}
                     className={`px-6 py-3 hover:scale-105 rounded cursor-pointer whitespace-nowrap ${
-                        activeTab === index ? 'bg-[#97144d] text-gray-200' : 'bg-gray-200 text-[#97144d]'
+                        activeTab === index ? 'bg-gray-200 text-[#97144d]' : 'bg-gray-200/40 text-[#97144d] hover:bg-gray-200'
                     }`}
                     >
                     {tab.label}
@@ -36,15 +37,15 @@ const AddressTabComp = () => {
             <div>
                 {activeTab !== null && (
                     <div className="flex gap-x-2">
-                        <div className="inline-block w-fit h-fit p-3 text-[#97144D] rounded-full bg-[#97144D]/40">
+                        <div className="inline-block w-fit h-fit p-3 text-white rounded-full bg-gray-300/40">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-5 h-5">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                             </svg>
                         </div>
                         <div>
-                            <h2 className="text-3xl font-bold text-gray-500"> {tabs[activeTab].office}</h2>
-                            <p className="mt-2 text-lg text-[#97144D]">{tabs[activeTab].address}</p>
+                            <h2 className="text-3xl font-bold text-white"> {tabs[activeTab].office}</h2>
+                            <p className="mt-2 text-lg text-gray-300">{tabs[activeTab].address}</p>
                         </div>
                 </div>
                 )}
