@@ -3,7 +3,7 @@ title: "FLEXIBLE STAFFING"
 meta_title: "TalentWorkx | FLEXIBLE STAFFING"
 description: "In addition to Flex Staffing, organizations also need value added services not just limited to employee engagement, performance management,"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700650372/talentWorkx/ofdmvzffpugoqsqzokav.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/fnqhhcvsxjbq2ivqdaub"
 bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700650372/talentWorkx/ofdmvzffpugoqsqzokav.png"
 categories: ["Application", "Data"]
 author: "John Doe"

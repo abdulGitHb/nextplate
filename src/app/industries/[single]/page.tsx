@@ -1,9 +1,9 @@
 import config from "@/config/config.json";
 import { getSinglePage } from "@/lib/contentParser";
-import similerItems from "@/lib/utils/similarItems";
 import SeoMeta from "@/partials/SeoMeta";
 import { Industry } from "@/types";
 import TextEffectPage from "./components/testEffect";
+import Image from "next/image";
 
 
 const { industries_folder } = config.settings;
@@ -51,14 +51,16 @@ const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
       style={{backgroundImage:`url(${bannerImage})`}}>
         {title}
       </header>
-      <div className="">
+      <div className="mb-8">
         <div className="flex">
           <h1 className="text-center mt-4 w-full font-serif text-gray-500">{heading}</h1>
           
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3">
-          <div className="innerImg col-span-1 bg-red-300 h-[350px] sm:h-[250px] lg:h-[450px] aspect-square mt-8 rounded-md bg-no-repeat bg-center bg-cover md:ml-8 w-full mx-auto"
+          <div className="innerImg col-span-1 h-[350px] sm:h-[250px] lg:h-[450px] aspect-square mt-8 rounded-md bg-no-repeat bg-center bg-cover md:ml-8 w-full mx-auto"
           style={{backgroundImage:`url(${image})`}}>
+            <Image src={image || "/"} alt={title} layout="fill" objectFit="cover" className="rounded-md" style={{display:"none"}} />
+
           </div>
           <div className="col-span-1 md:col-span-2">
             <TextEffectPage content={content}/>

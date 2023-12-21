@@ -3,6 +3,7 @@ import { getListPage } from "@/lib/contentParser";
 import SeoMeta from "@/partials/SeoMeta";
 import { RegularPage } from "@/types";
 import TabsComponent from "./accordian-comp";
+import AboutTabComp from "./about-tab-comp";
 
 
 const About = () => {
@@ -19,8 +20,8 @@ const About = () => {
         description={description}
         image={image}
       />
-       <section className="flex items-center bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800 ">
-          <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
+       <section className="flex items-center bg-stone-100 xl:h-screen font-poppins">
+          {/* <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
               <div className="flex flex-wrap ">
                   <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                       <div className="relative lg:max-w-md">
@@ -42,17 +43,10 @@ const About = () => {
                   </div>
                   <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
                         <TabsComponent/>
-                      {/* <div className="pl-4 mb-6 border-l-4 border-gray-400 ">
-                          <h1 className="mt-2 text-3xl font-black text-[#97144D] md:text-5xl dark:text-gray-300">
-                              About Us
-                          </h1>
-                      </div>
-                      <p className="mb-6 text-xl text-gray-500 dark:text-gray-400">
-                        150 Years of Combined Experience in the Industry empowers us with the <span className="text-3xl font-bold text-[#97144D]">“Art of Search Curation”</span> leading to near perfection in Selection. Our DNA- Deliver Not Await! We promise to Deliver results irrespective of challenges we come across. We don&apos;t await answers from our Client&apos;s rather WE present them with solutions and insights to achieve <br /> <span className="text-4xl font-bold text-[#97144D]">“Better ROI”</span>.
-                      </p> */}
                   </div>
               </div>
-          </div>
+          </div> */}
+          <AboutTabComp/>
       </section>
       
     </>

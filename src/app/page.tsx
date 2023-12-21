@@ -42,8 +42,12 @@ const Home = () => {
 
   return (
     <>
+    {/* 
+    https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/crdpc86e3winzyilqyss
+    https://res.cloudinary.com/dmquwnaeb/image/upload/v1700729703/talentWorkx/crdpc86e3winzyilqyss.png
+    */}
       <SeoMeta />
-      <section className="section overflow-hidden pt-14 pr-2 h-[650px] bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1700729703/talentWorkx/crdpc86e3winzyilqyss.png)] md:bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1700729886/talentWorkx/tte8xnmf5eazzqry8juw.png)] bg-cover bg-center bg-no-repeat relative aspect-[16/9] w-full"
+      <section className="section overflow-hidden pt-14 pr-2 h-[650px] bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/crdpc86e3winzyilqyss)] md:bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/tte8xnmf5eazzqry8juw)] bg-cover bg-center bg-no-repeat relative aspect-[16/9] w-full"
         >
         <div className="container mt-auto grid grid-cols-3">
           <div className="flex flex-col col-span-3 md:col-span-2 justify-left items-center">

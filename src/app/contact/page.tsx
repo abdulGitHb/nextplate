@@ -152,7 +152,7 @@ const Contact =  () => {
                             <textarea value={formData.message} required onChange={handleOnChange} id="message" name="message" className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-[#97144d] focus:ring-[#97144d] focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Your Message"></textarea>
                         </div>
 
-                        {!uploading && <button type="submit" className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#97144D] rounded-lg hover:bg-gray-300 hover:text-[#97144D]">
+                        {!uploading && <button type="submit" className="w-full px-6 mx-2 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#97144D] rounded-lg hover:bg-gray-300 hover:text-[#97144D]">
                             Send message
                         </button>}
                         {uploading && <div role="status">

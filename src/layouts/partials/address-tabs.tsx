@@ -7,7 +7,7 @@ const AddressTabComp = () => {
     const [activeTab, setActiveTab] = useState<number | null>(0);
 
   const handleTabClick = (index: number) => {
-    setActiveTab(index === activeTab ? null : index);
+    setActiveTab(index);
   };
 
   const tabs = [

@@ -3,8 +3,8 @@ title: "EXECUTIVE SEARCH"
 meta_title: "TaletWorkx | EXECUTIVE SEARCH"
 description: "We do not hesitate in crossing the line to gain access to information critical to a candidates behaviour, competencies, people skills"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652912/talentWorkx/q32ec4dsj8bm10s1tuhc.png"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652912/talentWorkx/q32ec4dsj8bm10s1tuhc.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/licrrbkcr3c032das5hs"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702526897/talentWorkx/licrrbkcr3c032das5hs.jpg"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]
