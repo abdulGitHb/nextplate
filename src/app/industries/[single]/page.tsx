@@ -4,6 +4,7 @@ import SeoMeta from "@/partials/SeoMeta";
 import { Industry } from "@/types";
 import TextEffectPage from "./components/testEffect";
 import Image from "next/image";
+import { ScrollAnimateComp } from "./components/scroll-animate";
 
 
 const { industries_folder } = config.settings;
@@ -37,6 +38,7 @@ const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
     content,
     bannerImage,
   } = frontmatter;
+  const data=[frontmatter.title, frontmatter.heading, frontmatter.image, frontmatter.content];
   // console.log(content, "industry here", params.single, "params.single here");
 
   return (
@@ -47,11 +49,11 @@ const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
         description={description}
         image={image}
       />
-      <header className="flex justify-center items-center font-serif bg-gray-200/80 bg-blend-lighten text-[4vw] font-bold text-[#97144D] headerImg h-[40vh] bg-cover bg-no-repeat"
+      <header className="flex justify-center items-center font-serif bg-gray-200/80 bg-blend-lighten text-[4vw] font-bold text-[#97144D] headerImg h-[40vw] md:h-[40vh] bg-cover bg-no-repeat"
       style={{backgroundImage:`url(${bannerImage})`}}>
         {title}
       </header>
-      <div className="mb-8">
+      {/* <div className="mb-8">
         <div className="flex">
           <h1 className="text-center mt-4 w-full font-serif text-gray-500">{heading}</h1>
           
@@ -66,6 +68,9 @@ const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
             <TextEffectPage content={content}/>
           </div>
         </div>
+      </div> */}
+      <div className="flex flex-col bg-white h-screen">
+        <ScrollAnimateComp title={frontmatter.title} heading={frontmatter.heading} image={frontmatter.image} content={frontmatter.content}/>
       </div>
     </>
   );

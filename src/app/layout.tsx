@@ -1,5 +1,6 @@
 import config from "@/config/config.json";
 import theme from "@/config/theme.json";
+import NextProgressClient from "@/helpers/NextProgressClient";
 import TwSizeIndicator from "@/helpers/TwSizeIndicator";
 import ToastProvider from "@/lib/providers/toastProvider";
 import Footer from "@/partials/Footer";
@@ -55,12 +56,16 @@ export default function RootLayout({
         />
       </head>
 
+      
       <body className="scrollbar scrollbar-rounded-md scrollbar-thumb-[#97144d] scrollbar-track-gray-300" suppressHydrationWarning={true}>
+        <NextProgressClient/>
         <TwSizeIndicator />
         <ToastProvider/>
         <Providers>
           <Header />
-          <main>{children}</main>
+          <main>            
+            {children}
+          </main>
           <Footer />
         </Providers>
       </body>

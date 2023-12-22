@@ -54,7 +54,7 @@ const AboutTabComp = () => {
               </div>
             
             </div>
-            <div className="h-[70vh] col-span-1 grid grid-rows-3 gap-y-4 p-5">
+            <div className="h-[70vw] md:h-[70vh] col-span-1 grid grid-rows-3 gap-y-4 p-5">
                 {tabs.map((tab, index) => (
                     <div
                     key={index}
