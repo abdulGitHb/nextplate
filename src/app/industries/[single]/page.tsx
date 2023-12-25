@@ -70,7 +70,7 @@ const SingleIndustryPage = ({ params }: { params: { single: string } }) => {
         </div>
       </div> */}
       <div className="flex flex-col bg-white h-screen">
-        <ScrollAnimateComp title={frontmatter.title} heading={frontmatter.heading} image={frontmatter.image} content={frontmatter.content}/>
+        <ScrollAnimateComp heading={frontmatter.heading} image={frontmatter.image} content={frontmatter.content}/>
       </div>
     </>
   );

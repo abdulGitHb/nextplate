@@ -7,6 +7,7 @@ import Footer from "@/partials/Footer";
 import Header from "@/partials/Header";
 import Providers from "@/partials/Providers";
 import "@/styles/main.scss";
+import Script from "next/script";
 
 export default function RootLayout({
   children,
@@ -66,6 +67,9 @@ export default function RootLayout({
           <main>            
             {children}
           </main>
+          <>
+          <Script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4d7329fbc3a1467a9d7c4784c4fb5f57"}'></Script>
+          </>
           <Footer />
         </Providers>
       </body>

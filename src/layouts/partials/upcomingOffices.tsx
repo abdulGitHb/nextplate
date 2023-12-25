@@ -14,8 +14,16 @@ const UpcomingOfficeComponent = () => {
     {
       question: 'Upcoming Offices',
       answer: [{
-        name: 'Noida',
-        date: 'Coming in the next 3 months'
+        name: 'Noida(Upcoming)',
+        date: 'Sector 16, C-001/A2, Sector 16B, Gautam Buddha Nagar, Noida, UP - 201301'
+      },
+      {
+        name: 'Delhi(Upcoming)',
+        date: 'Eldeco Centre,Malviya Nagar, Block A, Shivalik Colony, Malviya Nagar, Delhi, DL 110017'
+      },
+      {
+        name: 'Hyderabad(Upcoming)',
+        date: 'Rajapushpa Summit Financial District, Nanakramguda Financial District, , Hyderabad - TS 500032'
       },
       {
         name: 'Chandigarh',
@@ -141,7 +149,7 @@ const UpcomingOfficeComponent = () => {
                         <div>{activeIndex === index ? <FaChevronUp color="#97144d"/> :<FaChevronDown color="#97144d"/> }</div>
                     </div>
                     {activeIndex === index && (
-                        <div className="grid gap-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mt-8 transition-all ease-in-out">
+                        <div className="grid gap-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-8 transition-all ease-in-out">
                             {item.answer.map((ans, index) => (
                                 <div key={index}>
                                     <div className="flex items-center gap-x-2">

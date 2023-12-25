@@ -3,13 +3,12 @@
 import { useScroll, useTransform, motion } from 'framer-motion';
 
 interface SAProps {
-    title: string;
     heading: string;
     image: string | undefined;
     content: string;
 }
 
-export const ScrollAnimateComp:React.FC<SAProps> = ({title, heading, image, content}) => {
+export const ScrollAnimateComp:React.FC<SAProps> = ({ heading, image, content}) => {
     const { scrollYProgress } = useScroll();
 
     const rotate = useTransform(scrollYProgress, [0, 1], [0, -90]);

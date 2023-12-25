@@ -14,9 +14,8 @@ const AddressTabComp = () => {
     { label: 'Corporate Office', office: 'Gurgaon Office', address: "Paras Twin Towers, Tower A, Golf Course Road, Sector 54, Gurugram, Haryana - 122011"},
     { label: 'Bangalore', office: 'Bangalore Office', address: "Sri Satya Arcade, No. 192, Service Road, West of Chord Road, 2nd Stage, Mahalaxmipuram, Bangalore - 560086"},
     { label: 'Lucknow', office: 'Lucknow Office', address: "Summit Building, TCG 3, Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh - 226010"},
-    { label: 'Mumbai', office: 'Mumbai Office', address: "address soon"},
-    { label: 'Delhi', office: 'Delhi Office', address: "address soon"},
-    { label: 'Pune', office: 'Pune Office', address: "address soon"},
+    { label: 'Mumbai', office: 'Mumbai Office', address: "Raheja Platinum, Road, off Andheri - Kurla Road, Sag Baug, Marol, Andheri East, Mumbai, Maharashtra - 400059"},
+    { label: 'Pune', office: 'Pune Office', address: "Raheja Woods, Kalyani Nagar, Pune, Maharashtra - 411006"},
   ];
     return ( 
         <div className="flex flex-col col-span-2 gap-y-3">
