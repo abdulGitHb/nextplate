@@ -92,45 +92,57 @@ services:
    
 #Industries
 industries:
-  - title: "Electrical Equipment & Industrial Automation"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700547578/talentWorkx/hmuei62d9ugq4zdpfccn.png"
-    icon: "/images/service-1.png"
-    link: "/industries/tw-industry-001"
-
-  - title: "Consumer Electronics & Appliances"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700653239/talentWorkx/edcnlvn0ezzhzhgsncbz.jpg"
-    icon: "/images/service-1.png"
-    link: "/industries/tw-industry-002"
-
   - title: "Automobile & Auto Components"
     image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700653698/talentWorkx/qid9f08v31xgvtcw9ldj.png"
     icon: "/images/service-1.png"
     link: "/industries/tw-industry-003"
-
-  - title: "Power & Renewable Energy"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654605/talentWorkx/jz3cmeyofobzaahisv5h.png"
-    icon: "/images/service-1.png"
-    link: "/industries/tw-industry-004"
-
-  - title: "Pharmaceutical and Life Sciences"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654957/talentWorkx/ih3aca1sr4uxqkd7yf00.png"
-    icon: "/images/service-1.png"
-    link: "/industries/tw-industry-005"
-
-  - title: "Investment Banking/PE/VC"
-    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652460/talentWorkx/kuevo6x0yihuvq7ztpvm.png"
-    icon: "/images/service-1.png"
-    link: "/industries/tw-industry-006"
 
   - title: "Building Material"
     image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654785/talentWorkx/pwnlq4qoetomdiqyidip.png"
     icon: "/images/service-1.png"
     link: "/industries/tw-industry-007"
 
+  - title: "Consumer Electronics & Appliances"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700653239/talentWorkx/edcnlvn0ezzhzhgsncbz.jpg"
+    icon: "/images/service-1.png"
+    link: "/industries/tw-industry-002"
+
+  - title: "Electrical Equipment & Industrial Automation"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700547578/talentWorkx/hmuei62d9ugq4zdpfccn.png"
+    icon: "/images/service-1.png"
+    link: "/industries/tw-industry-001"
+
   - title: "EMPI"
     image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700545596/talentWorkx/lterysn8qsjb5e4cvf1k.png"
     icon: "/images/service-1.png"
     link: "/industries/tw-industry-008"
+
+  - title: "Hospitality & Aviation"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/gs3b617rrfdfqhrvnq5c"
+    icon: "/images/service-1.png"
+    link: "/industries/tw-industry-0010"
+
+  - title: "Investment Banking/PE/VC"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700652460/talentWorkx/kuevo6x0yihuvq7ztpvm.png"
+    icon: "/images/service-1.png"
+    link: "/industries/tw-industry-006"
+  
+  - title: "IT & ITES"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/suv5rypya3fk57ue2aga"
+    icon: "/images/service-1.png"
+    link: "/industries/tw-industry-009"
+
+  - title: "Pharmaceutical and Life Sciences"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654957/talentWorkx/ih3aca1sr4uxqkd7yf00.png"
+    icon: "/images/service-1.png"
+    link: "/industries/tw-industry-005"
+
+  - title: "Power & Renewable Energy"
+    image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654605/talentWorkx/jz3cmeyofobzaahisv5h.png"
+    icon: "/images/service-1.png"
+    link: "/industries/tw-industry-004"
+
+
 
 # Features
 features:

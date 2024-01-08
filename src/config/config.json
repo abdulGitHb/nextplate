@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "TalentWorkx",
-    "base_url": "https://talentworkx.vercel.app",
+    "base_url": "https://talentworkx.in",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",

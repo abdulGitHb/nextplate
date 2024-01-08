@@ -79,7 +79,7 @@ export const Card = ({
       }}
       className="max-w-5xl -mt-40 mx-auto h-[20rem] md:h-[40rem] w-full border-4 border-[#97144d] p-2 bg-gray-300 rounded-[30px] shadow-2xl"
     >
-      <div className="bg-gray-100 h-full w-full rounded-2xl grid grid-cols-2 md:grid-cols-4 gap-4 overflow-hidden p-2"
+      <div className="bg-gray-100 h-full w-full rounded-2xl grid grid-cols-2 md:grid-cols-4 gap-4 overflow-hidden p-2 bg-cover bg-center"
         style={{backgroundImage:`url(${image})`}}
       >
         

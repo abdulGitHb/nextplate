@@ -9,6 +9,7 @@ import OurOffices from "@/partials/our-offices";
 import AddressTabComp from "@/partials/address-tabs";
 import { Box, TextField } from "@mui/material";
 import {motion} from 'framer-motion';
+import Script from "next/script";
 
 const Contact =  () => {
 //   const data: RegularPage = getListPage("contact/_index.md");
@@ -62,9 +63,9 @@ const Contact =  () => {
         image={"/hello"}
       />
       {/* <PageHeader title={title} /> */}
-      <header className="flex justify-center items-end font-serif  text-[4vw] font-bold text-[#97144d] headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
-      style={{backgroundImage:`url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1702530052/talentWorkx/aa8v6dvdcsqfdfslherz.jpg)`}}>
-      </header>
+      {/* <header className="flex justify-center items-end font-serif  text-[4vw] font-bold text-[#97144d] headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
+      style={{backgroundImage:`url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/aa8v6dvdcsqfdfslherz)`}}>
+      </header> */}
       <section className="bg-white ">
         {/* <h1 className="text-[4vw] font-bold text-[#97144d] mt-6 text-center">Contact</h1>
         <div className="container px-6 py-10 mx-auto">
@@ -167,7 +168,7 @@ const Contact =  () => {
           <div className="col-span-1 sm:col-span-2 md:col-span-3">
             <UpcomingOfficeComponent/>
           </div>
-        </div>  
+        </div> 
     </section>
     </>
   );

@@ -1,5 +1,3 @@
 /** @type {import('next-sitemap').IConfig} */
-module.exports = {
-  siteUrl: process.env.SITE_URL || "https://example.com",
-  generateRobotsTxt: true,
-};
+export const siteUrl = "https://talentworkx.in";
+export const generateRobotsTxt = true;

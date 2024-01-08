@@ -18,7 +18,7 @@ require('dotenv').config();
 
 const Home = () => {
   const homepage = getListPage("homepage/_index.md");
-  const testimonial = getListPage("sections/testimonial.md");
+  // const testimonial = getListPage("sections/testimonial.md");
   const callToAction = getListPage("sections/call-to-action.md");
   const { frontmatter } = homepage;
   const {
@@ -46,7 +46,12 @@ const Home = () => {
     https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/crdpc86e3winzyilqyss
     https://res.cloudinary.com/dmquwnaeb/image/upload/v1700729703/talentWorkx/crdpc86e3winzyilqyss.png
     */}
-      <SeoMeta />
+      <SeoMeta
+      title={"TalentWorkx Home Page"}
+      meta_title={"TalentWorkx | Home Page"}
+      description={"Your Trusted Partner in the War for Talent"}
+      image={"https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/tte8xnmf5eazzqry8juw"} 
+      />
       <section className="section overflow-hidden pt-14 pr-2 h-[650px] bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/crdpc86e3winzyilqyss)] md:bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/tte8xnmf5eazzqry8juw)] bg-cover bg-center bg-no-repeat relative aspect-[16/9] w-full"
         >
         <div className="container mt-auto grid grid-cols-3">

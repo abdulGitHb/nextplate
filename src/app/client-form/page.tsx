@@ -66,7 +66,7 @@ const Contact = () => {
       />
       {/* <PageHeader title="Client Form" /> */}
       <header className="flex justify-center items-center font-serif headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
-      style={{backgroundImage:`url(https://res.cloudinary.com/dmquwnaeb/image/upload/v1702543966/talentWorkx/r134y80zqva71iwdzzax.jpg)`}}>
+      style={{backgroundImage:`url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/r134y80zqva71iwdzzax)`}}>
       </header>
       <section className="bg-white dark:bg-gray-900">
       <h1 className="text-[4vw] font-bold text-[#97144d] mt-6 text-center">Client Contact</h1>

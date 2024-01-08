@@ -65,8 +65,16 @@
           "url": "/industries/tw-industry-008"
         },
         {
-          "name": "Investment Banking/PE/VC",
+          "name": "Hospitality & Aviation",
+          "url": "/industries/tw-industry-0010"
+        },
+        {
+          "name": "Investment Banking/ PE/ VC",
           "url": "/industries/tw-industry-006"
+        },
+        {
+          "name": "IT & ITES",
+          "url": "/industries/tw-industry-009"
         },
         {
           "name": "Pharmaceutical and Life Sciences",
