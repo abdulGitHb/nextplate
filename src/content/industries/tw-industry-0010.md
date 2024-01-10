@@ -3,8 +3,8 @@ title: "Hospitality and Aviation"
 meta_title: "TalentWorkx | Hospitality and Aviation"
 description: "With this shift comes a new wave of engineering and manufacturing jobs and in-demand skills. We have a deep understanding of the industry and its functionality..."
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/gs3b617rrfdfqhrvnq5c"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/gs3b617rrfdfqhrvnq5c"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/sy7luphk97ocuy8yn0tk"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/sy7luphk97ocuy8yn0tk"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

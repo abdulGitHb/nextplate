@@ -3,8 +3,8 @@ title: "IT & ITES"
 meta_title: "TalentWorkx | IT & ITES"
 description: "With this shift comes a new wave of engineering and manufacturing jobs and in-demand skills. We have a deep understanding of the industry and its functionality..."
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/suv5rypya3fk57ue2aga"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/suv5rypya3fk57ue2aga"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/biowpumumo6fd01guzzs"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/biowpumumo6fd01guzzs"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

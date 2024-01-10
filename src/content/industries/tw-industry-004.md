@@ -3,8 +3,8 @@ title: "Power & Renewable Energy"
 meta_title: "TalentWorkx | Power & Renewable Energy"
 description: "We understand the shift of “replaceable to renewable”, be it the processes or people we do it for you! In last few decades, while"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654605/talentWorkx/jz3cmeyofobzaahisv5h.png"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654605/talentWorkx/jz3cmeyofobzaahisv5h.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/vwxq9m2bamgkslthiphi"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/vwxq9m2bamgkslthiphi"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

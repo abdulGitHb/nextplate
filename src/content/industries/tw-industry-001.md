@@ -3,8 +3,8 @@ title: "Electrical Equipment & Industrial Automation"
 meta_title: "TalentWorkx | Electrical Equipment & Industrial Automation"
 description: "We are ready to switch gears with you, make powerful connections and design unbreakable circuits in building your Talent pool made up of-"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700547578/talentWorkx/hmuei62d9ugq4zdpfccn.png"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700547578/talentWorkx/hmuei62d9ugq4zdpfccn.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/bxaaq388twl43kogdls4"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/bxaaq388twl43kogdls4"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

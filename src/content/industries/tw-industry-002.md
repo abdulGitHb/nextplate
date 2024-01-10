@@ -3,8 +3,8 @@ title: "Consumer Electronics & Appliances"
 meta_title: "TalentWorkx | Consumer Electronics & Appliances"
 description: "We work with you seamlessly to deliver Talent Solutions that will allow you to build your talent pool into one made up of –"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700653239/talentWorkx/edcnlvn0ezzhzhgsncbz.jpg"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700653239/talentWorkx/edcnlvn0ezzhzhgsncbz.jpg"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/wz6r95gxt4pvs5qrbe7d"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/wz6r95gxt4pvs5qrbe7d"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

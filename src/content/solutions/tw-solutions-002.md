@@ -3,8 +3,8 @@ title: "CONTINGENT SEARCH"
 meta_title: "TalentWorkx | CONTINGENT SEARCH"
 description: "e are uniquely positioned to address the challenge, find solution and mitigate the failure in your SwitchGear. Our Search is carefully curated"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/tykfnavklmzdkksj3evj"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702526896/talentWorkx/tykfnavklmzdkksj3evj.jpg"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/r79nfg0mbadlzs46pkta"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/r79nfg0mbadlzs46pkta"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

@@ -3,8 +3,8 @@ title: "Building Material"
 meta_title: "TalentWorkx | Building Material"
 description: "The demand for building materials is on the rise as a result of government investments in the construction of infrastructure, including public"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654785/talentWorkx/pwnlq4qoetomdiqyidip.png"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700654785/talentWorkx/pwnlq4qoetomdiqyidip.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/s28zbwv67xaxjeyvp7xt"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/s28zbwv67xaxjeyvp7xt"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

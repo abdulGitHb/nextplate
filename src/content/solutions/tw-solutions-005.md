@@ -3,8 +3,8 @@ title: "STARTX"
 meta_title: "TalentWorkx | STARTX"
 description: "Personal Choices transform into ‘Personnel’ Choices and with advancement in each stage your ‘Personnel decisions’ would hold the ticket for entry"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/rhioscx11xun4fwbwsxs"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700547497/talentWorkx/nry82vt5pvdjlg2ry3jm.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/gyrwxldrt1jmzew3vfed"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/gyrwxldrt1jmzew3vfed"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

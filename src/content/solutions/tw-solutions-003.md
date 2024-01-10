@@ -3,8 +3,8 @@ title: "RECRUITMENT PROCESS OUTSOURCING"
 meta_title: "TalentWorkx | RECRUITMENT PROCESS OUTSOURCING"
 description: "An RPO solution can bring an array of many benefits including managing hiring fluctuations throughout the year; reducing total recruiting cost"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/lh96w5eva2nzzhepqxj0"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700643475/talentWorkx/qyl5nbi1b7bfnuajne3w.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/cqedxgq4zbma7pzpcega"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/cqedxgq4zbma7pzpcega"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

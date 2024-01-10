@@ -3,8 +3,8 @@ title: "Automobile & Auto Components"
 meta_title: "TalentWorkx | Automobile & Auto Components"
 description: "Our in-depth understanding of the changing demands of the industry and talent landscape allows us to effectively curate a"
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700653698/talentWorkx/qid9f08v31xgvtcw9ldj.png"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700653698/talentWorkx/qid9f08v31xgvtcw9ldj.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/blnailyg7vi6g05fm7uj"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/blnailyg7vi6g05fm7uj"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

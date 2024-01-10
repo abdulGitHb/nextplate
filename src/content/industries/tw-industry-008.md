@@ -3,8 +3,8 @@ title: "EMPI"
 meta_title: "TalentWorkx | Engineering Manufacturing & Process Industries"
 description: "With this shift comes a new wave of engineering and manufacturing jobs and in-demand skills. We have a deep understanding of the industry and its functionality..."
 date: 2022-04-04T05:00:00Z
-image: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700545596/talentWorkx/lterysn8qsjb5e4cvf1k.png"
-bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1700545596/talentWorkx/lterysn8qsjb5e4cvf1k.png"
+image: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/oe8i5yekl29q1jzwf0bh"
+bannerImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/oe8i5yekl29q1jzwf0bh"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["nextjs", "tailwind"]

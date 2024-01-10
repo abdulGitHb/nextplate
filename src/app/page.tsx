@@ -50,9 +50,9 @@ const Home = () => {
       title={"TalentWorkx Home Page"}
       meta_title={"TalentWorkx | Home Page"}
       description={"Your Trusted Partner in the War for Talent"}
-      image={"https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/tte8xnmf5eazzqry8juw"} 
+      image={"https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/xmautpfxlmqynpb7fnq7"} 
       />
-      <section className="section overflow-hidden pt-14 pr-2 h-[650px] bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/crdpc86e3winzyilqyss)] md:bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/tte8xnmf5eazzqry8juw)] bg-cover bg-center bg-no-repeat relative aspect-[16/9] w-full"
+      <section className="section overflow-hidden pt-14 pr-2 h-[650px] bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/ox1xnyqbeetyckzcbpsx)] md:bg-[url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/xmautpfxlmqynpb7fnq7)] bg-cover bg-center bg-no-repeat relative aspect-[16/9] w-full"
         >
         <div className="container mt-auto grid grid-cols-3">
           <div className="flex flex-col col-span-3 md:col-span-2 justify-left items-center">
