@@ -1,3 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
-export const siteUrl = "https://talentworkx.in";
-export const generateRobotsTxt = true;
+module.exports = {
+    siteUrl: 'https://talentworkx.in',
+    generateRobotsTxt: true, // (optional)
+    // ...other options
+  }

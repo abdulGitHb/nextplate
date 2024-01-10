@@ -72,10 +72,12 @@ const Contact = () => {
 
         <div className="container px-6 py-12 mx-auto">
 
-            <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
+            <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
+                <div className="col-span-1">
                 <OurOffices/>
+                </div>
 
-                <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8 flex flex-col justify-around">
+                <div className="p-4 py-6 rounded-lg bg-gray-50 col-span-1 lg:col-span-2 md:p-8 flex flex-col justify-around">
                     <form onSubmit={handleSubmit}>
                         <div className="-mx-2 md:items-center md:flex">
                             <div className="flex-1 px-2">
@@ -94,7 +96,7 @@ const Contact = () => {
                             <input type="email" value={formData.email} required onChange={handleOnChange} id="email" name="email" placeholder="Your Email Address" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-[#97144d] focus:ring-[#97144d] focus:outline-none focus:ring focus:ring-opacity-40" />
                         </div>
                         <div className="mt-4">
-                            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Resume/CV Google Drive link</label>
+                            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Resume/CV Google Drive link(public Link)</label>
                             <input type="text" value={formData.resume} required onChange={handleOnChange} id="resume" name="resume" placeholder="https://drive.google.com/file/d/dfsdf..." className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-[#97144d] focus:ring-[#97144d] focus:outline-none focus:ring focus:ring-opacity-40" />
                         </div>
 

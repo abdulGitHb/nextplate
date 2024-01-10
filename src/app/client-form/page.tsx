@@ -72,10 +72,12 @@ const Contact = () => {
       <h1 className="text-[4vw] font-bold text-[#97144d] mt-6 text-center">Client Contact</h1>
         <div className="container px-6 py-12 mx-auto">
 
-            <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
+            <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
+              <div className="col-span-1">
                 <OurOffices/>
+              </div>
 
-                <div className="p-4 py-6 rounded-lg bg-gray-50 md:p-8 flex flex-col justify-around">
+                <div className="p-4 py-6 rounded-lg bg-gray-50 col-span-1 lg:col-span-2 md:p-8 flex flex-col justify-around">
                     <form onSubmit={handleSubmit}>
                         <div className="-mx-2 md:items-center md:flex">
                             <div className="flex-1 px-2">
