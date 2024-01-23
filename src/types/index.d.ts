@@ -95,6 +95,7 @@ export type BetterROI = {
 export type OurClients = {
   categoryName: string;
   bgImage: string;
+  content: string;
 };
 
 export type AboutUs = {

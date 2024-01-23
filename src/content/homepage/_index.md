@@ -23,14 +23,21 @@ aboutUs:
 
 #OurClients
 ourClients:
-  - categoryName: "Category <br/> A"
+  - categoryName: "Category A"
     bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702521591/talentWorkx/yvgjojsptk2mop4bbglb.png"
+    content: "Fortune 500 Companies"
 
-  - categoryName: "Category <br/> B"
+  - categoryName: "Category B"
     bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702521591/talentWorkx/iibsmrjqymt3kjpebybq.png"
+    content: "Global MNCs with over $2BN Revenue"
 
-  - categoryName: "Category <br/> C"
+  - categoryName: "Category C"
     bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702521591/talentWorkx/hkss7m5iiwheqwjgvwon.png"
+    content: "Nifty 50 Companies In India"
+  
+  - categoryName: "Category D"
+    bgImage: "https://res.cloudinary.com/dmquwnaeb/image/upload/v1702521591/talentWorkx/hkss7m5iiwheqwjgvwon.png"
+    content: "Companies with $500MN to $2BN Revenue"
 
 
 #BetterROI

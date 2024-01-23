@@ -149,7 +149,7 @@ const UpcomingOfficeComponent = () => {
                         <div>{activeIndex === index ? <FaChevronUp color="#97144d"/> :<FaChevronDown color="#97144d"/> }</div>
                     </div>
                     {activeIndex === index && (
-                        <div className="grid gap-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-8 transition-all ease-in-out">
+                        <div className="grid gap-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-8 p-4 transition-all ease-in-out">
                             {item.answer.map((ans, index) => (
                                 <div key={index}>
                                     <div className="flex items-center gap-x-2">

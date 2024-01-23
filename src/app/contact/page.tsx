@@ -10,6 +10,7 @@ import AddressTabComp from "@/partials/address-tabs";
 import { Box, TextField } from "@mui/material";
 import {motion} from 'framer-motion';
 import Script from "next/script";
+import CardHover from "../../layouts/partials/cardHover";
 
 const Contact =  () => {
 //   const data: RegularPage = getListPage("contact/_index.md");
