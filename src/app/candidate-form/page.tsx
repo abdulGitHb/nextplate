@@ -7,6 +7,7 @@ import UpcomingOfficeComponent from "@/partials/upcomingOffices";
 import axios from "axios";
 import toast from "react-hot-toast";
 import OurOffices from "@/partials/our-offices";
+import Link from "next/link";
 
 
 const Contact = () => {
@@ -66,11 +67,41 @@ const Contact = () => {
       
       <header className="flex justify-center items-center font-serif  headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
       style={{backgroundImage:`url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/sbhjkoimbcbgzvipjmnt)`}}>
+      <h1 className="bg-[#97144d] text-gray-100 opacity-80 p-4 rounded-md">What's in it for Candidates?</h1>
       </header>
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white max-w-[1280px] mx-auto">
+      <div className="relative p-2">
+        <div className="w-full h-[80vh] grid grid-cols-2 grid-rows-2 mt-4 gap-2">
+          <Link href='/candidate-form/candidate-benefits/video-resume'>
+            <div className="w-full h-full bg-gray-300 rounded-md hover:scale-[95%] cursor-pointer transition-all duration-300">
+              <h1 className="h-full flex items-center justify-center text-center text-[#97144d]">Video Resume Branding</h1>
+            </div>
+          </Link>
+          <Link href='#'>
+            <div className="w-full h-full bg-gray-300 rounded-md hover:scale-[95%] cursor-pointer transition-all duration-300">
+              <h1 className="h-full flex items-center justify-center text-center text-[#97144d]">More coming soon</h1>
+            </div>
+          </Link>
+
+          <Link href='#'>
+            <div className="w-full h-full bg-gray-300 rounded-md hover:scale-[95%] cursor-pointer transition-all duration-300">
+              <h1 className="h-full flex items-center justify-center text-center text-[#97144d]">More coming soon</h1>
+            </div>
+          </Link>
+          <Link href='#'>
+            <div className="w-full h-full bg-gray-300 rounded-md hover:scale-[95%] cursor-pointer transition-all duration-300">
+              <h1 className="h-full flex items-center justify-center text-center text-[#97144d]">More coming soon</h1>
+            </div>
+          </Link>
+        </div>
+        <div className="absolute bg-[#97144d] text-white m-auto left-0 right-0 top-0 bottom-0 w-28 h-28 p-2 flex items-center justify-center text-center rounded-full border-8 border-white"> Candidate Suite </div>
+      </div>
+
+      <hr className="mt-16 bg-red-400" />
+
       <h1 className="text-[4vw] font-bold text-[#97144d] mt-6 text-center">Candidate Contact</h1>
 
-        <div className="container px-6 py-12 mx-auto">
+        <div className="container px-6 py-6 mx-auto">
 
             <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
                 <div className="col-span-1">
@@ -96,7 +127,7 @@ const Contact = () => {
                             <input type="email" value={formData.email} required onChange={handleOnChange} id="email" name="email" placeholder="Your Email Address" className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-[#97144d] focus:ring-[#97144d] focus:outline-none focus:ring focus:ring-opacity-40" />
                         </div>
                         <div className="mt-4">
-                            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Resume/CV Google Drive link(public Link)</label>
+                            <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Resume/CV/Video Resume Google Drive link(public Link)</label>
                             <input type="text" value={formData.resume} required onChange={handleOnChange} id="resume" name="resume" placeholder="https://drive.google.com/file/d/dfsdf..." className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg focus:border-[#97144d] focus:ring-[#97144d] focus:outline-none focus:ring focus:ring-opacity-40" />
                         </div>
 

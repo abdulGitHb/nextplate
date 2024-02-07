@@ -6,6 +6,7 @@ import UpcomingOfficeComponent from "@/partials/upcomingOffices";
 import axios from "axios";
 import toast from "react-hot-toast";
 import OurOffices from "@/partials/our-offices";
+import Link from "next/link";
 
 const Contact = () => {
 //   const data: RegularPage = getListPage("contact/_index.md");
@@ -67,10 +68,44 @@ const Contact = () => {
       {/* <PageHeader title="Client Form" /> */}
       <header className="flex justify-center items-center font-serif headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
       style={{backgroundImage:`url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/r134y80zqva71iwdzzax)`}}>
+        <h1 className="bg-[#97144d] text-gray-100 opacity-90 p-4 rounded-md">What We Offer Our Clients</h1>
       </header>
-      <section className="bg-white dark:bg-gray-900">
-      <h1 className="text-[4vw] font-bold text-[#97144d] mt-6 text-center">Client Contact</h1>
-        <div className="container px-6 py-12 mx-auto">
+      <section className="bg-white max-w-[1280px] mx-auto">
+
+      <div className="relative">
+        <div className="w-full h-[50vh] md:h-[80vh] grid grid-cols-2 grid-rows-2 mt-4 gap-2 p-2">
+
+          <Link href="/client-form/client-features/hrms">
+            <div className="w-full h-full bg-gray-300 rounded-md hover:scale-[95%] cursor-pointer transition-all duration-300">
+              <h1 className="h-full flex text-2xl md:text-6xl items-center justify-center text-center text-[#97144d]">HRMS</h1>
+            </div>
+          </Link>
+
+          <Link href="/client-form/client-features/employee-benefits">
+            <div className="w-full h-full bg-gray-300 rounded-md hover:scale-[95%] cursor-pointer transition-all duration-300">
+              <h1 className="h-full flex text-2xl md:text-6xl items-center justify-center text-center text-[#97144d]">Employee Benefits</h1>
+            </div>
+          </Link>
+          
+          <Link href="/client-form/client-features/travel&MICE">
+            <div className="w-full h-full bg-gray-300 rounded-md hover:scale-[95%] cursor-pointer transition-all duration-300">
+              <h1 className="h-full flex text-2xl md:text-6xl p-2 items-center justify-center text-center text-[#97144d]">Travel & M.I.C.E</h1>
+            </div>
+          </Link>
+
+          <Link href="/client-form/client-features/t&d">
+            <div className="w-full h-full bg-gray-300 rounded-md hover:scale-[95%] cursor-pointer transition-all duration-300">
+              <h1 className="h-full flex text-2xl md:text-6xl p-2 items-center justify-center text-center text-[#97144d]">T&D</h1>
+            </div>
+          </Link>
+        </div>
+        <div className="absolute bg-[#97144d] text-white m-auto left-0 right-0 top-0 bottom-0 w-28 h-28 p-2 flex items-center justify-center text-center rounded-full border-8 border-white"> Client Suite </div>
+      </div>
+
+      <hr className="mt-16 bg-red-400" />
+
+      <h1 className="text-[4vw] font-bold text-[#97144d] mt-12 text-center">Client Contact</h1>
+        <div className="container px-6 py-6 mx-auto">
 
             <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
               <div className="col-span-1">

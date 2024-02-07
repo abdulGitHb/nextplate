@@ -29,7 +29,7 @@ const OurOffices = () => {
     }]
     return ( 
         <div className="grid grid-cols-1 p-4 rounded-lg gap-y-2 bg-[#97144d] md:grid-cols-2 h-[75vh]">
-            <h1 className="text-2xl text-center text-gray-200 col-span-1 md:col-span-2">Contact Information</h1>
+            <h1 className="text-2xl text-center text-gray-200 col-span-2 md:col-span-2">Contact Information</h1>
                     <div>
                         <div className="flex items-center gap-x-2">
                             <span className="inline-block p-3 text-white rounded-full bg-gray-300/40">
