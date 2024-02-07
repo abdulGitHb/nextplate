@@ -67,7 +67,7 @@ const Contact = () => {
       
       <header className="flex justify-center items-center font-serif  headerImg h-[40vh] bg-cover bg-center bg-no-repeat"
       style={{backgroundImage:`url(https://res.cloudinary.com/dmquwnaeb/image/upload/f_auto,q_auto/v1/talentWorkx/sbhjkoimbcbgzvipjmnt)`}}>
-      <h1 className="bg-[#97144d] text-gray-100 opacity-80 p-4 rounded-md">What's in it for Candidates?</h1>
+      <h1 className="bg-[#97144d] text-gray-100 opacity-80 p-4 rounded-md">What&apos;s in it for Candidates?</h1>
       </header>
       <section className="bg-white max-w-[1280px] mx-auto">
       <div className="relative p-2">
